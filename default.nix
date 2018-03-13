@@ -32,6 +32,7 @@ let
       cd ./gecko-dev
       MY_HISTFILE=$PWD/.zhistory exec ${pkgs.zsh}/bin/zsh
     '';
+    buildInputs = oldAttrs.buildInputs ++ [ pkgs.rustc pkgs.cargo ];
   });
 
 in geckoDrv.override {
