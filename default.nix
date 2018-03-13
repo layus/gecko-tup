@@ -6,7 +6,7 @@ let
     #url = "git://github.com/mozilla/nixpkgs-mozilla";
     #rev = "42a0926f2f36cac2da53782259948ba071b6c6c5";
     url = "https://github.com/layus/nixpkgs-mozilla";
-    rev = "a54606c456b8c062d38ca43f5f32846727914485";
+    rev = "4572166d74d32df94fa5cafae7de68790be02586";
     ref = "gecko-tup";
     name = "nixpkgs-mozilla";
   };
