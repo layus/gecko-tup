@@ -6,7 +6,7 @@ let
     #url = "git://github.com/mozilla/nixpkgs-mozilla";
     #rev = "42a0926f2f36cac2da53782259948ba071b6c6c5";
     url = "https://github.com/layus/nixpkgs-mozilla";
-    rev = "4ac64993a873e32f50bcd3977cf0176ee27033d6";
+    rev = "3247f6c7607c86af07c8cd28f63debe31cf67ff8";
     ref = "gecko-tup";
     name = "nixpkgs-mozilla";
   };
@@ -35,5 +35,6 @@ let
 
 in geckoDrv.override {
   rust = null;
+  inNixShell = true;
 }
 
