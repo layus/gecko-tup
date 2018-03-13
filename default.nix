@@ -13,7 +13,9 @@ let
   
   nixpkgs-src = builtins.fetchGit {
     url = "git://github.com/NixOS/nixpkgs";
-    rev = "ed070354a9e307fdf20a94cb2af749738562385d";
+    #rev = "ed070354a9e307fdf20a94cb2af749738562385d"; // Too old
+    #rev = "7a04c2ca296c0698f1c7d5c17be7f931f77691f7"; // master, as of 2018-03-13
+    rev = "77fead018146843ae8dce908af0c6d9404c8c87e"; # The channel, some time ago.
     ref = "master";
     name = "nixpkgs";
   };
@@ -27,16 +29,17 @@ let
     lib = pkgs.lib;
   };
   
-  geckoDrv = nixpkgs-mozilla.gecko.x86_64-linux.gcc.overrideDerivation (oldAttrs: {
+  geckoDrv = (nixpkgs-mozilla.gecko.x86_64-linux.gcc.override {
+    rust = null;
+    inNixShell = true;
+  }).overrideDerivation (oldAttrs: {
     shellHook = oldAttrs.shellHook + ''
       builtin cd ./gecko-dev
+      export __ETC_PROFILE_DONE=1 __ETC_ZSHENV_SOURCED=1
       MY_HISTFILE=$PWD/.zhistory exec ${pkgs.zsh}/bin/zsh
     '';
-    buildInputs = oldAttrs.buildInputs ++ [ pkgs.rustc pkgs.cargo ];
+    buildInputs = oldAttrs.buildInputs ++ [ pkgs.rustc pkgs.cargo pkgs.zsh ];
   });
 
-in geckoDrv.override {
-  rust = null;
-  inNixShell = true;
-}
+in geckoDrv
 
