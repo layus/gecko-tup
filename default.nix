@@ -29,7 +29,7 @@ let
   
   geckoDrv = nixpkgs-mozilla.gecko.x86_64-linux.gcc.overrideDerivation (oldAttrs: {
     shellHook = oldAttrs.shellHook + ''
-      cd ./gecko-dev
+      builtin cd ./gecko-dev
       MY_HISTFILE=$PWD/.zhistory exec ${pkgs.zsh}/bin/zsh
     '';
     buildInputs = oldAttrs.buildInputs ++ [ pkgs.rustc pkgs.cargo ];
