@@ -2,21 +2,15 @@
 let
   pkgs = nixpkgs;
 
-  nixpkgs-mozilla-src = pkgs.lib.cleanSource ./nixpkgs-mozilla ;
-  /*builtins.fetchGit {
-    #url = "git://github.com/mozilla/nixpkgs-mozilla";
-    #rev = "42a0926f2f36cac2da53782259948ba071b6c6c5";
+  nixpkgs-mozilla-src =  builtins.fetchGit {
     url = "https://github.com/layus/nixpkgs-mozilla";
-    rev = "a1f50f3431d5b8c1a5373d9bed47557dd71d168c";
+    rev = "3c152f45d7f4cd1add38bb638ca3ae3a31344f11";
     ref = "gecko-tup";
     name = "nixpkgs-mozilla";
-  };*/
+  };
 
   nixpkgs-src = builtins.fetchGit {
     url = "git://github.com/NixOS/nixpkgs-channels";
-    #rev = "ed070354a9e307fdf20a94cb2af749738562385d"; // Too old
-    #rev = "7a04c2ca296c0698f1c7d5c17be7f931f77691f7"; // master, as of 2018-03-13
-    #rev = "77fead018146843ae8dce908af0c6d9404c8c87e"; # The channel, some time ago.
     rev = "ef74cafd3e5914fdadd08bf20303328d72d65d6c"; # The 18.03 channel, on 2018-05-14
     ref = "nixos-18.03";
     name = "nixpkgs";
