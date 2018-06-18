@@ -1,0 +1,1095 @@
++runOnce:7> mach build
++mach:1> env - 'HOME=/home/gmaudoux' 'DISPLAY=:0' 'TERM=screen' 'PKG_CONFIG_PATH=/nix/store/1dm1zygy7n0iqvxzzqf3livr7ydvs2mf-python3-3.6.5/lib/pkgconfig:/nix/store/wfv291gbplmq0l7h5pypdjb5xjnv5axg-libICE-1.0.9-dev/lib/pkgconfig:/nix/store/sl5cjzdpd2vk1lam52sxh4nyqa6s72zl-xproto-7.0.31/lib/pkgconfig:/nix/store/wdhvmkwrsd7ayxq24lz3wsnqhmxbfv1x-libSM-1.2.2-dev/lib/pkgconfig:/nix/store/l5acsgbn1vbl1m7iv12y56fvx83p5kn7-libX11-1.6.5-dev/lib/pkgconfig:/nix/store/kgylbxg6b6chcsa888rg45zr6q6mcg6v-libxcb-1.12-dev/lib/pkgconfig:/nix/store/8rw2fvr5xrmc8ri0i7l2v1fvabkp18r8-kbproto-1.0.7/lib/pkgconfig:/nix/store/pfldr84r68dg1rybrrfl7l03jhws4ph1-libXau-1.0.8-dev/lib/pkgconfig:/nix/store/3qv4dmbzrjkxnsxmgkh5ji3cwyxfvkpq-libXdmcp-1.1.2-dev/lib/pkgconfig:/nix/store/lxyd3mgllr8jj8vly4xfwrsbf2fk8pgn-libXext-1.3.3-dev/lib/pkgconfig:/nix/store/j38nc3a31ship4vznz5q33hizngifgbv-xextproto-7.3.0/lib/pkgconfig:/nix/store/kmkr3xk314mcnvmpyz716cr8qx4kbqar-libXt-1.1.5-dev/lib/pkgconfig:/nix/store/a6yf6gg9mkaabdnv1cpya9k2ssb9wi8i-printproto-1.0.5/lib/pkgconfig:/nix/store/k4wb4vyja1dcjqxpfgvzznwhg30nvhkp-renderproto-0.11.1/lib/pkgconfig:/nix/store/vqfayvls2gcvph9789krq36abnz9dcvs-libXcomposite-0.4.4-dev/lib/pkgconfig:/nix/store/6la8h3r7lxzkly4qf5knlsyfm8drjwhg-libXfixes-5.0.3-dev/lib/pkgconfig:/nix/store/jwbfi28vwyzjijr50zbkb98q7xa3zvij-fixesproto-5.0/lib/pkgconfig:/nix/store/xrdpdcidbngwwwia41ads3rlhxnv3xnv-compositeproto-0.4.2/lib/pkgconfig:/nix/store/2ym5x49h8fjyghjbzg3b0krcz0kqiswa-damageproto-1.2.1/lib/pkgconfig:/nix/store/0n6k21rggvk5c3zi7dpfadrhbwq7rjjf-libXdamage-1.1.4-dev/lib/pkgconfig:/nix/store/6ha6fvm8bjs9l0jd2sm43r13dfb5bagf-libXrender-0.9.10-dev/lib/pkgconfig:/nix/store/2r6bvw7za4ynd1n2xr65b1jrqfg0yjfp-libart_lgpl-2.3.21/lib/pkgconfig:/nix/store/8qizrxfh0yk1s9n1kzrc1lk7v1qprxrg-libbonobo-2.32.1-dev/lib/pkgconfig:/nix/store/yqv1mkxddrhd9m079cqwslxq8h2yl440-popt-1.16/lib/pkgconfig:/nix/store/cxf1sj5mkgb2z60qji1lyb9wp7fp76wa-glib-2.54.3-dev/lib/pkgconfig:/nix/store/8bsyix63bn598h4vr6zkx9r5yhv8f13r-zlib-1.2.11-dev/lib/pkgconfig:/nix/store/yb9axzdqhnamqssl2i9l8kl30x22pcb9-libffi-3.2.1-dev/lib/pkgconfig:/nix/store/7szhczx871gdip17crd7bg3rchhqa86y-ORBit2-2.14.19-dev/lib/pkgconfig:/nix/store/nccbs1aiwwajqg7gz8y3bgag31hmlqfb-libIDL-0.8.14/lib/pkgconfig:/nix/store/0sf0v8fz43n5sz0k7cjxaifkzjimh0x6-libbonoboui-2.24.5-dev/lib/pkgconfig:/nix/store/9mzk7afm6m8dh1iz197kqqdra9rnji4v-libgnomecanvas-2.30.3-dev/lib/pkgconfig:/nix/store/cc8z8srk4rqdrz234a4xzbbaf9i5b0nr-gtk+-2.24.32-dev/lib/pkgconfig:/nix/store/qbhfjb2fagmn9vz9wh280w0j73lq2hjg-cairo-1.14.10-dev/lib/pkgconfig:/nix/store/2lgd6qnfhrzhy3vy7lw25qn0fvsbvzd7-fontconfig-2.12.1-dev/lib/pkgconfig:/nix/store/9yksdd65yard03m7ads6mysrxgnnmdss-freetype-2.7.1-dev/lib/pkgconfig:/nix/store/yhzxhwikm403q7m01g63rr0rzvrsg825-bzip2-1.0.6.0.1-dev/lib/pkgconfig:/nix/store/k9fjbxm37cq6pv0m4j9hp74lg64p038z-libpng-apng-1.6.34-dev/lib/pkgconfig:/nix/store/8ncpzbdgbwg3h8889w67fmb0ay06dpm1-expat-2.2.5-dev/lib/pkgconfig:/nix/store/8zwkx851l4v782f8jdcvk1lk4z42s8x0-pixman-0.34.0/lib/pkgconfig:/nix/store/1j4yb6jnn5d1vkb8pbv25c51hvgdibpr-xcb-util-0.4.0-dev/lib/pkgconfig:/nix/store/yn4mvjyiif6vp37ys7kxq3m7yfkkhjrc-mesa-noglu-17.3.6-dev/lib/pkgconfig:/nix/store/8p0n1zla4w9ybj6iqzmd8qgikjm0fahf-libXxf86vm-1.1.4-dev/lib/pkgconfig:/nix/store/gsdakxyxgzb2j0fch1hgb9zq8cppasxa-xf86vidmodeproto-2.3.1/lib/pkgconfig:/nix/store/2pds79ywmlvxhzd90q7xyjda5vc4jp60-libdrm-2.4.90-dev/lib/pkgconfig:/nix/store/mxqzc40rai0j8z73lgxh1bsnxmddw3kz-pango-1.40.14-dev/lib/pkgconfig:/nix/store/45py252dqicp5zr8hm0gm6hacdmsks82-harfbuzz-1.7.1-dev/lib/pkgconfig:/nix/store/0cj94v3rj7ixn5fqd7a4kh1ajnlprz4r-graphite2-1.3.6/lib/pkgconfig:/nix/store/5hy0yyp0qnyb8xngb285z1vzg3lm5k10-libXft-2.3.2-dev/lib/pkgconfig:/nix/store/jwjlcjj1qq6hnf90kdfpqii5v8qhsnh3-gdk-pixbuf-2.36.7-dev/lib/pkgconfig:/nix/store/vaqvlcgav3ly3hdx5yvk6gssnh5b9wkb-libtiff-4.0.9-dev/lib/pkgconfig:/nix/store/g5wlw7fshg23288pbqyc505vm6ilhqxm-libjpeg-turbo-1.5.3-dev/lib/pkgconfig:/nix/store/ww996cjyv9gdsfvg5v6467adp5x00fjp-xz-5.2.3-dev/lib/pkgconfig:/nix/store/4wrn67c4r6lbx70vw5yvx7z9nl8yfkqk-jasper-2.0.14-dev/lib/pkgconfig:/nix/store/k5kaamp13w1jx8di5931zvc5nd4dnp10-atk-2.26.1-dev/lib/pkgconfig:/nix/store/nnd9y92fglhn0yw3brhz6yffxy97kvr2-libXrandr-1.5.1-dev/lib/pkgconfig:/nix/store/vcvhflwnwsmxfxljqcmq7y9fzraj4a2a-randrproto-1.5.0/lib/pkgconfig:/nix/store/bwb18dlcr0zsrk5pmb3wlj9kh8x3hgib-libXi-1.7.9-dev/lib/pkgconfig:/nix/store/fss7sk3lrr4v19qp3h5narp4xlyrzps6-inputproto-2.3.2/lib/pkgconfig:/nix/store/j89lj703pvshcw9b30ma68x191z42zrj-libXcursor-1.1.15-dev/lib/pkgconfig:/nix/store/m2jfscscvzp0x1isnqf35rvx5nmbz4ch-libXinerama-1.1.3-dev/lib/pkgconfig:/nix/store/64igm2b6wsffw4ab4rwsr0d6syq4cliq-xineramaproto-1.2.1/lib/pkgconfig:/nix/store/0vr9lni0n2y31r3q9a0ppmhvvz4mwh9d-libgnome-2.32.1-dev/lib/pkgconfig:/nix/store/2fvw424y8sk7k78wx91ypygp97bbpaql-libogg-1.3.3-dev/lib/pkgconfig:/nix/store/603pjqb39js7i6j4122vb90iij1z8sfh-libgnomeui-2.24.5-dev/lib/pkgconfig:/nix/store/5miakzzfrkqrx1pyanws2125m1r4msxf-gnome-vfs-2.24.4-dev/lib/pkgconfig:/nix/store/hql1dc0vdmwxv5dalr75nmkgwjl3m601-gconf-2.32.4-dev/lib/pkgconfig:/nix/store/30gy5qynrb97zyhlc9v4r74ryfxx9l5i-dbus-1.10.24-dev/lib/pkgconfig:/nix/store/64hw8wpmp4xq19kxl5m59qn916iciixa-dbus-glib-0.108-dev/lib/pkgconfig:/nix/store/la9ssv41cvkrp0pksh5lbv1qq4qxrjl1-alsa-lib-1.1.5-dev/lib/pkgconfig:/nix/store/8bxzpqbchyha2bn8qabd23dg34fpgp6v-libpulseaudio-11.1-dev/lib/pkgconfig:/nix/store/4k61wqjqi8qs6clmir5af09viwqvihj8-libcap-2.25-dev/lib/pkgconfig:/nix/store/rjx2ncvp8g4bq1xkr494sfzzga01pybh-gstreamer-0.10.36-dev/lib/pkgconfig:/nix/store/3143f24xkdh6ihww7q8cgjnlyzqd5zmc-libxml2-2.9.7-dev/lib/pkgconfig:/nix/store/3b3avm6bj80dlvjrv7qjk42lfq6i6w28-gst-plugins-base-0.10.36-dev/lib/pkgconfig:/nix/store/0mz62gba7s21qlhq4mph81ixf2v0nlb4-gtk+3-3.22.28-dev/lib/pkgconfig:/nix/store/wq9dxr9vzrv1gfzlb0z7jam6lp7m7xq1-at-spi2-atk-2.26.1/lib/pkgconfig:/nix/store/4p1h4n411927l2s2mwca33m0s1l1z61q-gsettings-desktop-schemas-3.24.1/share/pkgconfig:/nix/store/mlmm2a007gg49ia1wa2klniki4ph0jv1-wayland-1.14.0/lib/pkgconfig:/nix/store/qz0rr5xiqh4wa1ls5cqywkgz1brmb5fh-wayland-protocols-1.11/share/pkgconfig:/nix/store/vc7a2ay0pbs5isscc1fda3wa557jchs3-gobject-introspection-1.54.1-dev/lib/pkgconfig:/nix/store/awsi1h746ian2afdmrhpw8ajkn0gsavb-procps-3.3.12/lib/pkgconfig:/nix/store/nx3jw576gqw01iiijgsav39w2qa4cni2-python-2.7.14/lib/pkgconfig:/nix/store/jd644x3ppch1i92lbiw837bd1rylqgip-openssl-1.0.2o-dev/lib/pkgconfig:/nix/store/vbvlba36jl5dfqnma2xqdl1ci294rnbr-libnotify-0.7.7/lib/pkgconfig:/nix/store/i4k7d8vmqhxhzkq775067mf6gjmw439f-valgrind-3.13.0-dev/lib/pkgconfig:/nix/store/kwdbw37kpgym0a1bnd5yczcsxl84vya4-icu4c-59.1-dev/lib/pkgconfig:/nix/store/bwh528xapwgjzxnxsjbj3fyppxzpawh0-nss-3.35-dev/lib/pkgconfig:/nix/store/ysgkjcxkci63mj6smp8s2w72abhzxv4p-nspr-4.18-dev/lib/pkgconfig:/nix/store/n2w7c9m4kbwlqrlxcja1akvwasagpcbp-libvpx-1.6.1-dev/lib/pkgconfig:/nix/store/cxn4wv56d1871pq38fqbyd996p1kc8nj-hunspell-1.6.2-dev/lib/pkgconfig:/nix/store/gzcly4bpvm78alliyl8vbzjdxm3bsgfv-sqlite-3.21.0-dev/lib/pkgconfig:/nix/store/jnlz9n0avbnlrccdqmi91ibhkf905q7x-libstartup-notification-0.12/lib/pkgconfig' 'SHELL=/nix/store/zqh3l3lyw32q1ayb15bnvg9f24j5v2p0-bash-4.4-p12/bin/bash' 'PATH=/nix/store/y5rlyv6nz8134s687d95ysc2gakwx7am-patchelf-0.9/bin:/nix/store/rf7pnq8qk9bkjpl4s2pm5dm2pk4yqhrc-paxctl-0.9/bin:/nix/store/gqg2vrcq7krqi9rrl6pphvsg81sb8pjw-gcc-wrapper-7.3.0/bin:/nix/store/bm7pb1s7rx1ad80706b5xqrznq7fgpgx-gcc-7.3.0/bin:/nix/store/6ca5dl2wy0nh37li1n4b152fcazsp3f6-glibc-2.26-131-bin/bin:/nix/store/cb3slv3szhp46xkrczqw7mscy5mnk64l-coreutils-8.29/bin:/nix/store/cmxaqb5cbzy4jk26na842n6hy1s4yn19-binutils-wrapper-2.28.1/bin:/nix/store/b0zlxla7dmy1iwc3g459rjznx59797xy-binutils-2.28.1/bin:/nix/store/1dm1zygy7n0iqvxzzqf3livr7ydvs2mf-python3-3.6.5/bin:/nix/store/ixlf9p8sjmw0zvd2ggzmfcsl7i5dp3pq-python3.6-setuptools-38.4.0/bin:/nix/store/pnjn1fv5s5a89vpqa63cvb407dapzy6c-which-2.21/bin:/nix/store/6m16jx9snhl5k1y078az476g9vfqvk4k-autoconf-2.13/bin:/nix/store/s029gmjpgvm776wfb56naqny9qja9339-perl-5.24.3/bin:/nix/store/afs58x7k2mpgv9wdq5v6xr7g31jjihpl-unzip-6.0/bin:/nix/store/rq684hfjyi84crlry4pwdqhbyyxjsk2d-zip-3.0/bin:/nix/store/lhp5rw0dagi5mgqwr9i3x41240ba4ypz-gnumake-4.2.1/bin:/nix/store/ax0xvjs9kqz7fn2gr5giciiigi6q7n0k-yasm-1.3.0/bin:/nix/store/340wmknqs4by554nwpg3hcr52lshqdj2-pkg-config-0.29.2/bin:/nix/store/2r6bvw7za4ynd1n2xr65b1jrqfg0yjfp-libart_lgpl-2.3.21/bin:/nix/store/cxf1sj5mkgb2z60qji1lyb9wp7fp76wa-glib-2.54.3-dev/bin:/nix/store/7szhczx871gdip17crd7bg3rchhqa86y-ORBit2-2.14.19-dev/bin:/nix/store/nccbs1aiwwajqg7gz8y3bgag31hmlqfb-libIDL-0.8.14/bin:/nix/store/1psa21c6ycl337k7pm698l75bhxgyfzy-ORBit2-2.14.19/bin:/nix/store/jljvnr34rv1fzh2m03d46isvzk95ssdr-libbonobo-2.32.1/bin:/nix/store/cc8z8srk4rqdrz234a4xzbbaf9i5b0nr-gtk+-2.24.32-dev/bin:/nix/store/qbhfjb2fagmn9vz9wh280w0j73lq2hjg-cairo-1.14.10-dev/bin:/nix/store/9yksdd65yard03m7ads6mysrxgnnmdss-freetype-2.7.1-dev/bin:/nix/store/qqv6r9vkpb44rw5d8wyfpx64rgqzlvdm-bzip2-1.0.6.0.1-bin/bin:/nix/store/k9fjbxm37cq6pv0m4j9hp74lg64p038z-libpng-apng-1.6.34-dev/bin:/nix/store/0alz3scxpgnirzkyz254j3jvf2syf9d8-fontconfig-2.12.1-bin/bin:/nix/store/8ncpzbdgbwg3h8889w67fmb0ay06dpm1-expat-2.2.5-dev/bin:/nix/store/1pdl62g1inalcc13mfwbmvc5alzqal2n-libdrm-2.4.90-bin/bin:/nix/store/45py252dqicp5zr8hm0gm6hacdmsks82-harfbuzz-1.7.1-dev/bin:/nix/store/0cj94v3rj7ixn5fqd7a4kh1ajnlprz4r-graphite2-1.3.6/bin:/nix/store/3qvsxrsw5ij79wi1sn1y3z3hwqygx9gx-pango-1.40.14-bin/bin:/nix/store/jwjlcjj1qq6hnf90kdfpqii5v8qhsnh3-gdk-pixbuf-2.36.7-dev/bin:/nix/store/ssmhdid5b2s3gf4kwvky8q0119dy5vyf-libjpeg-turbo-1.5.3-bin/bin:/nix/store/aakgkcvw6j54zg38zrn1w00sgxx0zj8b-xz-5.2.3-bin/bin:/nix/store/nr17jlbss1jffdgh6rknf0wxvz9df219-libtiff-4.0.9-bin/bin:/nix/store/x0jclbms2bldcq7azzsw6c9z68sbhdgs-jasper-2.0.14-bin/bin:/nix/store/nnd0d1jbaph3xgs1z0s969xv5n3csdxa-gdk-pixbuf-2.36.7/bin:/nix/store/avcr8ri97kynqpqafg5c2bq3l67cca5v-cups-2.2.6-dev/bin:/nix/store/qbwhkl8qs76715cl5sa0893vp4fm8k7b-cups-2.2.6/bin:/nix/store/xwyp69b2b85y56h7akw9j7sxwzkr0y92-gtk+-2.24.32/bin:/nix/store/9ccy81kzwjnxjxsar78gkmakwwdfq26n-libgnome-2.32.1/bin:/nix/store/p2xv7zcg9pak48j5i689jl5nmkssmf98-libbonoboui-2.24.5/bin:/nix/store/s2xvg8k21w3y9pzhh51wlscwgz6h9v83-gconf-2.32.4/bin:/nix/store/rkzpvfz9f45lghj9i35p2z9ls66flvpi-gnome-vfs-2.24.4/bin:/nix/store/fcg60r125nzdzk0cimrd4z277gqf8ca9-dbus-1.10.24-lib/bin:/nix/store/ia9x1pjgqb3slk15sv2y1llrk9nplpri-dbus-1.10.24/bin:/nix/store/64hw8wpmp4xq19kxl5m59qn916iciixa-dbus-glib-0.108-dev/bin:/nix/store/n07bypvyip8xgjmynqg50q37wvmnfvs2-alsa-lib-1.1.5/bin:/nix/store/6bzyb2y3mkz1spg6l3i4wp2lmkkh6f3v-attr-2.4.47-bin/bin:/nix/store/ygi8766zlysmzqxvk7dhc6wkv93jcpzd-libcap-2.25/bin:/nix/store/3143f24xkdh6ihww7q8cgjnlyzqd5zmc-libxml2-2.9.7-dev/bin:/nix/store/mnm5w1h20ddkrd3i435n03qiqqqvll97-libxml2-2.9.7-bin/bin:/nix/store/c4i4fi42drpzyik34h0rlbkxk9g5nbc5-gstreamer-0.10.36/bin:/nix/store/icc4mss4gpi9yw8hk1wc7by1scmrv53v-gst-plugins-base-0.10.36/bin:/nix/store/0mz62gba7s21qlhq4mph81ixf2v0nlb4-gtk+3-3.22.28-dev/bin:/nix/store/mlmm2a007gg49ia1wa2klniki4ph0jv1-wayland-1.14.0/bin:/nix/store/19y1sm233aa4q93qsbib04za9brvax64-gtk+3-3.22.28/bin:/nix/store/vc7a2ay0pbs5isscc1fda3wa557jchs3-gobject-introspection-1.54.1-dev/bin:/nix/store/awsi1h746ian2afdmrhpw8ajkn0gsavb-procps-3.3.12/bin:/nix/store/6lkl4g8jbg0m4fgl5s1jclafic2k6lhx-git-2.16.2/bin:/nix/store/d7gspk4njym9k88qk2a3sqjasi8ab2z6-mercurial-4.5/bin:/nix/store/a3qhl9b5v89b3gh0qjna6my1wl5vbqq7-python2.7-dulwich-0.18.6/bin:/nix/store/nx3jw576gqw01iiijgsav39w2qa4cni2-python-2.7.14/bin:/nix/store/xr3li4as4jycwk9lgqn08s0q9s86svqf-python2.7-setuptools-38.4.0/bin:/nix/store/0bgnx6v0i3zi6kpc4dnh98l8isix3rw2-openssl-1.0.2o-bin/bin:/nix/store/5dh5x82i892s162bqrlrym71qp4dwvq3-cmake-3.10.2/bin:/nix/store/vbvlba36jl5dfqnma2xqdl1ci294rnbr-libnotify-0.7.7/bin:/nix/store/j35sgbqnyxfn7rz31812r7l82az9zmzk-valgrind-3.13.0/bin:/nix/store/vyl4q1bhxnqbgkslbaxzp09nh48x6wdb-gdb-8.1/bin:/nix/store/1591qvjywwvw9f1m0smzkb1p3yfk8gpd-rr-5.1.0/bin:/nix/store/bk3hvkxywzc537m2w3di68aw7pwz80df-ccache-3.4.1/bin:/nix/store/0i0b8390dab21pd34x7wjgl49301qqgb-rustc-1.24.0/bin:/nix/store/d6g30kgzg9j7jvf1hci8k813vbay2iqb-cargo-0.24.0/bin:/nix/store/77bsskn86yf6h11mx96xkxm9bqv42kqg-zsh-5.5.1/bin:/nix/store/lmq72s0kwyd3dfm1k9ahmaha5zcj5igh-tup/bin:/nix/store/pxsrm9avcrp833rd96sp6vgs45yzrij9-fusermount/bin:/nix/store/xa5qvlg5pp5rh2dshlwvd708ks066azv-librsvg-2.42.2/bin:/nix/store/kwdbw37kpgym0a1bnd5yczcsxl84vya4-icu4c-59.1-dev/bin:/nix/store/bwh528xapwgjzxnxsjbj3fyppxzpawh0-nss-3.35-dev/bin:/nix/store/ysgkjcxkci63mj6smp8s2w72abhzxv4p-nspr-4.18-dev/bin:/nix/store/cffgk5hna0yljhy7japikcbxy7f55arl-libvpx-1.6.1-bin/bin:/nix/store/iy5737v30gb1zwyai59c5y83f3ymy797-hunspell-1.6.2-bin/bin:/nix/store/jhrwlpfijc4igz6xsx01z4z45k50kjsv-sqlite-3.21.0-bin/bin:/nix/store/364b5gkvgrm87bh1scxm5h8shp975n0r-findutils-4.6.0/bin:/nix/store/cg3yhpr5hfr00y0aah23pgxiijpzl6nz-diffutils-3.6/bin:/nix/store/navldm477k3ar6cy0zlw9rk43i459g69-gnused-4.4/bin:/nix/store/s63b2myh6rxfl4aqwi9yxd6rq66djk33-gnugrep-3.1/bin:/nix/store/j79xs2j519bmvq0gihz8ff4nw5aj3vlh-gawk-4.2.0/bin:/nix/store/2p00w952ljb1172nsf3jm7nsjgsw5qpw-gnutar-1.30/bin:/nix/store/d7895h1an2pgcd6a3vx3yb5fbg786lci-gzip-1.9/bin:/nix/store/zqh3l3lyw32q1ayb15bnvg9f24j5v2p0-bash-4.4-p12/bin:/nix/store/gd1mp76qr4zpbw3lccivhvi30b025x51-patch-2.7.6/bin' 'PYTHONDONTWRITEBYTECODE=True' ./mach build
+ 0:00.46 /nix/store/lmq72s0kwyd3dfm1k9ahmaha5zcj5igh-tup/bin/tup upd /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup -j4 --no-environ-check
+ 0:00.47 [ tup ] [0.000s] Scanning filesystem...
+ 0:01.40 [ tup ] [0.935s] No tup.config changes (environment check disabled).
+ 0:01.40 [ tup ] [0.936s] Parsing Tupfiles...
+ 0:01.41   25% 1) [0.001s] .
+ 0:01.41   50% 2) [0.002s] obj-tup
+ 0:01.41   75% 3) [0.001s] obj-tup/dist/bin
+ 0:01.41  100% 4) [0.001s] obj-tup/build
+ 0:01.41 [ tup ] [0.947s] No files to delete.
+ 0:01.41 [ tup ] [0.947s] Generating .gitignore files...
+ 0:01.47 [ tup ] [0.997s] Executing Commands...
+ 0:06.89    0%   1) [5.414s] obj-tup/extensions/permissions: CXX Unified_cpp_permissions0.cpp
+ 0:12.81    0%   2) [5.927s] obj-tup/extensions/pref/autoconfig/src: CXX Unified_cpp_pref_autoconfig_src0.cpp
+ 0:17.43    0%   3) [15.964s] obj-tup/extensions/cookie: CXX Unified_cpp_extensions_cookie0.cpp
+ 0:17.65    0%   4) [16.182s] obj-tup/extensions/spellcheck/hunspell/glue: CXX Unified_cpp_hunspell_glue0.cpp
+ 0:19.60    0%   5) [18.134s] obj-tup/extensions/spellcheck/src: CXX Unified_cpp_spellcheck_src0.cpp
+ 0:33.10    0%   6) [13.498s] obj-tup/editor/composer: CXX Unified_cpp_editor_composer0.cpp
+ 0:42.50    1%   7) [29.684s] obj-tup/editor/libeditor: CXX Unified_cpp_editor_libeditor0.cpp
+ 0:42.50 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCPolicyAPI.h:43:0,
+ 0:42.50                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/RootingAPI.h:22,
+ 0:42.50                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsCycleCollectionParticipant.h:13,
+ 0:42.50                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/EditTransactionBase.h:9,
+ 0:42.50                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ChangeStyleTransaction.h:9,
+ 0:42.50                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/CSSEditUtils.h:9,
+ 0:42.50                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/editor/libeditor/CSSEditUtils.cpp:6,
+ 0:42.50                  from Unified_cpp_editor_libeditor0.cpp:2:
+ 0:42.50 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Maybe.h: In member function 'virtual nsresult mozilla::CreateElementTransaction::DoTransaction()':
+ 0:42.50 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Maybe.h:321:16: warning: '*((void*)& afterNewNode +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 0:42.50      return ref();
+ 0:42.50                 ^
+ 0:42.50 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Maybe.h: In member function 'already_AddRefed<mozilla::dom::Element> mozilla::EditorBase::InsertContainerWithTransactionInternal(nsIContent&, nsAtom&, nsAtom&, const nsAString&)':
+ 0:42.50 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Maybe.h:321:16: warning: '*((void*)& pointToInsertNewContainer +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 0:42.50      return ref();
+ 0:42.50                 ^
+ 0:44.66    1%   8) [27.006s] obj-tup/editor/libeditor: CXX Unified_cpp_editor_libeditor2.cpp
+ 0:49.54    1%   9) [16.434s] obj-tup/parser/html: CXX Unified_cpp_parser_html0.cpp
+ 0:53.04    1%  10) [8.378s] obj-tup/parser/html: CXX Unified_cpp_parser_html2.cpp
+ 0:58.24    1%  11) [8.701s] obj-tup/parser/htmlparser: CXX Unified_cpp_parser_htmlparser0.cpp
+ 1:00.94    2%  12) [43.502s] obj-tup/editor/libeditor: CXX Unified_cpp_editor_libeditor1.cpp
+ 1:00.94 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/EditorBase.h:10:0,
+ 1:00.94                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/TextEditor.h:9,
+ 1:00.94                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/HTMLEditor.h:14,
+ 1:00.94                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/editor/libeditor/HTMLAnonymousNodeEditor.cpp:5,
+ 1:00.94                  from Unified_cpp_editor_libeditor1.cpp:2:
+ 1:00.94 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/EditorDOMPoint.h: In member function 'mozilla::EditorRawDOMPoint mozilla::SplitNodeResult::SplitPoint() const':
+ 1:00.94 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/EditorDOMPoint.h:465:7: warning: '*((void*)& point +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:00.94        if (NS_WARN_IF(mOffset.value() >= mParent->Length())) {
+ 1:00.94        ^~
+ 1:00.94 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/editor/libeditor/HTMLEditRules.cpp:18:0,
+ 1:00.94                  from Unified_cpp_editor_libeditor1.cpp:11:
+ 1:00.94 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/EditorUtils.h:227:23: note: '*((void*)& point +16)' was declared here
+ 1:00.94      EditorRawDOMPoint point(mPreviousNode);
+ 1:00.94                        ^~~~~
+ 1:00.94 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCPolicyAPI.h:43:0,
+ 1:00.94                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/RootingAPI.h:22,
+ 1:00.94                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsCycleCollectionParticipant.h:13,
+ 1:00.94                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ComposerCommandsUpdater.h:11,
+ 1:00.94                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/HTMLEditor.h:10,
+ 1:00.94                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/editor/libeditor/HTMLAnonymousNodeEditor.cpp:5,
+ 1:00.94                  from Unified_cpp_editor_libeditor1.cpp:2:
+ 1:00.94 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Maybe.h: In member function 'virtual nsresult mozilla::HTMLEditor::SetCaretAfterElement(mozilla::EditorBase::Element*)':
+ 1:00.94 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Maybe.h:321:16: warning: '*((void*)& afterElement +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:00.94      return ref();
+ 1:00.94                 ^
+ 1:00.94 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/EditorBase.h:10:0,
+ 1:00.94                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/TextEditor.h:9,
+ 1:00.94                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/HTMLEditor.h:14,
+ 1:00.94                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/editor/libeditor/HTMLAnonymousNodeEditor.cpp:5,
+ 1:00.94                  from Unified_cpp_editor_libeditor1.cpp:2:
+ 1:00.94 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/EditorDOMPoint.h: In function 'nsresult mozilla::HTMLEditor::SplitStyleAbovePoint(nsCOMPtr<nsINode>*, int32_t*, nsAtom*, nsAtom*, nsIContent**, nsIContent**)':
+ 1:00.94 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/EditorDOMPoint.h:469:47: warning: '*((void*)& point +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:00.94        mOffset = mozilla::Some(mOffset.value() + 1);
+ 1:00.94                                ~~~~~~~~~~~~~~~~^~~
+ 1:00.95 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/editor/libeditor/HTMLEditRules.cpp:18:0,
+ 1:00.95                  from Unified_cpp_editor_libeditor1.cpp:11:
+ 1:00.95 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/EditorUtils.h:227:23: note: '*((void*)& point +16)' was declared here
+ 1:00.95      EditorRawDOMPoint point(mPreviousNode);
+ 1:00.95                        ^~~~~
+ 1:00.95 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/EditorBase.h:10:0,
+ 1:00.95                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/TextEditor.h:9,
+ 1:00.95                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/HTMLEditor.h:14,
+ 1:00.95                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/editor/libeditor/HTMLAnonymousNodeEditor.cpp:5,
+ 1:00.95                  from Unified_cpp_editor_libeditor1.cpp:2:
+ 1:00.95 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/EditorDOMPoint.h: In member function 'mozilla::SplitNodeResult mozilla::HTMLEditRules::MaybeSplitAncestorsForInsertWithTransaction(nsAtom&, const mozilla::EditorDOMPointBase<PT, CT>&) [with PT = nsCOMPtr<nsINode>; CT = nsCOMPtr<nsIContent>]':
+ 1:00.95 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/EditorDOMPoint.h:813:12: warning: '*((void*)& pointToInsert +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:00.95      mChild = mParent->GetChildAt_Deprecated(mOffset.value());
+ 1:00.95 In file included from Unified_cpp_editor_libeditor1.cpp:11:0:
+ 1:00.95 /home/gmaudoux/projets/gecko-tup/gecko-dev/editor/libeditor/HTMLEditRules.cpp:8026:21: note: '*((void*)& pointToInsert +16)' was declared here
+ 1:00.95    EditorRawDOMPoint pointToInsert(aStartOfDeepestRightNode);
+ 1:00.95                      ^~~~~~~~~~~~~
+ 1:00.95 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/EditorBase.h:10:0,
+ 1:00.95                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/TextEditor.h:9,
+ 1:00.95                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/HTMLEditor.h:14,
+ 1:00.96                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/editor/libeditor/HTMLAnonymousNodeEditor.cpp:5,
+ 1:00.96                  from Unified_cpp_editor_libeditor1.cpp:2:
+ 1:00.96 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/EditorDOMPoint.h: In member function 'mozilla::SplitNodeResult mozilla::HTMLEditRules::MaybeSplitAncestorsForInsertWithTransaction(nsAtom&, const mozilla::EditorDOMPointBase<PT, CT>&) [with PT = nsINode*; CT = nsIContent*]':
+ 1:00.96 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/EditorDOMPoint.h:813:12: warning: '*((void*)& pointToInsert +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:00.96      mChild = mParent->GetChildAt_Deprecated(mOffset.value());
+ 1:00.96 In file included from Unified_cpp_editor_libeditor1.cpp:11:0:
+ 1:00.96 /home/gmaudoux/projets/gecko-tup/gecko-dev/editor/libeditor/HTMLEditRules.cpp:8026:21: note: '*((void*)& pointToInsert +16)' was declared here
+ 1:00.96    EditorRawDOMPoint pointToInsert(aStartOfDeepestRightNode);
+ 1:00.96                      ^~~~~~~~~~~~~
+ 1:00.96 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCPolicyAPI.h:43:0,
+ 1:00.96                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/RootingAPI.h:22,
+ 1:00.96                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsCycleCollectionParticipant.h:13,
+ 1:00.96                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ComposerCommandsUpdater.h:11,
+ 1:00.96                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/HTMLEditor.h:10,
+ 1:00.96                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/editor/libeditor/HTMLAnonymousNodeEditor.cpp:5,
+ 1:00.96                  from Unified_cpp_editor_libeditor1.cpp:2:
+ 1:00.96 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Maybe.h: In member function 'void mozilla::HTMLEditRules::SplitBlock(mozilla::TextEditRules::Element&, nsIContent&, nsIContent&, nsIContent**, nsIContent**, nsIContent**)':
+ 1:00.96 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Maybe.h:321:16: warning: '*((void*)& atAfterEnd +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:00.96      return ref();
+ 1:00.96                 ^
+ 1:03.44    2%  13) [5.199s] obj-tup/security/sandbox/linux/glue: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/security/sandbox/linux/glue/SandboxCrash.cpp
+ 1:05.40    2%  14) [12.361s] obj-tup/chrome: CXX Unified_cpp_chrome0.cpp
+ 1:08.14    2%  15) [25.649s] obj-tup/parser/html: CXX Unified_cpp_parser_html1.cpp
+ 1:10.40    2%  16) [9.444s] obj-tup/security/sandbox/linux/broker: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/security/sandbox/linux/broker/SandboxBrokerPolicyFactory.cpp
+ 1:21.42    3%  17) [17.978s] obj-tup/security/manager/ssl: CXX Unified_cpp_security_manager_ssl0.cpp
+ 1:26.84    3%  18) [18.691s] obj-tup/security/manager/ssl: CXX Unified_cpp_security_manager_ssl2.cpp
+ 1:27.73    3%  19) [22.335s] obj-tup/security/manager/ssl: CXX Unified_cpp_security_manager_ssl1.cpp
+ 1:28.01    3%  20) [6.599s] obj-tup/dom/offline: CXX Unified_cpp_dom_offline0.cpp
+ 1:28.45    3%  21) [18.050s] obj-tup/dom/notification: CXX Unified_cpp_dom_notification0.cpp
+ 1:37.55    3%  22) [10.716s] obj-tup/dom/performance: CXX Unified_cpp_dom_performance0.cpp
+ 1:40.98    4%  23) [13.243s] obj-tup/dom/messagechannel: CXX Unified_cpp_dom_messagechannel0.cpp
+ 1:48.31    4%  24) [10.755s] obj-tup/dom/broadcastchannel: CXX Unified_cpp_dom_broadcastchannel0.cpp
+ 1:52.23    4%  25) [24.221s] obj-tup/dom/network: CXX Unified_cpp_dom_network0.cpp
+ 1:52.37    4%  26) [23.919s] obj-tup/dom/webbrowserpersist: CXX Unified_cpp_webbrowserpersist0.cpp
+ 2:04.45    4%  27) [16.138s] obj-tup/dom/file: CXX Unified_cpp_dom_file0.cpp
+ 2:04.96    5%  28) [23.985s] obj-tup/dom/security: CXX Unified_cpp_dom_security0.cpp
+ 2:05.43    5%  29) [13.062s] obj-tup/dom/file/ipc: CXX Unified_cpp_dom_file_ipc0.cpp
+ 2:06.03    5%  30) [13.788s] obj-tup/dom/file: CXX Unified_cpp_dom_file1.cpp
+ 2:13.53    5%  31) [7.503s] obj-tup/dom/credentialmanagement: CXX Unified_cpp_credentialmanagement0.cpp
+ 2:13.99    5%  32) [9.533s] obj-tup/dom/power: CXX Unified_cpp_dom_power0.cpp
+ 2:17.49    5%  33) [12.065s] obj-tup/dom/promise: CXX Unified_cpp_dom_promise0.cpp
+ 2:22.13    6%  34) [17.163s] obj-tup/dom/browser-element: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/browser-element/BrowserElementParent.cpp
+ 2:26.01    6%  35) [12.025s] obj-tup/dom/svg: CXX Unified_cpp_dom_svg1.cpp
+ 2:29.03    6%  36) [15.505s] obj-tup/dom/svg: CXX Unified_cpp_dom_svg0.cpp
+ 2:32.51    6%  37) [15.021s] obj-tup/dom/svg: CXX Unified_cpp_dom_svg2.cpp
+ 2:35.05    6%  38) [12.923s] obj-tup/dom/svg: CXX Unified_cpp_dom_svg3.cpp
+ 2:39.58    6%  39) [13.570s] obj-tup/dom/svg: CXX Unified_cpp_dom_svg4.cpp
+ 2:43.37    6%  40) [14.338s] obj-tup/dom/svg: CXX Unified_cpp_dom_svg5.cpp
+ 2:47.51    7%  41) [14.994s] obj-tup/dom/svg: CXX Unified_cpp_dom_svg6.cpp
+ 2:49.40    7%  42) [14.350s] obj-tup/dom/svg: CXX Unified_cpp_dom_svg7.cpp
+ 2:56.45    7%  43) [16.876s] obj-tup/dom/svg: CXX Unified_cpp_dom_svg8.cpp
+ 2:58.38    7%  44) [8.984s] obj-tup/dom/filesystem/compat: CXX Unified_cpp_filesystem_compat0.cpp
+ 3:02.54    7%  45) [15.026s] obj-tup/dom/filesystem: CXX Unified_cpp_dom_filesystem0.cpp
+ 3:06.27    7%  46) [9.816s] obj-tup/dom/permission: CXX Unified_cpp_dom_permission0.cpp
+ 3:06.33    8%  47) [22.952s] obj-tup/dom/animation: CXX Unified_cpp_dom_animation0.cpp
+ 3:06.59    8%  48) [8.208s] obj-tup/dom/system: CXX Unified_cpp_dom_system0.cpp
+ 3:11.29    8%  49) [8.751s] obj-tup/dom/url: CXX Unified_cpp_dom_url0.cpp
+ 3:21.14    8%  50) [14.819s] obj-tup/dom/smil: CXX Unified_cpp_dom_smil0.cpp
+ 3:25.62    8%  51) [19.350s] obj-tup/dom/webauthn: CXX Unified_cpp_dom_webauthn0.cpp
+ 3:31.62    8%  52) [25.031s] obj-tup/dom/xul: CXX Unified_cpp_dom_xul0.cpp
+ 3:39.03    9%  53) [13.409s] obj-tup/dom/indexedDB: CXX Unified_cpp_dom_indexedDB1.cpp
+ 3:45.95    9%  54) [14.332s] obj-tup/dom/push: CXX Unified_cpp_dom_push0.cpp
+ 3:52.23    9%  55) [13.199s] obj-tup/dom/media: CXX Unified_cpp_dom_media1.cpp
+ 3:53.96    9%  56) [42.672s] obj-tup/dom/indexedDB: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/indexedDB/ActorsParent.cpp
+ 3:53.96 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/indexedDB/ActorsParent.cpp: In member function 'virtual nsresult mozilla::dom::indexedDB::{anonymous}::DatabaseMaintenance::Run()':
+ 3:53.97 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/indexedDB/ActorsParent.cpp:18913:3: warning: 'maintenanceAction' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 3:53.97    switch (maintenanceAction) {
+ 3:53.97    ^~~~~~
+ 3:53.97 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/indexedDB/ActorsParent.cpp:18907:21: note: 'maintenanceAction' was declared here
+ 3:53.97    MaintenanceAction maintenanceAction;
+ 3:53.97                      ^~~~~~~~~~~~~~~~~
+ 3:54.73   10%  57) [33.590s] obj-tup/dom/indexedDB: CXX Unified_cpp_dom_indexedDB0.cpp
+ 4:00.62   10%  58) [14.664s] obj-tup/dom/media: CXX Unified_cpp_dom_media10.cpp
+ 4:09.20   10%  59) [14.466s] obj-tup/dom/media: CXX Unified_cpp_dom_media4.cpp
+ 4:16.22   10%  60) [23.995s] obj-tup/dom/media: CXX Unified_cpp_dom_media2.cpp
+ 4:20.33   11%  61) [26.372s] obj-tup/dom/media: CXX Unified_cpp_dom_media3.cpp
+ 4:37.12   11%  62) [20.892s] obj-tup/dom/media: CXX Unified_cpp_dom_media7.cpp
+ 4:37.12 In file included from Unified_cpp_dom_media7.cpp:11:0:
+ 4:37.12 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/media/MediaStreamGraph.cpp: In member function 'void mozilla::MediaStreamGraphImpl::CloseAudioInputImpl(mozilla::AudioDataListener*)':
+ 4:37.12 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/media/MediaStreamGraph.cpp:888:7: warning: 'count' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 4:37.12    if (--count > 0) {
+ 4:37.12        ^~~~~~~
+ 4:38.14   11%  63) [17.807s] obj-tup/dom/media: CXX Unified_cpp_dom_media8.cpp
+ 4:48.97   12%  64) [39.770s] obj-tup/dom/media: CXX Unified_cpp_dom_media6.cpp
+ 4:49.39   12%  65) [12.269s] obj-tup/dom/media: CXX Unified_cpp_dom_media9.cpp
+ 4:55.96   12%  66) [17.819s] obj-tup/dom/media/eme: CXX Unified_cpp_dom_media_eme0.cpp
+ 5:06.26   12%  67) [10.295s] obj-tup/dom/media/webaudio: CXX Unified_cpp_dom_media_webaudio2.cpp
+ 5:08.15   13%  68) [67.531s] obj-tup/dom/media: CXX Unified_cpp_dom_media5.cpp
+ 5:09.83   13%  69) [20.439s] obj-tup/dom/media/webaudio: CXX Unified_cpp_dom_media_webaudio1.cpp
+ 5:09.83 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsString.h:23:0,
+ 5:09.83                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsAtom.h:11,
+ 5:09.83                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsGkAtoms.h:10,
+ 5:09.83                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/DOMEventTargetHelper.h:11,
+ 5:09.83                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/AudioNode.h:10,
+ 5:09.83                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ChannelMergerNode.h:10,
+ 5:09.83                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/media/webaudio/ChannelMergerNode.cpp:7,
+ 5:09.83                  from Unified_cpp_dom_media_webaudio1.cpp:2:
+ 5:09.83 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsTString.h: In member function 'void mozilla::WebAudioDecodeJob::OnFailure(mozilla::WebAudioDecodeJob::ErrorCode)':
+ 5:09.83 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsTString.h:605:5: warning: 'errorMessage' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:09.83      this->Assign(aData, aLength);
+ 5:09.83      ^~~~
+ 5:09.83 In file included from Unified_cpp_dom_media_webaudio1.cpp:92:0:
+ 5:09.83 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/media/webaudio/MediaBufferDecoder.cpp:563:15: note: 'errorMessage' was declared here
+ 5:09.83    const char* errorMessage;
+ 5:09.83                ^~~~~~~~~~~~
+ 5:11.38   13%  70) [22.406s] obj-tup/dom/media/webaudio: CXX Unified_cpp_dom_media_webaudio0.cpp
+ 5:18.52   13%  71) [8.691s] obj-tup/dom/media/gmp: CXX Unified_cpp_dom_media_gmp2.cpp
+ 5:33.98   14%  72) [27.723s] obj-tup/dom/media/gmp: CXX Unified_cpp_dom_media_gmp0.cpp
+ 5:35.45   14%  73) [16.931s] obj-tup/dom/media/webrtc: CXX Unified_cpp_dom_media_webrtc0.cpp
+ 5:35.49   14%  74) [27.341s] obj-tup/dom/media/gmp: CXX Unified_cpp_dom_media_gmp1.cpp
+ 5:44.95   15%  75) [33.575s] obj-tup/dom/media/mediasource: CXX Unified_cpp_media_mediasource0.cpp
+ 5:49.34   15%  76) [13.884s] obj-tup/dom/media/webspeech/synth: CXX Unified_cpp_webspeech_synth0.cpp
+ 5:49.34 In file included from Unified_cpp_webspeech_synth0.cpp:20:0:
+ 5:49.34 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/media/webspeech/synth/SpeechSynthesisVoice.cpp: In member function 'bool mozilla::dom::SpeechSynthesisVoice::LocalService() const':
+ 5:49.34 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/media/webspeech/synth/SpeechSynthesisVoice.cpp:78:10: warning: 'isLocal' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:49.34    return isLocal;
+ 5:49.34           ^~~~~~~
+ 5:51.66   15%  77) [16.166s] obj-tup/dom/media/webspeech/recognition: CXX Unified_cpp_recognition0.cpp
+ 5:56.09   15%  78) [22.111s] obj-tup/dom/media/systemservices: CXX Unified_cpp_systemservices0.cpp
+ 6:00.63   15%  79) [15.679s] obj-tup/dom/media/ipc: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/media/ipc/VideoDecoderManagerChild.cpp
+ 6:03.79   16%  80) [12.129s] obj-tup/dom/xbl: CXX Unified_cpp_dom_xbl1.cpp
+ 6:12.19   16%  81) [8.404s] obj-tup/dom/xslt/xml: CXX Unified_cpp_dom_xslt_xml0.cpp
+ 6:13.50   16%  82) [24.159s] obj-tup/dom/xbl: CXX Unified_cpp_dom_xbl0.cpp
+ 6:13.95   16%  83) [17.854s] obj-tup/dom/xslt/xslt: CXX Unified_cpp_dom_xslt_xslt0.cpp
+ 6:16.25   16%  84) [15.612s] obj-tup/dom/xslt/xslt: CXX Unified_cpp_dom_xslt_xslt1.cpp
+ 6:19.59   16%  85) [5.645s] obj-tup/dom/xslt/xpath: CXX Unified_cpp_dom_xslt_xpath2.cpp
+ 6:22.20   16%  86) [5.950s] obj-tup/dom/xslt/base: CXX Unified_cpp_dom_xslt_base0.cpp
+ 6:24.41   17%  87) [10.915s] obj-tup/dom/xslt/xpath: CXX Unified_cpp_dom_xslt_xpath1.cpp
+ 6:24.81   17%  88) [12.616s] obj-tup/dom/xslt/xpath: CXX Unified_cpp_dom_xslt_xpath0.cpp
+ 6:27.41   17%  89) [7.821s] obj-tup/dom/audiochannel: CXX Unified_cpp_dom_audiochannel0.cpp
+ 6:28.39   17%  90) [6.191s] obj-tup/dom/battery: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/battery/BatteryManager.cpp
+ 6:37.85   17%  91) [9.463s] obj-tup/dom/jsurl: CXX Unified_cpp_dom_jsurl0.cpp
+ 6:44.83   17%  92) [17.413s] obj-tup/dom/gamepad: CXX Unified_cpp_dom_gamepad0.cpp
+ 6:45.39   17%  93) [20.980s] obj-tup/dom/bindings: CXX Unified_cpp_dom_bindings0.cpp
+ 6:47.90   18%  94) [23.093s] obj-tup/dom/fetch: CXX Unified_cpp_dom_fetch0.cpp
+ 6:51.39   18%  95) [6.558s] obj-tup/dom/commandhandler: CXX Unified_cpp_dom_commandhandler0.cpp
+ 6:51.93   18%  96) [14.081s] obj-tup/dom/xml: CXX Unified_cpp_dom_xml0.cpp
+ 7:11.41   18%  97) [26.015s] obj-tup/dom/events: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/events/EventStateManager.cpp
+ 7:16.98   18%  98) [25.050s] obj-tup/dom/events: CXX Unified_cpp_dom_events2.cpp
+ 7:18.39   19%  99) [30.488s] obj-tup/dom/events: CXX Unified_cpp_dom_events0.cpp
+ 7:24.23   19% 100) [32.849s] obj-tup/dom/events: CXX Unified_cpp_dom_events1.cpp
+ 7:26.84   19% 101) [15.432s] obj-tup/dom/crypto: CXX Unified_cpp_dom_crypto0.cpp
+ 7:31.50   19% 102) [7.270s] obj-tup/dom/mathml: CXX Unified_cpp_dom_mathml0.cpp
+ 7:37.55   20% 103) [19.155s] obj-tup/dom/presentation: CXX Unified_cpp_dom_presentation1.cpp
+ 7:41.31   20% 104) [14.468s] obj-tup/dom/plugins/base: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/plugins/base/nsNPAPIPlugin.cpp
+ 7:43.59   20% 105) [26.602s] obj-tup/dom/presentation: CXX Unified_cpp_dom_presentation0.cpp
+ 7:48.58   20% 106) [17.073s] obj-tup/dom/plugins/base: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/plugins/base/nsPluginHost.cpp
+ 7:54.35   20% 107) [10.760s] obj-tup/dom/asmjscache: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/asmjscache/AsmJSCache.cpp
+ 8:05.97   21% 108) [28.420s] obj-tup/dom/plugins/base: CXX Unified_cpp_dom_plugins_base0.cpp
+ 8:07.32   21% 109) [26.018s] obj-tup/dom/plugins/ipc: CXX Unified_cpp_dom_plugins_ipc0.cpp
+ 8:12.64   21% 110) [6.674s] obj-tup/dom/encoding: CXX Unified_cpp_dom_encoding0.cpp
+ 8:13.94   21% 111) [25.365s] obj-tup/dom/quota: CXX Unified_cpp_dom_quota0.cpp
+ 8:16.26   22% 112) [21.914s] obj-tup/dom/xhr: CXX Unified_cpp_dom_xhr0.cpp
+ 8:17.44   22% 113) [10.110s] obj-tup/dom/html: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/html/PluginDocument.cpp
+ 8:39.75   22% 114) [22.320s] obj-tup/dom/html: CXX Unified_cpp_dom_html3.cpp
+ 8:40.23   22% 115) [27.590s] obj-tup/dom/html: CXX Unified_cpp_dom_html0.cpp
+ 8:45.22   23% 116) [31.275s] obj-tup/dom/html: CXX Unified_cpp_dom_html1.cpp
+ 8:49.08   23% 117) [32.821s] obj-tup/dom/html: CXX Unified_cpp_dom_html2.cpp
+ 8:56.11   23% 118) [10.893s] obj-tup/dom/html/input: CXX Unified_cpp_dom_html_input0.cpp
+ 9:03.71   23% 119) [23.952s] obj-tup/dom/html: CXX Unified_cpp_dom_html4.cpp
+ 9:10.22   24% 120) [29.986s] obj-tup/dom/html: CXX Unified_cpp_dom_html5.cpp
+ 9:20.89   24% 121) [17.176s] obj-tup/dom/canvas: CXX Unified_cpp_dom_canvas2.cpp
+ 9:22.92   24% 122) [26.801s] obj-tup/dom/canvas: CXX Unified_cpp_dom_canvas1.cpp
+ 9:35.13   25% 123) [46.050s] obj-tup/dom/canvas: CXX Unified_cpp_dom_canvas0.cpp
+ 9:36.55   25% 124) [15.661s] obj-tup/dom/console: CXX Unified_cpp_dom_console0.cpp
+ 9:44.88   25% 125) [34.658s] obj-tup/dom/canvas: CXX Unified_cpp_dom_canvas5.cpp
+ 9:46.13   25% 126) [9.584s] obj-tup/dom/u2f: CXX Unified_cpp_dom_u2f0.cpp
+ 9:53.44   26% 127) [30.530s] obj-tup/dom/workers: CXX Unified_cpp_dom_workers0.cpp
+ 9:56.07   26% 128) [20.935s] obj-tup/dom/workers: CXX Unified_cpp_dom_workers1.cpp
+10:02.68   26% 129) [17.802s] obj-tup/dom/cache: CXX Unified_cpp_dom_cache0.cpp
+10:07.30   26% 130) [21.161s] obj-tup/dom/cache: CXX Unified_cpp_dom_cache1.cpp
+10:10.01   27% 131) [16.566s] obj-tup/dom/vr: CXX Unified_cpp_dom_vr0.cpp
+10:13.90   27% 132) [17.833s] obj-tup/dom/script: CXX Unified_cpp_dom_script0.cpp
+10:17.19   27% 133) [14.511s] obj-tup/dom/worklet: CXX Unified_cpp_dom_worklet0.cpp
+10:23.96   27% 134) [13.954s] obj-tup/dom/geolocation: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/geolocation/nsGeolocation.cpp
+10:24.87   27% 135) [10.968s] obj-tup/dom/base: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/base/DOMIntersectionObserver.cpp
+10:24.92   27% 136) [17.626s] obj-tup/dom/storage: CXX Unified_cpp_dom_storage0.cpp
+10:38.24   28% 137) [13.321s] obj-tup/dom/base: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/base/nsImageLoadingContent.cpp
+10:42.67   28% 138) [17.801s] obj-tup/dom/base: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/base/nsFrameMessageManager.cpp
+10:50.20   28% 139) [33.011s] obj-tup/dom/base: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/base/nsContentUtils.cpp
+10:50.42   28% 140) [7.747s] obj-tup/dom/base: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/base/nsPluginArray.cpp
+10:51.89   29% 141) [27.911s] obj-tup/dom/base: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/base/nsDOMWindowUtils.cpp
+11:00.99   29% 142) [22.751s] obj-tup/dom/base: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/base/nsObjectLoadingContent.cpp
+11:18.96   29% 143) [28.757s] obj-tup/dom/base: CXX Unified_cpp_dom_base0.cpp
+11:20.99   29% 144) [30.567s] obj-tup/dom/base: CXX Unified_cpp_dom_base1.cpp
+11:33.28   30% 145) [41.400s] obj-tup/dom/base: CXX Unified_cpp_dom_base2.cpp
+11:37.43   30% 146) [36.433s] obj-tup/dom/base: CXX Unified_cpp_dom_base3.cpp
+11:49.11   30% 147) [30.146s] obj-tup/dom/base: CXX Unified_cpp_dom_base4.cpp
+11:59.00   31% 148) [38.018s] obj-tup/dom/base: CXX Unified_cpp_dom_base5.cpp
+12:05.02   31% 149) [27.592s] obj-tup/dom/base: CXX Unified_cpp_dom_base7.cpp
+12:21.09   32% 150) [31.981s] obj-tup/dom/base: CXX Unified_cpp_dom_base8.cpp
+12:23.31   32% 151) [18.293s] obj-tup/dom/ipc: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/ipc/ProcessHangMonitor.cpp
+12:26.20   32% 152) [27.186s] obj-tup/dom/ipc: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/ipc/ContentChild.cpp
+12:47.54   33% 153) [74.262s] obj-tup/dom/base: CXX Unified_cpp_dom_base6.cpp
+12:50.47   33% 154) [24.276s] obj-tup/dom/payments: CXX Unified_cpp_dom_payments0.cpp
+12:51.51   33% 155) [28.192s] obj-tup/dom/ipc: CXX Unified_cpp_dom_ipc1.cpp
+13:06.94   34% 156) [19.386s] obj-tup/widget: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/widget/nsBaseDragService.cpp
+13:14.66   34% 157) [53.570s] obj-tup/dom/ipc: CXX Unified_cpp_dom_ipc0.cpp
+13:14.66 In file included from Unified_cpp_dom_ipc0.cpp:56:0:
+13:14.66 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/ipc/ContentProcess.cpp: In member function 'virtual bool mozilla::dom::ContentProcess::Init(int, char**)':
+13:14.66 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/ipc/ContentProcess.cpp:217:22: warning: 'schedulerPrefs' may be used uninitialized in this function [-Wmaybe-uninitialized]
+13:14.66    Scheduler::SetPrefs(*schedulerPrefs);
+13:14.66    ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+13:14.66 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/ipc/ContentProcess.cpp:210:15: warning: 'prefsLen' may be used uninitialized in this function [-Wmaybe-uninitialized]
+13:14.66    if (!shm.Map(*prefsLen)) {
+13:14.66         ~~~~~~~^~~~~~~~~~~
+13:14.66 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/ipc/ContentProcess.cpp:222:17: warning: 'isForBrowser' may be used uninitialized in this function [-Wmaybe-uninitialized]
+13:14.66                  *isForBrowser);
+13:14.66                  ^~~~~~~~~~~~~
+13:14.67 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/ipc/ContentProcess.cpp:218:16: warning: 'childID' may be used uninitialized in this function [-Wmaybe-uninitialized]
+13:14.67    mContent.Init(IOThreadChild::message_loop(),
+13:14.67    ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+13:14.67                  ParentPid(),
+13:14.67                  ~~~~~~~~~~~~
+13:14.67                  IOThreadChild::channel(),
+13:14.67                  ~~~~~~~~~~~~~~~~~~~~~~~~~
+13:14.67                  *childID,
+13:14.67                  ~~~~~~~~~
+13:14.67                  *isForBrowser);
+13:14.67                  ~~~~~~~~~~~~~~
+13:15.61   35% 158) [25.146s] obj-tup/widget: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/widget/nsBaseWidget.cpp
+13:24.55   35% 159) [33.044s] obj-tup/widget: CXX Unified_cpp_widget0.cpp
+13:28.20   35% 160) [13.534s] obj-tup/widget: CXX Unified_cpp_widget2.cpp
+13:28.68   35% 161) [21.746s] obj-tup/widget: CXX Unified_cpp_widget1.cpp
+13:41.39   36% 162) [25.769s] obj-tup/widget/gtk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/widget/gtk/nsWindow.cpp
+13:41.61   36% 163) [17.053s] obj-tup/widget/gtk: CXX Unified_cpp_widget_gtk0.cpp
+13:49.43   36% 164) [20.745s] obj-tup/widget/gtk: CXX Unified_cpp_widget_gtk2.cpp
+13:51.52   36% 165) [23.327s] obj-tup/widget/gtk: CXX Unified_cpp_widget_gtk1.cpp
+13:54.42   36% 166) [12.811s] obj-tup/xpcom/io: CXX Unified_cpp_xpcom_io0.cpp
+14:01.97   37% 167) [20.585s] obj-tup/xpcom/build: CXX Unified_cpp_xpcom_build0.cpp
+14:07.21   37% 168) [17.785s] obj-tup/xpcom/threads: CXX Unified_cpp_xpcom_threads0.cpp
+14:08.68   37% 169) [14.259s] obj-tup/xpcom/base: CXX Unified_cpp_xpcom_base0.cpp
+14:09.93   37% 170) [18.407s] obj-tup/xpcom/threads: CXX Unified_cpp_xpcom_threads1.cpp
+14:17.69   37% 171) [15.718s] obj-tup/xpcom/base: CXX Unified_cpp_xpcom_base2.cpp
+14:22.11   37% 172) [12.180s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/AccessibleWrap.cpp
+14:24.14   38% 173) [15.461s] obj-tup/accessible/xpcom: CXX Unified_cpp_accessible_xpcom0.cpp
+14:24.44   38% 174) [17.236s] obj-tup/devtools/shared/heapsnapshot: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/devtools/shared/heapsnapshot/HeapSnapshot.cpp
+14:27.73   38% 175) [10.039s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/ApplicationAccessibleWrap.cpp
+14:30.46   38% 176) [8.342s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/AtkSocketAccessible.cpp
+14:33.30   38% 177) [9.163s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/DocAccessibleWrap.cpp
+14:34.73   38% 178) [10.280s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/Platform.cpp
+14:36.38   38% 179) [8.652s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/RootAccessibleWrap.cpp
+14:40.59   38% 180) [10.134s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/UtilInterface.cpp
+14:41.87   39% 181) [8.567s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/nsMaiHyperlink.cpp
+14:43.47   39% 182) [8.748s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/nsMaiInterfaceAction.cpp
+14:44.91   39% 183) [8.530s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/nsMaiInterfaceComponent.cpp
+14:49.32   39% 184) [8.731s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/nsMaiInterfaceDocument.cpp
+14:51.92   39% 185) [8.440s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/nsMaiInterfaceHyperlinkImpl.cpp
+14:52.00   39% 186) [10.133s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/nsMaiInterfaceEditableText.cpp
+14:53.47   39% 187) [8.562s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/nsMaiInterfaceHypertext.cpp
+14:57.71   39% 188) [8.386s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/nsMaiInterfaceImage.cpp
+15:00.72   39% 189) [8.797s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/nsMaiInterfaceSelection.cpp
+15:01.48   39% 190) [9.472s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/nsMaiInterfaceTable.cpp
+15:02.30   40% 191) [8.826s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/nsMaiInterfaceTableCell.cpp
+15:09.08   40% 192) [8.368s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/nsMaiInterfaceValue.cpp
+15:09.44   40% 193) [11.732s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/nsMaiInterfaceText.cpp
+15:18.36   40% 194) [16.881s] obj-tup/accessible/xul: CXX Unified_cpp_accessible_xul0.cpp
+15:19.07   40% 195) [9.983s] obj-tup/accessible/aom: CXX Unified_cpp_accessible_aom0.cpp
+15:24.58   40% 196) [15.138s] obj-tup/accessible/html: CXX Unified_cpp_accessible_html0.cpp
+15:34.68   41% 197) [32.380s] obj-tup/accessible/generic: CXX Unified_cpp_accessible_generic0.cpp
+15:40.84   41% 198) [21.775s] obj-tup/accessible/base: CXX Unified_cpp_accessible_base1.cpp
+15:42.60   41% 199) [18.012s] obj-tup/accessible/ipc: CXX Unified_cpp_accessible_ipc0.cpp
+15:44.18   41% 200) [25.826s] obj-tup/accessible/base: CXX Unified_cpp_accessible_base0.cpp
+15:47.24   42% 201) [12.558s] obj-tup/accessible/ipc/other: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/ipc/other/DocAccessibleChild.cpp
+15:49.14   42% 202) [4.953s] obj-tup/intl/hyphenation/glue: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/intl/hyphenation/glue/hnjstdio.cpp
+15:53.75   42% 203) [6.508s] obj-tup/intl/strres: CXX Unified_cpp_intl_strres0.cpp
+15:58.00   42% 204) [17.158s] obj-tup/accessible/ipc/other: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/ipc/other/ProxyAccessible.cpp
+16:02.37   42% 205) [13.235s] obj-tup/modules/libpref: CXX Unified_cpp_modules_libpref0.cpp
+16:04.75   42% 206) [11.002s] obj-tup/modules/libjar: CXX Unified_cpp_modules_libjar0.cpp
+16:06.04   42% 207) [8.039s] obj-tup/docshell/build: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/docshell/build/nsDocShellModule.cpp
+16:06.34   42% 208) [23.746s] obj-tup/xpfe/appshell: CXX Unified_cpp_xpfe_appshell0.cpp
+16:12.68   43% 209) [6.634s] obj-tup/docshell/base/timeline: CXX Unified_cpp_base_timeline0.cpp
+16:18.75   43% 210) [12.418s] obj-tup/netwerk/build: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/netwerk/build/nsNetModule.cpp
+16:23.16   43% 211) [20.782s] obj-tup/docshell/shistory: CXX Unified_cpp_docshell_shistory0.cpp
+16:27.78   43% 212) [15.104s] obj-tup/netwerk/dns: CXX Unified_cpp_netwerk_dns0.cpp
+16:34.75   43% 213) [15.988s] obj-tup/netwerk/protocol/wyciwyg: CXX Unified_cpp_protocol_wyciwyg0.cpp
+16:37.73   43% 214) [14.575s] obj-tup/netwerk/protocol/res: CXX Unified_cpp_netwerk_protocol_res0.cpp
+16:38.94   44% 215) [11.166s] obj-tup/netwerk/protocol/file: CXX Unified_cpp_protocol_file0.cpp
+16:40.53   44% 216) [35.775s] obj-tup/docshell/base: CXX Unified_cpp_docshell_base0.cpp
+16:43.96   44% 217) [9.217s] obj-tup/netwerk/protocol/http: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/netwerk/protocol/http/nsHttpChannelAuthProvider.cpp
+16:52.08   44% 218) [14.349s] obj-tup/netwerk/protocol/http: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/netwerk/protocol/http/nsHttpHandler.cpp
+17:01.93   44% 219) [9.852s] obj-tup/netwerk/protocol/data: CXX Unified_cpp_protocol_data0.cpp
+17:06.41   45% 220) [22.451s] obj-tup/netwerk/protocol/http: CXX Unified_cpp_protocol_http2.cpp
+17:13.57   45% 221) [7.156s] obj-tup/netwerk/protocol/viewsource: CXX Unified_cpp_protocol_viewsource0.cpp
+17:18.91   45% 222) [39.968s] obj-tup/netwerk/protocol/http: CXX Unified_cpp_protocol_http0.cpp
+17:21.50   45% 223) [7.932s] obj-tup/netwerk/protocol/about: CXX Unified_cpp_protocol_about0.cpp
+17:23.63   46% 224) [43.104s] obj-tup/netwerk/protocol/http: CXX Unified_cpp_protocol_http1.cpp
+17:24.56   46% 225) [22.630s] obj-tup/netwerk/protocol/websocket: CXX Unified_cpp_protocol_websocket0.cpp
+17:34.64   46% 226) [13.132s] obj-tup/netwerk/cookie: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/netwerk/cookie/nsCookieService.cpp
+17:34.73   46% 227) [11.099s] obj-tup/netwerk/cookie: CXX Unified_cpp_netwerk_cookie0.cpp
+17:41.42   46% 228) [22.506s] obj-tup/netwerk/protocol/ftp: CXX Unified_cpp_netwerk_protocol_ftp0.cpp
+17:52.00   47% 229) [17.364s] obj-tup/netwerk/base: CXX Unified_cpp_netwerk_base1.cpp
+17:53.29   47% 230) [28.733s] obj-tup/netwerk/base: CXX Unified_cpp_netwerk_base0.cpp
+17:56.90   47% 231) [22.166s] obj-tup/netwerk/base: CXX Unified_cpp_netwerk_base2.cpp
+18:03.90   47% 232) [10.609s] obj-tup/js/xpconnect/wrappers: CXX Unified_cpp_xpconnect_wrappers0.cpp
+18:04.37   48% 233) [22.947s] obj-tup/netwerk/base: CXX Unified_cpp_netwerk_base3.cpp
+18:13.03   48% 234) [21.025s] obj-tup/netwerk/ipc: CXX Unified_cpp_netwerk_ipc0.cpp
+18:20.73   48% 235) [16.368s] obj-tup/ipc/glue: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/ipc/glue/BackgroundChildImpl.cpp
+18:24.90   48% 236) [11.878s] obj-tup/ipc/glue: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/ipc/glue/BackgroundParentImpl.cpp
+18:25.30   48% 237) [21.396s] obj-tup/js/xpconnect/src: CXX Unified_cpp_js_xpconnect_src1.cpp
+18:28.56   49% 238) [31.650s] obj-tup/js/xpconnect/src: CXX Unified_cpp_js_xpconnect_src0.cpp
+18:37.56   49% 239) [16.828s] obj-tup/ipc/glue: CXX Unified_cpp_ipc_glue0.cpp
+18:43.29   49% 240) [18.387s] obj-tup/ipc/glue: CXX Unified_cpp_ipc_glue1.cpp
+18:58.12   49% 241) [32.825s] obj-tup/ipc/ipdl: CXX UnifiedProtocols0.cpp
+19:09.58   50% 242) [41.021s] obj-tup/ipc/ipdl: CXX UnifiedProtocols1.cpp
+19:09.58 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCPolicyAPI.h:43:0,
+19:09.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/RootingAPI.h:22,
+19:09.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/CallArgs.h:73,
+19:09.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/jsapi.h:29,
+19:09.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/StructuredCloneHolder.h:10,
+19:09.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ipc/StructuredCloneData.h:12,
+19:09.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/ipc/IPCMessageUtils.h:16,
+19:09.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/jsipc/JavaScriptTypes.h:11,
+19:09.58                  from JavaScriptTypes.cpp:7,
+19:09.58                  from UnifiedProtocols1.cpp:2:
+19:09.58 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Maybe.h: In function 'bool mozilla::ipc::ReadIPDLParam(const IPC::Message*, PickleIterator*, mozilla::ipc::IProtocol*, P*) [with P = mozilla::layers::AsyncDragMetrics]':
+19:09.58 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Maybe.h:281:9: warning: 'tmp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+19:09.58          ref() = Move(aOther.ref());
+19:09.58          ^~~
+19:09.58 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/jsipc/JavaScriptTypes.h:11:0,
+19:09.58                  from JavaScriptTypes.cpp:7,
+19:09.58                  from UnifiedProtocols1.cpp:2:
+19:09.58 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/ipc/IPCMessageUtils.h:935:9: note: 'tmp' was declared here
+19:09.58        T tmp;
+19:09.58          ^~~
+19:09.58 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCPolicyAPI.h:43:0,
+19:09.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/RootingAPI.h:22,
+19:09.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/CallArgs.h:73,
+19:09.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/jsapi.h:29,
+19:09.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/StructuredCloneHolder.h:10,
+19:09.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ipc/StructuredCloneData.h:12,
+19:09.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/ipc/IPCMessageUtils.h:16,
+19:09.59                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/jsipc/JavaScriptTypes.h:11,
+19:09.59                  from JavaScriptTypes.cpp:7,
+19:09.59                  from UnifiedProtocols1.cpp:2:
+19:09.59 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Maybe.h: In static member function 'static bool IPC::ParamTraits<mozilla::Maybe<T> >::Read(const IPC::Message*, PickleIterator*, IPC::ParamTraits<mozilla::Maybe<T> >::paramType*) [with T = mozilla::layers::ScrollDirection]':
+19:09.59 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Maybe.h:281:9: warning: 'tmp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+19:09.59          ref() = Move(aOther.ref());
+19:09.59          ^~~
+19:09.59 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/jsipc/JavaScriptTypes.h:11:0,
+19:09.59                  from JavaScriptTypes.cpp:7,
+19:09.59                  from UnifiedProtocols1.cpp:2:
+19:09.59 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/ipc/IPCMessageUtils.h:935:9: note: 'tmp' was declared here
+19:09.59        T tmp;
+19:09.59          ^~~
+19:10.88   50% 243) [27.589s] obj-tup/ipc/ipdl: CXX UnifiedProtocols11.cpp
+19:17.52   50% 244) [19.391s] obj-tup/ipc/ipdl: CXX UnifiedProtocols12.cpp
+19:27.40   51% 245) [49.833s] obj-tup/ipc/ipdl: CXX UnifiedProtocols10.cpp
+19:27.40 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:18:0,
+19:27.40                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+19:27.40                  from PContentBridgeParent.cpp:7,
+19:27.40                  from UnifiedProtocols10.cpp:2:
+19:27.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h: In member function 'void mozilla::MozPromise<ResolveValueT, RejectValueT, IsExclusive>::DispatchAll() [with ResolveValueT = mozilla::dom::CreatedWindowInfo; RejectValueT = mozilla::ipc::ResponseRejectReason; bool IsExclusive = false]':
+19:27.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h:1174:7: warning: '<anonymous>.mozilla::dom::CreatedWindowInfo::windowOpened_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+19:27.40  class CreatedWindowInfo final
+19:27.40        ^~~~~~~~~~~~~~~~~
+19:27.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h: In static member function 'static void std::_Function_handler<void(_ArgTypes ...), _Functor>::_M_invoke(const std::_Any_data&, _ArgTypes&& ...) [with _Functor = mozilla::dom::PContentChild::SendCreateWindow(mozilla::dom::PContentChild::PBrowserChild*, mozilla::dom::PContentChild::PBrowserChild*, mozilla::dom::PContentChild::PRenderFrameChild*, const uint32_t&, const bool&, const bool&, const bool&, const OptionalURIParams&, const nsCString&, const nsCString&, const float&, const Principal&, const uint32_t&)::<lambda(mozilla::dom::PContentChild::ResponseRejectReason)>; _ArgTypes = {mozilla::ipc::ResponseRejectReason}]':
+19:27.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h:1174:7: warning: '<anonymous>.mozilla::dom::CreatedWindowInfo::windowOpened_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+19:27.40  class CreatedWindowInfo final
+19:27.40        ^~~~~~~~~~~~~~~~~
+19:32.91   51% 246) [22.022s] obj-tup/ipc/ipdl: CXX UnifiedProtocols15.cpp
+19:34.72   52% 247) [25.128s] obj-tup/ipc/ipdl: CXX UnifiedProtocols14.cpp
+19:41.82   52% 248) [24.295s] obj-tup/ipc/ipdl: CXX UnifiedProtocols16.cpp
+19:52.52   52% 249) [19.616s] obj-tup/ipc/ipdl: CXX UnifiedProtocols18.cpp
+19:54.40   52% 250) [26.996s] obj-tup/ipc/ipdl: CXX UnifiedProtocols17.cpp
+20:01.91   53% 251) [27.196s] obj-tup/ipc/ipdl: CXX UnifiedProtocols19.cpp
+20:03.37   53% 252) [21.554s] obj-tup/ipc/ipdl: CXX UnifiedProtocols2.cpp
+20:09.78   53% 253) [17.257s] obj-tup/ipc/ipdl: CXX UnifiedProtocols20.cpp
+20:16.61   53% 254) [22.210s] obj-tup/ipc/ipdl: CXX UnifiedProtocols21.cpp
+20:20.32   54% 255) [16.947s] obj-tup/ipc/ipdl: CXX UnifiedProtocols23.cpp
+20:21.28   54% 256) [19.370s] obj-tup/ipc/ipdl: CXX UnifiedProtocols22.cpp
+20:27.45   54% 257) [17.676s] obj-tup/ipc/ipdl: CXX UnifiedProtocols24.cpp
+20:35.77   54% 258) [19.154s] obj-tup/ipc/ipdl: CXX UnifiedProtocols25.cpp
+20:38.35   54% 259) [18.029s] obj-tup/ipc/ipdl: CXX UnifiedProtocols26.cpp
+20:43.91   55% 260) [22.625s] obj-tup/ipc/ipdl: CXX UnifiedProtocols4.cpp
+20:52.24   55% 261) [13.894s] obj-tup/ipc/ipdl: CXX UnifiedProtocols7.cpp
+20:54.23   55% 262) [18.463s] obj-tup/ipc/ipdl: CXX UnifiedProtocols6.cpp
+20:56.18   55% 263) [12.267s] obj-tup/ipc/ipdl: CXX UnifiedProtocols8.cpp
+21:00.13   55% 264) [5.903s] obj-tup/ipc/testshell: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/ipc/testshell/TestShellChild.cpp
+21:01.40   56% 265) [33.945s] obj-tup/ipc/ipdl: CXX UnifiedProtocols5.cpp
+21:01.40 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/ipc/PBackground.h:18:0,
+21:01.40                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/ipc/PBackgroundParent.h:9,
+21:01.40                  from PBackgroundStorage.cpp:8,
+21:01.40                  from UnifiedProtocols5.cpp:11:
+21:01.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h: In member function 'void mozilla::MozPromise<ResolveValueT, RejectValueT, IsExclusive>::DispatchAll() [with ResolveValueT = mozilla::dom::CreatedWindowInfo; RejectValueT = mozilla::ipc::ResponseRejectReason; bool IsExclusive = false]':
+21:01.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h:1174:7: warning: '<anonymous>.mozilla::dom::CreatedWindowInfo::windowOpened_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+21:01.40  class CreatedWindowInfo final
+21:01.40        ^~~~~~~~~~~~~~~~~
+21:01.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h: In static member function 'static void std::_Function_handler<void(_ArgTypes ...), _Functor>::_M_invoke(const std::_Any_data&, _ArgTypes&& ...) [with _Functor = mozilla::dom::PBrowserChild::SendBrowserFrameOpenWindow(mozilla::dom::PBrowserChild*, mozilla::dom::PBrowserChild::PRenderFrameChild*, const nsString&, const nsString&, const nsString&)::<lambda(mozilla::dom::PBrowserChild::ResponseRejectReason)>; _ArgTypes = {mozilla::ipc::ResponseRejectReason}]':
+21:01.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h:1174:7: warning: '<anonymous>.mozilla::dom::CreatedWindowInfo::windowOpened_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+21:01.40  class CreatedWindowInfo final
+21:01.40        ^~~~~~~~~~~~~~~~~
+21:04.21   56% 266) [8.037s] obj-tup/ipc/testshell: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/ipc/testshell/TestShellParent.cpp
+21:06.84   56% 267) [6.708s] obj-tup/ipc/testshell: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/ipc/testshell/XPCShellEnvironment.cpp
+21:14.41   56% 268) [10.194s] obj-tup/hal: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/hal/Hal.cpp
+21:20.94   56% 269) [19.535s] obj-tup/js/ipc: CXX Unified_cpp_js_ipc0.cpp
+21:22.84   56% 270) [8.433s] obj-tup/js/xpconnect/loader: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/xpconnect/loader/mozJSComponentLoader.cpp
+21:24.83   57% 271) [32.584s] obj-tup/ipc/ipdl: CXX UnifiedProtocols9.cpp
+21:24.85   57% 272) [18.015s] obj-tup/hal: CXX Unified_cpp_hal0.cpp
+21:30.94   57% 273) [8.089s] obj-tup/uriloader/base: CXX Unified_cpp_uriloader_base0.cpp
+21:36.72   57% 274) [15.780s] obj-tup/js/xpconnect/loader: CXX Unified_cpp_js_xpconnect_loader0.cpp
+21:37.69   57% 275) [6.765s] obj-tup/caps: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/caps/BasePrincipal.cpp
+21:47.51   57% 276) [22.657s] obj-tup/uriloader/prefetch: CXX Unified_cpp_uriloader_prefetch0.cpp
+21:48.14   58% 277) [23.279s] obj-tup/uriloader/exthandler: CXX Unified_cpp_uriloader_exthandler0.cpp
+21:51.49   58% 278) [14.772s] obj-tup/caps: CXX Unified_cpp_caps0.cpp
+21:58.36   58% 279) [20.668s] obj-tup/gfx/src: CXX Unified_cpp_gfx_src0.cpp
+21:58.36 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/Units.h:18:0,
+21:58.36                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsITheme.h:15,
+21:58.36                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsIWidget.h:18,
+21:58.37                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/ipc/IPCMessageUtils.h:34,
+21:58.37                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+21:58.37                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+21:58.37                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+21:58.37                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentChild.h:12,
+21:58.37                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+21:58.37                  from Unified_cpp_gfx_src0.cpp:2:
+21:58.37 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In member function 'void nsRegion::Inflate(const nsMargin&)':
+21:58.37 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+21:58.37          mCurrentStrip->right - mCurrentStrip->left,
+21:58.37                                 ~~~~~~~~~~~~~~~^~~~
+21:58.37 In file included from Unified_cpp_gfx_src0.cpp:83:0:
+21:58.37 /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/nsRegion.cpp:132:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+21:58.37    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+21:58.37                      ^~~~
+21:58.37 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/Units.h:18:0,
+21:58.37                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsITheme.h:15,
+21:58.37                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsIWidget.h:18,
+21:58.37                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/ipc/IPCMessageUtils.h:34,
+21:58.37                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+21:58.37                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+21:58.37                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+21:58.37                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentChild.h:12,
+21:58.37                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+21:58.37                  from Unified_cpp_gfx_src0.cpp:2:
+21:58.37 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In member function 'nsRegion& nsRegion::ScaleRoundOut(float, float)':
+21:58.38 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+21:58.38          mCurrentStrip->right - mCurrentStrip->left,
+21:58.38                                 ~~~~~~~~~~~~~~~^~~~
+21:58.38 In file included from Unified_cpp_gfx_src0.cpp:83:0:
+21:58.38 /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/nsRegion.cpp:491:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+21:58.38    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+21:58.39                      ^~~~
+21:58.39 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/Units.h:18:0,
+21:58.39                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsITheme.h:15,
+21:58.39                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsIWidget.h:18,
+21:58.39                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/ipc/IPCMessageUtils.h:34,
+21:58.39                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+21:58.39                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+21:58.39                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+21:58.39                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentChild.h:12,
+21:58.39                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+21:58.39                  from Unified_cpp_gfx_src0.cpp:2:
+21:58.39 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In member function 'nsRegion& nsRegion::Transform(const Matrix4x4&)':
+21:58.39 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+21:58.40          mCurrentStrip->right - mCurrentStrip->left,
+21:58.40                                 ~~~~~~~~~~~~~~~^~~~
+21:58.40 In file included from Unified_cpp_gfx_src0.cpp:83:0:
+21:58.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/nsRegion.cpp:536:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+21:58.40    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+21:58.40                      ^~~~
+21:58.40 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/Units.h:18:0,
+21:58.40                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsITheme.h:15,
+21:58.40                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsIWidget.h:18,
+21:58.40                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/ipc/IPCMessageUtils.h:34,
+21:58.40                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+21:58.40                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+21:58.40                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+21:58.40                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentChild.h:12,
+21:58.40                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+21:58.40                  from Unified_cpp_gfx_src0.cpp:2:
+21:58.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In member function 'nsRegion& nsRegion::Or(const nsRegion&, const nsRegion&)':
+21:58.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+21:58.41          mCurrentStrip->right - mCurrentStrip->left,
+21:58.41                                 ~~~~~~~~~~~~~~~^~~~
+21:58.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:986:23: note: 'idx.nsRegion::RectIterator::mCurrentStrip' was declared here
+21:58.41      for (RectIterator idx(aRgn2); !idx.Done(); idx.Next()) {
+21:58.41                        ^~~
+21:58.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In member function 'nsRegion nsRegion::ScaleToOtherAppUnitsRoundOut(int32_t, int32_t) const':
+21:58.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+21:58.41          mCurrentStrip->right - mCurrentStrip->left,
+21:58.41                                 ~~~~~~~~~~~~~~~^~~~
+21:58.41 In file included from Unified_cpp_gfx_src0.cpp:83:0:
+21:58.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/nsRegion.cpp:552:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+21:58.41    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+21:58.41                      ^~~~
+21:58.41 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/Units.h:18:0,
+21:58.41                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsITheme.h:15,
+21:58.41                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsIWidget.h:18,
+21:58.41                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/ipc/IPCMessageUtils.h:34,
+21:58.41                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+21:58.41                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentChild.h:12,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+21:58.42                  from Unified_cpp_gfx_src0.cpp:2:
+21:58.42 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In member function 'nsRegion nsRegion::ScaleToOtherAppUnitsRoundIn(int32_t, int32_t) const':
+21:58.42 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+21:58.42          mCurrentStrip->right - mCurrentStrip->left,
+21:58.42                                 ~~~~~~~~~~~~~~~^~~~
+21:58.42 In file included from Unified_cpp_gfx_src0.cpp:83:0:
+21:58.42 /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/nsRegion.cpp:568:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+21:58.42    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+21:58.42                      ^~~~
+21:58.42 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/Units.h:18:0,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsITheme.h:15,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsIWidget.h:18,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/ipc/IPCMessageUtils.h:34,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentChild.h:12,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+21:58.42                  from Unified_cpp_gfx_src0.cpp:2:
+21:58.42 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In member function 'nsIntRegion nsRegion::ScaleToOutsidePixels(float, float, nscoord) const':
+21:58.42 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+21:58.42          mCurrentStrip->right - mCurrentStrip->left,
+21:58.42                                 ~~~~~~~~~~~~~~~^~~~
+21:58.42 In file included from Unified_cpp_gfx_src0.cpp:83:0:
+21:58.42 /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/nsRegion.cpp:620:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+21:58.42    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+21:58.42                      ^~~~
+21:58.42 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/Units.h:18:0,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsITheme.h:15,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsIWidget.h:18,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/ipc/IPCMessageUtils.h:34,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+21:58.42                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+21:58.43                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+21:58.43                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentChild.h:12,
+21:58.43                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+21:58.43                  from Unified_cpp_gfx_src0.cpp:2:
+21:58.43 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In member function 'nsIntRegion nsRegion::ToPixels(nscoord, bool) const':
+21:58.43 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+21:58.43          mCurrentStrip->right - mCurrentStrip->left,
+21:58.43                                 ~~~~~~~~~~~~~~~^~~~
+21:58.43 In file included from Unified_cpp_gfx_src0.cpp:83:0:
+21:58.43 /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/nsRegion.cpp:580:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+21:58.43    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+21:58.43                      ^~~~
+21:58.43 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/Units.h:18:0,
+21:58.43                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsITheme.h:15,
+21:58.43                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsIWidget.h:18,
+21:58.43                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/ipc/IPCMessageUtils.h:34,
+21:58.43                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+21:58.43                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+21:58.43                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+21:58.43                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/ContentChild.h:12,
+21:58.43                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+21:58.43                  from Unified_cpp_gfx_src0.cpp:2:
+21:58.43 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In member function 'nsRegion& nsRegion::ScaleInverseRoundOut(float, float)':
+21:58.44 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+21:58.44          mCurrentStrip->right - mCurrentStrip->left,
+21:58.44                                 ~~~~~~~~~~~~~~~^~~~
+21:58.44 In file included from Unified_cpp_gfx_src0.cpp:83:0:
+21:58.44 /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/src/nsRegion.cpp:504:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+21:58.44    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+21:58.44                      ^~~~
+22:18.58   58% 280) [27.093s] obj-tup/gfx/layers: CXX Unified_cpp_gfx_layers3.cpp
+22:25.26   59% 281) [37.745s] obj-tup/gfx/layers: CXX Unified_cpp_gfx_layers11.cpp
+22:27.87   59% 282) [29.480s] obj-tup/gfx/layers: CXX Unified_cpp_gfx_layers4.cpp
+22:30.75   59% 283) [42.610s] obj-tup/gfx/layers: CXX Unified_cpp_gfx_layers2.cpp
+22:48.70   60% 284) [30.114s] obj-tup/gfx/layers: CXX Unified_cpp_gfx_layers5.cpp
+22:57.66   60% 285) [32.402s] obj-tup/gfx/layers: CXX Unified_cpp_gfx_layers7.cpp
+23:03.08   60% 286) [14.378s] obj-tup/gfx/thebes: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/thebes/gfxFcPlatformFontList.cpp
+23:03.26   61% 287) [32.518s] obj-tup/gfx/layers: CXX Unified_cpp_gfx_layers9.cpp
+23:05.59   61% 288) [37.720s] obj-tup/gfx/layers: CXX Unified_cpp_gfx_layers8.cpp
+23:19.14   61% 289) [21.485s] obj-tup/gfx/thebes: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/thebes/gfxPlatform.cpp
+23:22.70   62% 290) [19.433s] obj-tup/gfx/ipc: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/ipc/GPUParent.cpp
+23:29.32   62% 291) [23.731s] obj-tup/gfx/ipc: CXX Unified_cpp_gfx_ipc0.cpp
+23:33.17   62% 292) [10.468s] obj-tup/gfx/config: CXX Unified_cpp_gfx_config0.cpp
+23:37.93   62% 293) [34.850s] obj-tup/gfx/thebes: CXX Unified_cpp_gfx_thebes1.cpp
+23:37.93 In file included from Unified_cpp_gfx_thebes1.cpp:2:0:
+23:37.93 /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/thebes/gfxGraphiteShaper.cpp: In member function 'nsresult gfxGraphiteShaper::SetGlyphsFromSegment(gfxShapedText*, uint32_t, uint32_t, const char16_t*, gr_segment*, gfxFontShaper::RoundingFlags)':
+23:37.93 /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/thebes/gfxGraphiteShaper.cpp:349:36: warning: 'clusterLoc' may be used uninitialized in this function [-Wmaybe-uninitialized]
+23:37.93                      float dx = rtl ? (xLocs[j] - clusterLoc) :
+23:37.93                                 ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+23:37.93                                       (xLocs[j] - clusterLoc - adv);
+23:37.93                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+23:42.40   63% 294) [23.261s] obj-tup/gfx/vr: CXX Unified_cpp_gfx_vr0.cpp
+23:48.64   63% 295) [19.318s] obj-tup/image: CXX Unified_cpp_image0.cpp
+23:49.87   63% 296) [11.938s] obj-tup/image: CXX Unified_cpp_image2.cpp
+23:57.39   63% 297) [14.989s] obj-tup/view: CXX Unified_cpp_view0.cpp
+23:57.40 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/view/nsView.h:12:0,
+23:57.40                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/view/nsView.cpp:6,
+23:57.40                  from Unified_cpp_view0.cpp:2:
+23:57.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In member function 'void nsViewManager::InvalidateViewNoSuppression(nsView*, const nsRect&)':
+23:57.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+23:57.40          mCurrentStrip->right - mCurrentStrip->left,
+23:57.40                                 ~~~~~~~~~~~~~~~^~~~
+23:57.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:986:23: note: 'idx.nsRegion::RectIterator::mCurrentStrip' was declared here
+23:57.40      for (RectIterator idx(aRgn2); !idx.Done(); idx.Next()) {
+23:57.40                        ^~~
+23:57.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In member function 'void nsViewManager::Refresh(nsView*, const LayoutDeviceIntRegion&)':
+23:57.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+23:57.40          mCurrentStrip->right - mCurrentStrip->left,
+23:57.40                                 ~~~~~~~~~~~~~~~^~~~
+23:57.40 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2461:15: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+23:57.40      for (auto iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+23:57.40                ^~~~
+24:04.70   63% 298) [16.067s] obj-tup/layout/style: CXX Unified_cpp_layout_style0.cpp
+24:05.29   64% 299) [32.125s] obj-tup/image: CXX Unified_cpp_image1.cpp
+24:12.69   64% 300) [15.284s] obj-tup/layout/style: CXX Unified_cpp_layout_style2.cpp
+24:22.26   64% 301) [32.400s] obj-tup/layout/style: CXX Unified_cpp_layout_style1.cpp
+24:31.91   64% 302) [26.623s] obj-tup/layout/style: CXX Unified_cpp_layout_style4.cpp
+24:35.10   65% 303) [22.410s] obj-tup/layout/base: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/nsRefreshDriver.cpp
+24:36.12   65% 304) [31.410s] obj-tup/layout/style: CXX Unified_cpp_layout_style3.cpp
+24:47.50   65% 305) [12.407s] obj-tup/layout/base: CXX Unified_cpp_layout_base2.cpp
+24:58.45   65% 306) [22.335s] obj-tup/layout/generic: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsPluginFrame.cpp
+25:04.32   66% 307) [42.047s] obj-tup/layout/base: CXX Unified_cpp_layout_base0.cpp
+25:04.32 In file included from Unified_cpp_layout_base0.cpp:65:0:
+25:04.32 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/PresShell.cpp: In member function 'virtual void mozilla::PresShell::FrameNeedsReflow(nsIFrame*, nsIPresShell::IntrinsicDirty, nsFrameState, nsIPresShell::ReflowRootHandling)':
+25:04.32 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/PresShell.cpp:2744:23: warning: 'targetNeedsReflowFromParent' may be used uninitialized in this function [-Wmaybe-uninitialized]
+25:04.32     (_f != subtreeRoot || !targetNeedsReflowFromParent))
+25:04.32                        ^~
+25:07.69   66% 308) [20.186s] obj-tup/layout/generic: CXX Unified_cpp_layout_generic0.cpp
+25:07.69 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/ReflowInput.cpp:23:0,
+25:07.69                  from Unified_cpp_layout_generic0.cpp:65:
+25:07.69 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/tables/nsTableFrame.h: In member function 'void mozilla::ReflowInput::InitConstraints(nsPresContext*, const mozilla::LogicalSize&, const nsMargin*, const nsMargin*, mozilla::LayoutFrameType)':
+25:07.69 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/tables/nsTableFrame.h:45:20: warning: 'fType' may be used uninitialized in this function [-Wmaybe-uninitialized]
+25:07.69           frameType == mozilla::LayoutFrameType::BCTableCell;
+25:07.69           ~~~~~~~~~~^~~~~~~~~~
+25:07.69 In file included from Unified_cpp_layout_generic0.cpp:65:0:
+25:07.69 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/ReflowInput.cpp:2226:21: note: 'fType' was declared here
+25:07.70      LayoutFrameType fType;
+25:07.70                      ^~~~~
+25:34.60   67% 309) [62.681s] obj-tup/layout/base: CXX Unified_cpp_layout_base1.cpp
+25:34.60 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/Units.h:18:0,
+25:34.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/nsIPresShell.h:45,
+25:34.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/nsPresContext.h:20,
+25:34.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/Element.h:27,
+25:34.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ServoElementSnapshot.h:13,
+25:34.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ServoBindings.h:15,
+25:34.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ComputedStyleInlines.h:20,
+25:34.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/WritingModes.h:11,
+25:34.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsIFrame.h:32,
+25:34.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/nsBidi.h:12,
+25:34.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/nsBidiPresUtils.h:11,
+25:34.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/nsBidiPresUtils.cpp:7,
+25:34.60                  from Unified_cpp_layout_base1.cpp:2:
+25:34.60 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In static member function 'static void nsLayoutUtils::TransformToAncestorAndCombineRegions(const nsRegion&, nsIFrame*, const nsIFrame*, nsRegion*, nsRegion*, mozilla::Maybe<mozilla::gfx::Matrix4x4TypedFlagged<mozilla::gfx::UnknownUnits, mozilla::gfx::UnknownUnits> >*, const mozilla::DisplayItemClip*)':
+25:34.60 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+25:34.60          mCurrentStrip->right - mCurrentStrip->left,
+25:34.60                                 ~~~~~~~~~~~~~~~^~~~
+25:34.60 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:971:23: note: 'idx.nsRegion::RectIterator::mCurrentStrip' was declared here
+25:34.60      for (RectIterator idx(aOther); !idx.Done(); idx.Next()) {
+25:34.60                        ^~~
+25:46.71   67% 310) [39.016s] obj-tup/layout/generic: CXX Unified_cpp_layout_generic3.cpp
+25:46.72 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsIFrame.h:36:0,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/xul/nsBox.h:11,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsFrame.h:15,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsSplittableFrame.h:16,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsContainerFrame.h:13,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsRubyBaseContainerFrame.h:12,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsRubyBaseContainerFrame.cpp:9,
+25:46.72                  from Unified_cpp_layout_generic3.cpp:2:
+25:46.72 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ReflowOutput.h: In member function 'virtual void nsVideoFrame::Reflow(nsPresContext*, nsIFrame::ReflowOutput&, const ReflowInput&, nsReflowStatus&)':
+25:46.72 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ReflowOutput.h:259:12: warning: 'borderBoxBSize' may be used uninitialized in this function [-Wmaybe-uninitialized]
+25:46.72      mISize = convertedSize.ISize(mWritingMode);
+25:46.72      ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+25:46.72 In file included from Unified_cpp_layout_generic3.cpp:110:0:
+25:46.72 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsVideoFrame.cpp:301:11: note: 'borderBoxBSize' was declared here
+25:46.72    nscoord borderBoxBSize;
+25:46.72            ^~~~~~~~~~~~~~
+25:46.72 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsIFrame.h:27:0,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/xul/nsBox.h:11,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsFrame.h:15,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsSplittableFrame.h:16,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsContainerFrame.h:13,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsRubyBaseContainerFrame.h:12,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsRubyBaseContainerFrame.cpp:9,
+25:46.72                  from Unified_cpp_layout_generic3.cpp:2:
+25:46.72 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/FrameProperties.h: In member function 'virtual nsIFrame::RenderedText nsTextFrame::GetRenderedText(uint32_t, uint32_t, nsIFrame::TextOffsetType, nsIFrame::TrailingWhitespace)':
+25:46.72 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/FrameProperties.h:179:5: warning: 'autoLineCursor.nsBlockFrame::AutoLineCursorSetup::mOrigCursor' may be used uninitialized in this function [-Wmaybe-uninitialized]
+25:46.72      SetInternal(aProperty, ptr, aFrame);
+25:46.72      ^~~~~~~~~~~
+25:46.72 In file included from Unified_cpp_layout_generic3.cpp:83:0:
+25:46.72 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsTextFrame.cpp:10035:44: note: 'autoLineCursor.nsBlockFrame::AutoLineCursorSetup::mOrigCursor' was declared here
+25:46.72    Maybe<nsBlockFrame::AutoLineCursorSetup> autoLineCursor;
+25:46.72                                             ^~~~~~~~~~~~~~
+25:46.72 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/xul/nsBox.h:11:0,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsFrame.h:15,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsSplittableFrame.h:16,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsContainerFrame.h:13,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsRubyBaseContainerFrame.h:12,
+25:46.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsRubyBaseContainerFrame.cpp:9,
+25:46.72                  from Unified_cpp_layout_generic3.cpp:2:
+25:46.73 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsIFrame.h:3586:5: warning: 'autoLineCursor.nsBlockFrame::AutoLineCursorSetup::mFrame' may be used uninitialized in this function [-Wmaybe-uninitialized]
+25:46.73      mProperties.Set(aProperty, aValue, this);
+25:46.73      ^~~~~~~~~~~
+25:46.73 In file included from Unified_cpp_layout_generic3.cpp:83:0:
+25:46.73 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsTextFrame.cpp:10035:44: note: 'autoLineCursor.nsBlockFrame::AutoLineCursorSetup::mFrame' was declared here
+25:46.73    Maybe<nsBlockFrame::AutoLineCursorSetup> autoLineCursor;
+25:46.73                                             ^~~~~~~~~~~~~~
+25:53.60   68% 311) [55.151s] obj-tup/layout/generic: CXX Unified_cpp_layout_generic1.cpp
+25:53.60 In file included from Unified_cpp_layout_generic1.cpp:128:0:
+25:53.60 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsFrame.cpp: In member function 'nscoord nsIFrame::ComputeISizeValue(gfxContext*, nscoord, nscoord, nscoord, const nsStyleCoord&, nsIFrame::ComputeSizeFlags)':
+25:53.61 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsFrame.cpp:6417:11: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+25:53.61    nscoord result;
+25:53.61            ^~~~~~
+25:53.61 In file included from Unified_cpp_layout_generic1.cpp:101:0:
+25:53.61 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsFlexContainerFrame.cpp: In member function 'void nsFlexContainerFrame::ResolveAutoFlexBasisAndMinSize(nsPresContext*, nsFlexContainerFrame::FlexItem&, const ReflowInput&, const nsFlexContainerFrame::FlexboxAxisTracker&)':
+25:53.61 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsFlexContainerFrame.cpp:1577:11: warning: 'resolvedMinSize' may be used uninitialized in this function [-Wmaybe-uninitialized]
+25:53.61    nscoord resolvedMinSize; // (only set/used if isMainMinSizeAuto==true)
+25:53.61            ^~~~~~~~~~~~~~~
+25:53.61 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/Units.h:18:0,
+25:53.61                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/nsIPresShell.h:45,
+25:53.61                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/nsPresContext.h:20,
+25:53.61                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/Element.h:27,
+25:53.61                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ServoElementSnapshot.h:13,
+25:53.61                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ServoBindings.h:15,
+25:53.61                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ComputedStyleInlines.h:20,
+25:53.61                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/WritingModes.h:11,
+25:53.61                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsIFrame.h:32,
+25:53.61                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/xul/nsBox.h:11,
+25:53.61                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsFrame.h:15,
+25:53.62                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsSplittableFrame.h:16,
+25:53.62                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsContainerFrame.h:13,
+25:53.62                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/painting/nsDisplayList.h:27,
+25:53.62                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/TextOverflow.h:10,
+25:53.62                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/TextOverflow.cpp:7,
+25:53.62                  from Unified_cpp_layout_generic1.cpp:2:
+25:53.62 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In member function 'void nsDisplayItem::ComputeInvalidationRegionDifference(nsDisplayListBuilder*, const nsDisplayItemBoundsGeometry*, nsRegion*) const':
+25:53.62 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+25:53.62          mCurrentStrip->right - mCurrentStrip->left,
+25:53.62                                 ~~~~~~~~~~~~~~~^~~~
+25:53.62 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:986:23: note: 'idx.nsRegion::RectIterator::mCurrentStrip' was declared here
+25:53.62      for (RectIterator idx(aRgn2); !idx.Done(); idx.Next()) {
+25:53.62                        ^~~
+25:53.62 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsSize.h:10:0,
+25:53.62                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/gfxASurface.h:16,
+25:53.62                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/gfxContext.h:11,
+25:53.63                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/painting/nsDisplayList.h:17,
+25:53.63                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/TextOverflow.h:10,
+25:53.63                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/TextOverflow.cpp:7,
+25:53.63                  from Unified_cpp_layout_generic1.cpp:2:
+25:53.63 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsCoord.h: In member function 'mozilla::LogicalSize nsFrame::ComputeSizeWithIntrinsicDimensions(gfxContext*, mozilla::WritingMode, const mozilla::IntrinsicSize&, nsSize, const mozilla::LogicalSize&, const mozilla::LogicalSize&, const mozilla::LogicalSize&, const mozilla::LogicalSize&, nsIFrame::ComputeSizeFlags)':
+25:53.63 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsCoord.h:82:11: warning: 'bSize' may be used uninitialized in this function [-Wmaybe-uninitialized]
+25:53.63    return (int64_t(aMult1) * int64_t(aMult2) / int64_t(aDiv));
+25:53.63            ^~~~~~~~~~~~~~~
+25:53.63 In file included from Unified_cpp_layout_generic1.cpp:128:0:
+25:53.63 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsFrame.cpp:5991:38: note: 'bSize' was declared here
+25:53.63    nscoord iSize, minISize, maxISize, bSize, minBSize, maxBSize;
+25:53.63                                       ^~~~~
+25:53.63 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsFrame.cpp:6193:45: warning: 'iSize' may be used uninitialized in this function [-Wmaybe-uninitialized]
+25:53.63            stretchI != eStretch && tentISize > iSize) {
+25:53.64                                    ~~~~~~~~~~^~~~~~~
+25:53.64 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/TextOverflow.h:10:0,
+25:53.64                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/TextOverflow.cpp:7,
+25:53.64                  from Unified_cpp_layout_generic1.cpp:2:
+25:53.64 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/painting/nsDisplayList.h: In member function 'void nsIFrame::BuildDisplayListForStackingContext(nsDisplayListBuilder*, nsDisplayList*, bool*)':
+25:53.64 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/painting/nsDisplayList.h:1201:41: warning: 'perspectiveIndex.nsDisplayListBuilder::AutoSaveRestorePerspectiveIndex::mCachedItemIndex' may be used uninitialized in this function [-Wmaybe-uninitialized]
+25:53.64          mBuilder->mPerspectiveItemIndex = mCachedItemIndex;
+25:53.64          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+25:53.64 In file included from Unified_cpp_layout_generic1.cpp:128:0:
+25:53.64 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsFrame.cpp:3053:7: note: 'perspectiveIndex.nsDisplayListBuilder::AutoSaveRestorePerspectiveIndex::mCachedItemIndex' was declared here
+25:53.64        perspectiveIndex(aBuilder, childrenHavePerspective);
+25:53.64        ^~~~~~~~~~~~~~~~
+25:53.64 In file included from Unified_cpp_layout_generic1.cpp:101:0:
+25:53.64 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsFlexContainerFrame.cpp: In member function 'void nsFlexContainerFrame::DoFlexLayout(nsPresContext*, nsIFrame::ReflowOutput&, const ReflowInput&, nsReflowStatus&, nscoord, nscoord, nsTArray<nsFlexContainerFrame::StrutInfo>&, const nsFlexContainerFrame::FlexboxAxisTracker&)':
+25:53.64 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsFlexContainerFrame.cpp:4821:31: warning: 'flexContainerAscent' may be used uninitialized in this function [-Wmaybe-uninitialized]
+25:53.64            flexContainerAscent == nscoord_MIN) {
+25:55.48   69% 312) [51.168s] obj-tup/layout/generic: CXX Unified_cpp_layout_generic2.cpp
+25:55.48 In file included from Unified_cpp_layout_generic2.cpp:29:0:
+25:55.48 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsGfxScrollFrame.cpp: In member function 'void mozilla::ScrollFrameHelper::BuildDisplayList(nsDisplayListBuilder*, const nsDisplayListSet&)':
+25:55.49 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsGfxScrollFrame.cpp:3313:23: warning: 'extraContentBoxClipForNonCaretContent' may be used uninitialized in this function [-Wmaybe-uninitialized]
+25:55.49    ClipItemsExceptCaret(aLists->Content(), aBuilder, aClipFrame, aExtraClip, cache);
+25:55.49    ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+25:55.49 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsGfxScrollFrame.cpp:3470:38: note: 'extraContentBoxClipForNonCaretContent' was declared here
+25:55.49    Maybe<const DisplayItemClipChain*> extraContentBoxClipForNonCaretContent;
+25:55.49                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+26:03.45   69% 313) [16.737s] obj-tup/layout/forms: CXX Unified_cpp_layout_forms1.cpp
+26:04.36   69% 314) [29.759s] obj-tup/layout/forms: CXX Unified_cpp_layout_forms0.cpp
+26:04.36 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsIFrame.h:36:0,
+26:04.36                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/painting/nsCSSRenderingBorders.h:18,
+26:04.36                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/forms/nsButtonFrameRenderer.h:12,
+26:04.36                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/forms/nsButtonFrameRenderer.cpp:6,
+26:04.36                  from Unified_cpp_layout_forms0.cpp:2:
+26:04.36 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ReflowOutput.h: In member function 'virtual void nsDateTimeControlFrame::Reflow(nsPresContext*, nsIFrame::ReflowOutput&, const ReflowInput&, nsReflowStatus&)':
+26:04.36 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ReflowOutput.h:258:12: warning: 'borderBoxBSize' may be used uninitialized in this function [-Wmaybe-uninitialized]
+26:04.36      mBSize = convertedSize.BSize(mWritingMode);
+26:04.36      ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+26:04.36 In file included from Unified_cpp_layout_forms0.cpp:38:0:
+26:04.36 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/forms/nsDateTimeControlFrame.cpp:217:11: note: 'borderBoxBSize' was declared here
+26:04.36    nscoord borderBoxBSize;
+26:04.36            ^~~~~~~~~~~~~~
+26:19.39   69% 315) [15.027s] obj-tup/layout/svg: CXX Unified_cpp_layout_svg2.cpp
+26:21.33   69% 316) [25.842s] obj-tup/layout/svg: CXX Unified_cpp_layout_svg0.cpp
+26:23.02   70% 317) [19.568s] obj-tup/layout/svg: CXX Unified_cpp_layout_svg1.cpp
+26:23.02 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/Units.h:18:0,
+26:23.02                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/nsIPresShell.h:45,
+26:23.02                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/base/nsPresContext.h:20,
+26:23.02                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/dom/Element.h:27,
+26:23.02                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ServoElementSnapshot.h:13,
+26:23.02                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ServoBindings.h:15,
+26:23.02                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/ComputedStyleInlines.h:20,
+26:23.02                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/WritingModes.h:11,
+26:23.02                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsIFrame.h:32,
+26:23.02                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/xul/nsBox.h:11,
+26:23.02                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/generic/nsFrame.h:15,
+26:23.02                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/svg/nsSVGFilterFrame.h:11,
+26:23.02                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/svg/nsSVGFilterFrame.cpp:8,
+26:23.02                  from Unified_cpp_layout_svg1.cpp:2:
+26:23.02 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In static member function 'static nsIntRegion nsSVGIntegrationUtils::AdjustInvalidAreaForSVGEffects(nsIFrame*, const nsPoint&, const nsIntRegion&)':
+26:23.02 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+26:23.02          mCurrentStrip->right - mCurrentStrip->left,
+26:23.02                                 ~~~~~~~~~~~~~~~^~~~
+26:23.02 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2461:15: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+26:23.02      for (auto iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+26:23.02                ^~~~
+26:23.02 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In member function 'nsRegion& nsRegion::Or(const nsRegion&, const nsRegion&)':
+26:23.03 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+26:23.03          mCurrentStrip->right - mCurrentStrip->left,
+26:23.03                                 ~~~~~~~~~~~~~~~^~~~
+26:23.03 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:986:23: note: 'idx.nsRegion::RectIterator::mCurrentStrip' was declared here
+26:23.03      for (RectIterator idx(aRgn2); !idx.Done(); idx.Next()) {
+26:23.03                        ^~~
+26:28.69   70% 318) [35.062s] obj-tup/layout/tables: CXX Unified_cpp_layout_tables0.cpp
+26:42.76   70% 319) [19.732s] obj-tup/layout/xul: CXX Unified_cpp_layout_xul2.cpp
+26:44.66   71% 320) [25.278s] obj-tup/layout/xul: CXX Unified_cpp_layout_xul0.cpp
+26:45.06   71% 321) [23.733s] obj-tup/layout/xul: CXX Unified_cpp_layout_xul1.cpp
+26:50.38   71% 322) [21.688s] obj-tup/layout/xul/tree: CXX Unified_cpp_layout_xul_tree0.cpp
+27:00.04   71% 323) [14.976s] obj-tup/layout/mathml: CXX Unified_cpp_layout_mathml1.cpp
+27:03.42   71% 324) [13.044s] obj-tup/layout/inspector: CXX Unified_cpp_layout_inspector0.cpp
+27:03.42 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/inspector/InspectorUtils.cpp:37:0,
+27:03.42                  from Unified_cpp_layout_inspector0.cpp:11:
+27:03.42 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/style/nsCSSProps.h: In static member function 'static void mozilla::dom::InspectorUtils::GetCSSPropertyNames(mozilla::dom::GlobalObject&, const mozilla::dom::PropertyNamesOptions&, nsTArray<nsTString<char16_t> >&)':
+27:03.42 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/style/nsCSSProps.h:146:46: warning: array subscript is above array bounds [-Warray-bounds]
+27:03.42      return (nsCSSProps::kFlagsTable[aProperty] & aFlags) == aFlags;
+27:03.42              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+27:03.42 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/style/nsCSSProps.h:146:46: warning: array subscript is above array bounds [-Warray-bounds]
+27:03.42      return (nsCSSProps::kFlagsTable[aProperty] & aFlags) == aFlags;
+27:03.42              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+27:04.61   72% 325) [21.843s] obj-tup/layout/ipc: CXX Unified_cpp_layout_ipc0.cpp
+27:06.17   72% 326) [21.503s] obj-tup/layout/mathml: CXX Unified_cpp_layout_mathml0.cpp
+27:16.93   72% 327) [10.758s] obj-tup/toolkit/components/alerts: CXX Unified_cpp_components_alerts0.cpp
+27:21.07   72% 328) [17.659s] obj-tup/layout/printing: CXX Unified_cpp_layout_printing0.cpp
+27:30.24   72% 329) [13.312s] obj-tup/toolkit/components/backgroundhangmonitor: CXX Unified_cpp_ackgroundhangmonitor0.cpp
+27:31.29   72% 330) [10.212s] obj-tup/toolkit/components/browser: CXX Unified_cpp_components_browser0.cpp
+27:35.55   73% 331) [30.940s] obj-tup/layout/build: CXX Unified_cpp_layout_build0.cpp
+27:44.46   73% 332) [14.222s] obj-tup/toolkit/components/extensions: CXX Unified_cpp_extensions0.cpp
+27:47.13   73% 333) [11.574s] obj-tup/toolkit/components/find: CXX Unified_cpp_components_find0.cpp
+27:54.45   73% 334) [23.168s] obj-tup/toolkit/components/extensions/webrequest: CXX Unified_cpp_webrequest0.cpp
+27:59.20   74% 335) [14.741s] obj-tup/toolkit/components/perfmonitoring: CXX Unified_cpp_perfmonitoring0.cpp
+28:05.41   74% 336) [65.368s] obj-tup/layout/painting: CXX Unified_cpp_layout_painting0.cpp
+28:05.41 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/painting/nsCSSRenderingBorders.cpp:22:0,
+28:05.41                  from Unified_cpp_layout_painting0.cpp:110:
+28:05.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/painting/nsCSSRenderingGradients.h: In static member function 'static mozilla::nsCSSGradientRenderer mozilla::nsCSSGradientRenderer::Create(nsPresContext*, nsStyleGradient*, const nsSize&)':
+28:05.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/painting/nsCSSRenderingGradients.h:31:66: warning: 'position' may be used uninitialized in this function [-Wmaybe-uninitialized]
+28:05.41      mPosition(aPosition), mIsMidpoint(aIsMidPoint), mColor(aColor) {}
+28:05.41                                                                   ^
+28:05.41 In file included from Unified_cpp_layout_painting0.cpp:119:0:
+28:05.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/painting/nsCSSRenderingGradients.cpp:580:12: note: 'position' was declared here
+28:05.41      double position;
+28:05.41             ^~~~~~~~
+28:05.41 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/Units.h:18:0,
+28:05.41                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsIPresShell.h:45,
+28:05.41                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsIDocument.h:25,
+28:05.41                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRFPService.h:12,
+28:05.41                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/AnimationUtils.h:13,
+28:05.41                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/layout/painting/ActiveLayerTracker.cpp:9,
+28:05.41                  from Unified_cpp_layout_painting0.cpp:2:
+28:05.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In member function 'nsRegion& nsRegion::Or(const nsRegion&, const nsRegion&)':
+28:05.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+28:05.41          mCurrentStrip->right - mCurrentStrip->left,
+28:05.41                                 ~~~~~~~~~~~~~~~^~~~
+28:05.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:986:23: note: 'idx.nsRegion::RectIterator::mCurrentStrip' was declared here
+28:05.41      for (RectIterator idx(aRgn2); !idx.Done(); idx.Next()) {
+28:05.41                        ^~~
+28:05.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In member function 'nsRegion& nsRegion::OrWith(const nsRegion&)':
+28:05.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+28:05.41          mCurrentStrip->right - mCurrentStrip->left,
+28:05.41                                 ~~~~~~~~~~~~~~~^~~~
+28:05.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:971:23: note: 'idx.nsRegion::RectIterator::mCurrentStrip' was declared here
+28:05.41      for (RectIterator idx(aOther); !idx.Done(); idx.Next()) {
+28:05.41                        ^~~
+28:05.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h: In static member function 'static void mozilla::FrameLayerBuilder::RecomputeVisibilityForItems(nsTArray<mozilla::AssignedDisplayItem>&, nsDisplayListBuilder*, const nsIntRegion&, const nsIntPoint&, int32_t, float, float)':
+28:05.41 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+28:05.41          mCurrentStrip->right - mCurrentStrip->left,
+28:05.41                                 ~~~~~~~~~~~~~~~^~~~
+28:05.42 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/nsRegion.h:2461:15: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+28:05.42      for (auto iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+28:05.42                ^~~~
+28:05.78   74% 337) [11.325s] obj-tup/toolkit/components/telemetry: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/toolkit/components/telemetry/Telemetry.cpp
+28:12.80   75% 338) [13.597s] obj-tup/toolkit/components/telemetry: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/toolkit/components/telemetry/TelemetryScalar.cpp
+28:14.84   75% 339) [9.056s] obj-tup/toolkit/components/url-classifier: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/toolkit/components/url-classifier/nsUrlClassifierStreamUpdater.cpp
+28:15.96   75% 340) [10.549s] obj-tup/toolkit/components/telemetry: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/toolkit/components/telemetry/ipc/TelemetryIPCAccumulator.cpp
+28:27.54   75% 341) [40.414s] obj-tup/toolkit/components/places: CXX Unified_cpp_components_places0.cpp
+28:34.45   75% 342) [18.492s] obj-tup/toolkit/components/printingui/ipc: CXX Unified_cpp_printingui_ipc0.cpp
+28:35.07   76% 343) [20.234s] obj-tup/toolkit/components/windowwatcher: CXX Unified_cpp_windowwatcher0.cpp
+28:40.91   76% 344) [13.364s] obj-tup/toolkit/components/satchel: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/toolkit/components/satchel/nsFormFillController.cpp
+28:43.70   76% 345) [30.895s] obj-tup/toolkit/components/url-classifier: CXX Unified_cpp_url-classifier0.cpp
+28:45.08   76% 346) [10.633s] obj-tup/toolkit/mozapps/extensions: CXX Unified_cpp_mozapps_extensions0.cpp
+28:52.51   76% 347) [17.435s] obj-tup/toolkit/xre: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/toolkit/xre/nsAppRunner.cpp
+28:55.77   77% 348) [14.863s] obj-tup/toolkit/xre: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/toolkit/xre/nsEmbedFunctions.cpp
+29:20.77   77% 349) [37.073s] obj-tup/dom/bindings: CXX UnifiedBindings0.cpp
+29:22.25   77% 350) [29.736s] obj-tup/dom/bindings: CXX UnifiedBindings10.cpp
+29:42.88   78% 351) [47.114s] obj-tup/dom/bindings: CXX UnifiedBindings11.cpp
+29:49.05   79% 352) [63.969s] obj-tup/dom/bindings: CXX UnifiedBindings1.cpp
+29:50.97   79% 353) [28.722s] obj-tup/dom/bindings: CXX UnifiedBindings13.cpp
+30:06.92   79% 354) [46.143s] obj-tup/dom/bindings: CXX UnifiedBindings12.cpp
+30:09.20   80% 355) [18.222s] obj-tup/dom/bindings: CXX UnifiedBindings16.cpp
+30:11.76   80% 356) [22.708s] obj-tup/dom/bindings: CXX UnifiedBindings15.cpp
+30:25.95   80% 357) [43.066s] obj-tup/dom/bindings: CXX UnifiedBindings14.cpp
+30:33.55   81% 358) [26.631s] obj-tup/dom/bindings: CXX UnifiedBindings17.cpp
+30:45.58   81% 359) [36.392s] obj-tup/dom/bindings: CXX UnifiedBindings18.cpp
+30:46.18   81% 360) [34.419s] obj-tup/dom/bindings: CXX UnifiedBindings19.cpp
+31:11.10   82% 361) [45.154s] obj-tup/dom/bindings: CXX UnifiedBindings2.cpp
+31:14.22   82% 362) [40.676s] obj-tup/dom/bindings: CXX UnifiedBindings20.cpp
+31:20.21   83% 363) [34.025s] obj-tup/dom/bindings: CXX UnifiedBindings22.cpp
+31:57.09   83% 364) [36.873s] obj-tup/dom/bindings: CXX UnifiedBindings5.cpp
+31:57.87   84% 365) [46.765s] obj-tup/dom/bindings: CXX UnifiedBindings3.cpp
+32:08.15   84% 366) [53.929s] obj-tup/dom/bindings: CXX UnifiedBindings4.cpp
+32:31.40   85% 367) [105.820s] obj-tup/dom/bindings: CXX UnifiedBindings21.cpp
+32:41.03   86% 368) [43.159s] obj-tup/dom/bindings: CXX UnifiedBindings7.cpp
+32:41.56   86% 369) [44.474s] obj-tup/dom/bindings: CXX UnifiedBindings6.cpp
+32:45.64   87% 370) [37.487s] obj-tup/dom/bindings: CXX UnifiedBindings8.cpp
+32:48.90   87% 371) [7.881s] obj-tup/dom/bindings: CXX RegisterWorkerBindings.cpp
+32:54.47   87% 372) [8.829s] obj-tup/security/sandbox/linux/glue: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/security/sandbox/linux/glue/SandboxPrefBridge.cpp
+32:59.78   87% 373) [10.876s] obj-tup/dom/media: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/media/CubebUtils.cpp
+33:00.29   87% 374) [18.737s] obj-tup/dom/bindings: CXX RegisterBindings.cpp
+33:06.07   88% 375) [11.602s] obj-tup/dom/media: CXX Unified_cpp_dom_media11.cpp
+33:19.55   88% 376) [13.480s] obj-tup/xpcom/reflect/xptinfo: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/xpcom/reflect/xptinfo/xptdata.cpp
+33:19.71   88% 377) [48.297s] obj-tup/dom/bindings: CXX UnifiedBindings9.cpp
+33:25.84   89% 378) [25.537s] obj-tup/dom/base: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/base/nsGlobalWindowOuter.cpp
+33:28.15   89% 379) [28.368s] obj-tup/dom/base: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/base/nsGlobalWindowInner.cpp
+33:28.54   89% 380) [8.832s] obj-tup/accessible/atk: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/accessible/atk/DOMtoATK.cpp
+33:28.68   89% 381) [9.134s] obj-tup/xpcom/threads: CXX Unified_cpp_xpcom_threads2.cpp
+33:48.04   89% 382) [19.503s] obj-tup/layout/painting: CXX Unified_cpp_layout_painting1.cpp
+33:51.48   90% 383) [23.330s] obj-tup/ipc/ipdl: CXX UnifiedProtocols29.cpp
+33:51.73   90% 384) [25.896s] obj-tup/ipc/ipdl: CXX UnifiedProtocols28.cpp
+33:58.13   90% 385) [10.096s] obj-tup/dom/websocket: CXX Unified_cpp_dom_websocket0.cpp
+34:06.67   90% 386) [37.982s] obj-tup/toolkit/components/reputationservice: CXX Unified_cpp_reputationservice0.cpp
+34:08.53   91% 387) [16.799s] obj-tup/dom/clients/manager: CXX Unified_cpp_dom_clients_manager1.cpp
+34:08.61   91% 388) [17.130s] obj-tup/dom/clients/manager: CXX Unified_cpp_dom_clients_manager0.cpp
+34:08.89   91% 389) [10.751s] obj-tup/dom/media/doctor: CXX Unified_cpp_dom_media_doctor0.cpp
+34:16.16   91% 390) [7.551s] obj-tup/dom/midi: CXX Unified_cpp_dom_midi1.cpp
+34:19.70   91% 391) [13.037s] obj-tup/editor/spellchecker: CXX Unified_cpp_editor_spellchecker0.cpp
+34:21.40   91% 392) [12.508s] obj-tup/dom/clients/api: CXX Unified_cpp_dom_clients_api0.cpp
+34:21.57   91% 393) [13.040s] obj-tup/dom/midi: CXX Unified_cpp_dom_midi0.cpp
+34:28.18   91% 394) [6.611s] obj-tup/xpfe/components/directory: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/xpfe/components/directory/nsDirectoryViewer.cpp
+34:35.79   92% 395) [16.087s] obj-tup/dom/serviceworkers: CXX Unified_cpp_dom_serviceworkers1.cpp
+34:39.80   92% 396) [11.615s] obj-tup/rdf/base: CXX Unified_cpp_rdf_base0.cpp
+34:44.80   92% 397) [28.636s] obj-tup/dom/serviceworkers: CXX Unified_cpp_dom_serviceworkers0.cpp
+39:22.62   99% 398) [301.219s] obj-tup/toolkit/library/rust: RUSTC libgkrust.a
+39:22.62    Compiling style v0.0.1 (file:///home/gmaudoux/projets/gecko-tup/gecko-dev/servo/components/style)
+39:22.62    Compiling geckoservo v0.0.1 (file:///home/gmaudoux/projets/gecko-tup/gecko-dev/servo/ports/geckolib)
+39:22.62    Compiling gkrust-shared v0.1.0 (file:///home/gmaudoux/projets/gecko-tup/gecko-dev/toolkit/library/rust/shared)
+39:22.62    Compiling gkrust v0.1.0 (file:///home/gmaudoux/projets/gecko-tup/gecko-dev/toolkit/library/rust)
+39:22.62     Finished release [optimized] target(s) in 297.42 secs
+39:22.62 + MOZ_OBJ_ROOT=../../..
+39:22.62 + topsrcdir=../../../..
+39:22.62 + rm -rf ../../../dist/rust_bindings ../../../../servo/components/style/properties/data.pyc ../../../../servo/components/style/properties/build.pyc
+40:31.47   99% 399) [68.855s] obj-tup/toolkit/library: LINK libxul.so
+40:32.61   99% 400) [1.140s] obj-tup/toolkit/library: python /home/gmaudoux/projets/gecko-tup/gecko-dev/toolkit/library/dependentlibs.py:gen_list -> [dependentlibs.list dependentlibs.list.gtest dependentlibs.list.pp]
+40:33.80   99% 401) [2.330s] obj-tup/js/xpconnect/shell: LINK ../../../dist/bin/xpcshell
+40:33.80  100% 402) [2.332s] obj-tup/ipc/app: LINK ../../dist/bin/plugin-container
+40:34.07 [ tup ] [2433.599s] Updated.
+40:35.06 418 compiler warnings present.
+40:38.32 Overall system resources - Wall time: 2435s; CPU: 89%; Read bytes: 2707578880; Write bytes: 4705816576; Read time: 22088; Write time: 791007
+40:38.32 Swap in/out (MB): 0/0
+40:38.89 warning: dom/indexedDB/ActorsParent.cpp:18913:3 [-Wmaybe-uninitialized] 'maintenanceAction' may be used uninitialized in this function
+40:38.89 warning: dom/ipc/ContentProcess.cpp:210:15 [-Wmaybe-uninitialized] 'prefsLen' may be used uninitialized in this function
+40:38.89 warning: dom/ipc/ContentProcess.cpp:217:22 [-Wmaybe-uninitialized] 'schedulerPrefs' may be used uninitialized in this function
+40:38.89 warning: dom/ipc/ContentProcess.cpp:218:16 [-Wmaybe-uninitialized] 'childID' may be used uninitialized in this function
+40:38.89 warning: dom/ipc/ContentProcess.cpp:222:17 [-Wmaybe-uninitialized] 'isForBrowser' may be used uninitialized in this function
+40:38.89 warning: dom/media/MediaStreamGraph.cpp:888:7 [-Wmaybe-uninitialized] 'count' may be used uninitialized in this function
+40:38.89 warning: dom/media/webspeech/synth/SpeechSynthesisVoice.cpp:78:10 [-Wmaybe-uninitialized] 'isLocal' may be used uninitialized in this function
+40:38.89 warning: gfx/thebes/gfxGraphiteShaper.cpp:349:36 [-Wmaybe-uninitialized] 'clusterLoc' may be used uninitialized in this function
+40:38.89 warning: layout/base/FrameProperties.h:179:5 [-Wmaybe-uninitialized] 'autoLineCursor.nsBlockFrame::AutoLineCursorSetup::mOrigCursor' may be used uninitialized in this function
+40:38.89 warning: layout/base/PresShell.cpp:2744:23 [-Wmaybe-uninitialized] 'targetNeedsReflowFromParent' may be used uninitialized in this function
+40:38.89 warning: layout/generic/nsFlexContainerFrame.cpp:1577:11 [-Wmaybe-uninitialized] 'resolvedMinSize' may be used uninitialized in this function
+40:38.89 warning: layout/generic/nsFlexContainerFrame.cpp:4821:31 [-Wmaybe-uninitialized] 'flexContainerAscent' may be used uninitialized in this function
+40:38.89 warning: layout/generic/nsFrame.cpp:6193:45 [-Wmaybe-uninitialized] 'iSize' may be used uninitialized in this function
+40:38.89 warning: layout/generic/nsFrame.cpp:6417:11 [-Wmaybe-uninitialized] 'result' may be used uninitialized in this function
+40:38.89 warning: layout/generic/nsGfxScrollFrame.cpp:3313:23 [-Wmaybe-uninitialized] 'extraContentBoxClipForNonCaretContent' may be used uninitialized in this function
+40:38.89 warning: layout/generic/nsIFrame.h:3586:5 [-Wmaybe-uninitialized] 'autoLineCursor.nsBlockFrame::AutoLineCursorSetup::mFrame' may be used uninitialized in this function
+40:38.89 warning: layout/painting/nsCSSRenderingGradients.h:31:66 [-Wmaybe-uninitialized] 'position' may be used uninitialized in this function
+40:38.89 warning: layout/painting/nsDisplayList.h:1201:41 [-Wmaybe-uninitialized] 'perspectiveIndex.nsDisplayListBuilder::AutoSaveRestorePerspectiveIndex::mCachedItemIndex' may be used uninitialized in this function
+40:38.89 warning: layout/style/nsCSSProps.h:146:46 [-Warray-bounds] array subscript is above array bounds
+40:38.89 warning: layout/tables/nsTableFrame.h:45:20 [-Wmaybe-uninitialized] 'fType' may be used uninitialized in this function
+40:38.89 warning: obj-tup/dist/include/mozilla/EditorDOMPoint.h:465:7 [-Wmaybe-uninitialized] '*((void*)& point +16)' may be used uninitialized in this function
+40:38.89 warning: obj-tup/dist/include/mozilla/EditorDOMPoint.h:469:47 [-Wmaybe-uninitialized] '*((void*)& point +16)' may be used uninitialized in this function
+40:38.89 warning: obj-tup/dist/include/mozilla/EditorDOMPoint.h:813:12 [-Wmaybe-uninitialized] '*((void*)& pointToInsert +16)' may be used uninitialized in this function
+40:38.89 warning: obj-tup/dist/include/mozilla/Maybe.h:281:9 [-Wmaybe-uninitialized] 'tmp' may be used uninitialized in this function
+40:38.89 warning: obj-tup/dist/include/mozilla/Maybe.h:321:16 [-Wmaybe-uninitialized] '*((void*)& afterElement +16)' may be used uninitialized in this function
+40:38.89 warning: obj-tup/dist/include/mozilla/Maybe.h:321:16 [-Wmaybe-uninitialized] '*((void*)& atAfterEnd +16)' may be used uninitialized in this function
+40:38.89 warning: obj-tup/dist/include/mozilla/Maybe.h:321:16 [-Wmaybe-uninitialized] '*((void*)& pointToInsertNewContainer +16)' may be used uninitialized in this function
+40:38.89 warning: obj-tup/dist/include/mozilla/Maybe.h:321:16 [-Wmaybe-uninitialized] '*((void*)& afterNewNode +16)' may be used uninitialized in this function
+40:38.89 warning: obj-tup/dist/include/mozilla/ReflowOutput.h:258:12 [-Wmaybe-uninitialized] 'borderBoxBSize' may be used uninitialized in this function
+40:38.89 warning: obj-tup/dist/include/mozilla/ReflowOutput.h:259:12 [-Wmaybe-uninitialized] 'borderBoxBSize' may be used uninitialized in this function
+40:38.89 warning: obj-tup/dist/include/nsCoord.h:82:11 [-Wmaybe-uninitialized] 'bSize' may be used uninitialized in this function
+40:38.89 warning: obj-tup/dist/include/nsRegion.h:2199:47 [-Wmaybe-uninitialized] 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function
+40:38.89 warning: obj-tup/dist/include/nsRegion.h:2199:47 [-Wmaybe-uninitialized] 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function
+40:38.89 warning: obj-tup/dist/include/nsTString.h:605:5 [-Wmaybe-uninitialized] 'errorMessage' may be used uninitialized in this function
+40:38.89 warning: obj-tup/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h:1174:7 [-Wmaybe-uninitialized] '<anonymous>.mozilla::dom::CreatedWindowInfo::windowOpened_' may be used uninitialized in this function
+40:38.90 /nix/store/vbvlba36jl5dfqnma2xqdl1ci294rnbr-libnotify-0.7.7/bin/notify-send --app-name=Mozilla Build System Mozilla Build System Build complete
+40:39.02 We know it took a while, but your build finally finished successfully!
+To view resource usage of the build, run |mach resource-usage|.
+To take your build for a test drive, run: |mach run|
+For more information on what to do now, see https://developer.mozilla.org/docs/Developer_Guide/So_You_Just_Built_Firefox

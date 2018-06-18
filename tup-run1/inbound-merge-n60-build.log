@@ -1,0 +1,104 @@
+ 0:00.48 /nix/store/lmq72s0kwyd3dfm1k9ahmaha5zcj5igh-tup/bin/tup upd /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup -j4
+ 0:00.48 [ tup ] [0.000s] Scanning filesystem...
+ 0:01.43 [ tup ] [0.951s] Reading in new environment variables...
+ 0:01.43 [ tup ] [0.951s] Parsing Tupfiles...
+ 0:01.44   25% 1) [0.001s] .
+ 0:01.44   50% 2) [0.001s] obj-tup
+ 0:01.44   75% 3) [0.001s] obj-tup/dist/bin
+ 0:01.45  100% 4) [0.001s] obj-tup/build
+ 0:01.45 [ tup ] [0.962s] No files to delete.
+ 0:01.45 [ tup ] [0.962s] Generating .gitignore files...
+ 0:01.49 [ tup ] [1.003s] Executing Commands...
+ 0:12.56    1%  1) [11.070s] obj-tup/dom/performance: CXX Unified_cpp_dom_performance0.cpp
+ 0:12.60    1%  2) [11.112s] obj-tup/dom/broadcastchannel: CXX Unified_cpp_dom_broadcastchannel0.cpp
+ 0:18.46    3%  3) [16.976s] obj-tup/dom/file: CXX Unified_cpp_dom_file0.cpp
+ 0:24.69    4%  4) [12.091s] obj-tup/dom/promise: CXX Unified_cpp_dom_promise0.cpp
+ 0:25.60    6%  5) [24.114s] obj-tup/dom/network: CXX Unified_cpp_dom_network0.cpp
+ 0:27.12    6%  6) [8.661s] obj-tup/dom/url: CXX Unified_cpp_dom_url0.cpp
+ 0:27.67    8%  7) [15.073s] obj-tup/dom/filesystem: CXX Unified_cpp_dom_filesystem0.cpp
+ 0:39.32    9%  8) [13.714s] obj-tup/dom/indexedDB: CXX Unified_cpp_dom_indexedDB1.cpp
+ 0:47.98   11%  9) [20.853s] obj-tup/dom/bindings: CXX Unified_cpp_dom_bindings0.cpp
+ 0:50.71   13% 10) [23.031s] obj-tup/dom/fetch: CXX Unified_cpp_dom_fetch0.cpp
+ 0:59.35   16% 11) [34.661s] obj-tup/dom/indexedDB: CXX Unified_cpp_dom_indexedDB0.cpp
+ 1:05.89   17% 12) [15.185s] obj-tup/dom/crypto: CXX Unified_cpp_dom_crypto0.cpp
+ 1:09.62   20% 13) [30.308s] obj-tup/dom/events: CXX Unified_cpp_dom_events0.cpp
+ 1:20.85   22% 14) [32.870s] obj-tup/dom/events: CXX Unified_cpp_dom_events1.cpp
+ 1:24.66   24% 15) [25.309s] obj-tup/dom/quota: CXX Unified_cpp_dom_quota0.cpp
+ 1:26.90   26% 16) [21.007s] obj-tup/dom/xhr: CXX Unified_cpp_dom_xhr0.cpp
+ 1:36.09   28% 17) [15.232s] obj-tup/dom/console: CXX Unified_cpp_dom_console0.cpp
+ 1:42.45   29% 18) [17.786s] obj-tup/dom/cache: CXX Unified_cpp_dom_cache0.cpp
+ 1:44.39   30% 19) [17.488s] obj-tup/dom/script: CXX Unified_cpp_dom_script0.cpp
+ 1:54.85   34% 20) [45.223s] obj-tup/dom/canvas: CXX Unified_cpp_dom_canvas0.cpp
+ 2:02.39   36% 21) [18.009s] obj-tup/ipc/glue: CXX Unified_cpp_ipc_glue0.cpp
+ 2:10.80   38% 22) [28.347s] obj-tup/dom/ipc: CXX Unified_cpp_dom_ipc1.cpp
+ 2:13.16   41% 23) [37.080s] obj-tup/dom/base: CXX Unified_cpp_dom_base2.cpp
+ 2:13.20   43% 24) [18.352s] obj-tup/ipc/glue: CXX Unified_cpp_ipc_glue1.cpp
+ 2:19.45   43% 25) [6.250s] obj-tup/dom/abort: CXX Unified_cpp_dom_abort0.cpp
+ 2:23.27   44% 26) [10.070s] obj-tup/dom/websocket: CXX Unified_cpp_dom_websocket0.cpp
+ 2:37.69   45% 27) [14.412s] obj-tup/dom/push: CXX Unified_cpp_dom_push0.cpp
+ 2:37.73   47% 28) [18.280s] obj-tup/dom/notification: CXX Unified_cpp_dom_notification0.cpp
+ 2:37.97   49% 29) [35.569s] obj-tup/gfx/thebes: CXX Unified_cpp_gfx_thebes1.cpp
+ 2:37.97 In file included from Unified_cpp_gfx_thebes1.cpp:2:0:
+ 2:37.97 /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/thebes/gfxGraphiteShaper.cpp: In member function 'nsresult gfxGraphiteShaper::SetGlyphsFromSegment(gfxShapedText*, uint32_t, uint32_t, const char16_t*, gr_segment*, gfxFontShaper::RoundingFlags)':
+ 2:37.97 /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/thebes/gfxGraphiteShaper.cpp:349:36: warning: 'clusterLoc' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 2:37.97                      float dx = rtl ? (xLocs[j] - clusterLoc) :
+ 2:37.97                                 ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 2:37.97                                       (xLocs[j] - clusterLoc - adv);
+ 2:37.97                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 3:00.02   51% 30) [22.280s] obj-tup/dom/workers: CXX Unified_cpp_dom_workers1.cpp
+ 3:07.31   53% 31) [29.573s] obj-tup/dom/workers: CXX Unified_cpp_dom_workers0.cpp
+ 3:27.78   56% 32) [27.757s] obj-tup/dom/ipc: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/ipc/ContentChild.cpp
+ 3:50.63   61% 33) [72.669s] obj-tup/dom/base: CXX Unified_cpp_dom_base6.cpp
+ 3:56.45   69% 34) [105.650s] obj-tup/dom/bindings: CXX UnifiedBindings21.cpp
+ 4:01.94   73% 35) [54.630s] obj-tup/dom/ipc: CXX Unified_cpp_dom_ipc0.cpp
+ 4:01.94 In file included from Unified_cpp_dom_ipc0.cpp:56:0:
+ 4:01.94 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/ipc/ContentProcess.cpp: In member function 'virtual bool mozilla::dom::ContentProcess::Init(int, char**)':
+ 4:01.94 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/ipc/ContentProcess.cpp:217:22: warning: 'schedulerPrefs' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 4:01.94    Scheduler::SetPrefs(*schedulerPrefs);
+ 4:01.94    ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+ 4:01.94 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/ipc/ContentProcess.cpp:210:15: warning: 'prefsLen' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 4:01.94    if (!shm.Map(*prefsLen)) {
+ 4:01.94         ~~~~~~~^~~~~~~~~~~
+ 4:01.94 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/ipc/ContentProcess.cpp:222:17: warning: 'isForBrowser' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 4:01.94                  *isForBrowser);
+ 4:01.94                  ^~~~~~~~~~~~~
+ 4:01.94 /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/ipc/ContentProcess.cpp:218:16: warning: 'childID' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 4:01.94    mContent.Init(IOThreadChild::message_loop(),
+ 4:01.94    ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 4:01.94                  ParentPid(),
+ 4:01.94                  ~~~~~~~~~~~~
+ 4:01.94                  IOThreadChild::channel(),
+ 4:01.94                  ~~~~~~~~~~~~~~~~~~~~~~~~~
+ 4:01.94                  *childID,
+ 4:01.94                  ~~~~~~~~~
+ 4:01.94                  *isForBrowser);
+ 4:01.94                  ~~~~~~~~~~~~~~
+ 4:03.52   76% 36) [35.747s] obj-tup/docshell/base: CXX Unified_cpp_docshell_base0.cpp
+ 4:18.08   78% 37) [21.626s] obj-tup/netwerk/ipc: CXX Unified_cpp_netwerk_ipc0.cpp
+ 4:20.73   81% 38) [30.101s] obj-tup/netwerk/base: CXX Unified_cpp_netwerk_base0.cpp
+ 4:21.31   82% 39) [19.369s] obj-tup/image: CXX Unified_cpp_image0.cpp
+ 4:34.48   85% 40) [30.955s] obj-tup/layout/build: CXX Unified_cpp_layout_build0.cpp
+ 4:37.22   86% 41) [15.912s] obj-tup/dom/clients/manager: CXX Unified_cpp_dom_clients_manager1.cpp
+ 4:37.50   87% 42) [16.766s] obj-tup/dom/clients/manager: CXX Unified_cpp_dom_clients_manager0.cpp
+ 4:46.01   89% 43) [27.941s] obj-tup/dom/base: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/dom/base/nsGlobalWindowInner.cpp
+ 4:49.38   90% 44) [11.881s] obj-tup/dom/clients/api: CXX Unified_cpp_dom_clients_api0.cpp
+ 4:51.99   92% 45) [14.767s] obj-tup/dom/serviceworkers: CXX Unified_cpp_dom_serviceworkers1.cpp
+ 4:58.51   94% 46) [24.029s] obj-tup/dom/serviceworkers: CXX Unified_cpp_dom_serviceworkers0.cpp
+ 6:03.50   99% 47) [64.995s] obj-tup/toolkit/library: LINK libxul.so
+ 6:04.69   99% 48) [1.184s] obj-tup/toolkit/library: python /home/gmaudoux/projets/gecko-tup/gecko-dev/toolkit/library/dependentlibs.py:gen_list -> [dependentlibs.list dependentlibs.list.gtest dependentlibs.list.pp]
+ 6:05.39   99% 49) [1.885s] obj-tup/ipc/app: LINK ../../dist/bin/plugin-container
+ 6:05.39  100% 50) [1.891s] obj-tup/js/xpconnect/shell: LINK ../../../dist/bin/xpcshell
+ 6:05.41 [ tup ] [364.931s] Updated.
+ 6:06.01 418 compiler warnings present.
+ 6:06.14 Overall system resources - Wall time: 366s; CPU: 85%; Read bytes: 1273356288; Write bytes: 3353882624; Read time: 7163; Write time: 707136
+ 6:06.14 Swap in/out (MB): 0/16
+ 6:06.22 warning: dom/ipc/ContentProcess.cpp:210:15 [-Wmaybe-uninitialized] 'prefsLen' may be used uninitialized in this function
+ 6:06.22 warning: dom/ipc/ContentProcess.cpp:217:22 [-Wmaybe-uninitialized] 'schedulerPrefs' may be used uninitialized in this function
+ 6:06.22 warning: dom/ipc/ContentProcess.cpp:218:16 [-Wmaybe-uninitialized] 'childID' may be used uninitialized in this function
+ 6:06.22 warning: dom/ipc/ContentProcess.cpp:222:17 [-Wmaybe-uninitialized] 'isForBrowser' may be used uninitialized in this function
+ 6:06.22 warning: gfx/thebes/gfxGraphiteShaper.cpp:349:36 [-Wmaybe-uninitialized] 'clusterLoc' may be used uninitialized in this function
+ 6:06.23 /nix/store/vbvlba36jl5dfqnma2xqdl1ci294rnbr-libnotify-0.7.7/bin/notify-send --app-name=Mozilla Build System Mozilla Build System Build complete
+ 6:06.30 Your build was successful!
+To view resource usage of the build, run |mach resource-usage|.
+To take your build for a test drive, run: |mach run|
+For more information on what to do now, see https://developer.mozilla.org/docs/Developer_Guide/So_You_Just_Built_Firefox

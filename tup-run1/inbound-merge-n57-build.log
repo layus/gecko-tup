@@ -1,0 +1,25 @@
+ 0:00.57 /nix/store/lmq72s0kwyd3dfm1k9ahmaha5zcj5igh-tup/bin/tup upd /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup -j4
+ 0:00.58 [ tup ] [0.000s] Scanning filesystem...
+ 0:01.58 [ tup ] [1.006s] Reading in new environment variables...
+ 0:01.58 [ tup ] [1.006s] Parsing Tupfiles...
+ 0:01.59   20% 1) [0.001s] .
+ 0:01.59   40% 2) [0.002s] obj-tup
+ 0:01.59   60% 3) [0.001s] obj-tup/dist/bin
+ 0:01.59   80% 4) [0.001s] obj-tup/build
+ 0:01.59  100% 5) [0.002s] layout/reftests/font-matching
+ 0:01.59 [ tup ] [1.019s] No files to delete.
+ 0:01.59 [ tup ] [1.020s] Generating .gitignore files...
+ 0:01.63 [ tup ] [1.050s] Executing Commands...
+ 0:19.66   30% 1) [18.038s] obj-tup/gfx/thebes: CXX Unified_cpp_gfx_thebes0.cpp
+ 1:25.03   95% 2) [65.357s] obj-tup/toolkit/library: LINK libxul.so
+ 1:26.02   96% 3) [0.999s] obj-tup/toolkit/library: python /home/gmaudoux/projets/gecko-tup/gecko-dev/toolkit/library/dependentlibs.py:gen_list -> [dependentlibs.list dependentlibs.list.gtest dependentlibs.list.pp]
+ 1:26.72   98% 4) [1.697s] obj-tup/ipc/app: LINK ../../dist/bin/plugin-container
+ 1:26.77  100% 5) [1.749s] obj-tup/js/xpconnect/shell: LINK ../../../dist/bin/xpcshell
+ 1:26.80 [ tup ] [86.225s] Updated.
+ 1:27.29 418 compiler warnings present.
+ 1:27.42 Overall system resources - Wall time: 87s; CPU: 32%; Read bytes: 1201565696; Write bytes: 3132887040; Read time: 5804; Write time: 686940
+ 1:27.42 Swap in/out (MB): 0/22
+ 1:27.44 Your build was successful!
+To view resource usage of the build, run |mach resource-usage|.
+To take your build for a test drive, run: |mach run|
+For more information on what to do now, see https://developer.mozilla.org/docs/Developer_Guide/So_You_Just_Built_Firefox

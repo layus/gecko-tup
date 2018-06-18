@@ -1,0 +1,38 @@
+set -xe
+
+reconfigure () {
+    pushd obj-tup &>/dev/null 
+    env - PKG_CONFIG_PATH=$PKG_CONFIG_PATH SHELL=$SHELL PATH=$PATH PYTHONDONTWRITEBYTECODE=True ./config.status
+    popd &>/dev/null
+}
+
+mach () {
+    env - HOME=$HOME DISPLAY=:0 TERM=$TERM PKG_CONFIG_PATH=$PKG_CONFIG_PATH SHELL=$SHELL PATH=$PATH PYTHONDONTWRITEBYTECODE=True ./mach "$@"
+}
+
+runOnce () {
+    local i=$1
+
+    git describe --tags
+    git checkout inbound-merge/n$i
+    echo Now on $(git describe --tags)
+
+    {                   time mach build; } |& tee inbound-merge-n$i-build.log
+    { time reconfigure; time mach build; } |& tee inbound-merge-n$i-build-reconfigure.log
+}
+
+[ -d obj-tup ] || exit 1
+[ -f mach -a -x mach ] || exit 1
+! hostname || exit 1
+
+main () {
+    for i in $(seq 54 100)
+    do
+        echo run $i
+        sleep 2
+        runOnce $i
+    done
+}
+
+time main
+

@@ -1,0 +1,40 @@
++ mach build
++ ./mach build
+ 0:00.70 Clobber not needed.
+ 0:00.70 Adding make options from /home/gmaudoux/projets/gecko-tup/static_make_tests/.mozconfig.nix-shell
+    AUTOCONF=/nix/store/6m16jx9snhl5k1y078az476g9vfqvk4k-autoconf-2.13/bin/autoconf
+    MOZ_OBJDIR=/home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu
+    OBJDIR=/home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu
+    FOUND_MOZCONFIG=/home/gmaudoux/projets/gecko-tup/static_make_tests/.mozconfig.nix-shell
+    export FOUND_MOZCONFIG
+ 0:00.71 /nix/store/lhp5rw0dagi5mgqwr9i3x41240ba4ypz-gnumake-4.2.1/bin/make -f client.mk -s
+ 0:01.20 Elapsed: 0.00s; From dist/private: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.25 Elapsed: 0.00s; From dist/public: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.36 Elapsed: 0.12s; From dist/idl: Kept 867 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.52 Elapsed: 0.00s; From dist/xpi-stage: Kept 9 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.79 Elapsed: 0.19s; From _tests: Kept 993 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.80 Elapsed: 0.58s; From dist/include: Kept 5341 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.92 Elapsed: 0.25s; From dist/bin: Kept 2095 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:02.47 Elapsed: 0.06s; From ../../dist/idl: Kept 867 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:03.16 force-cargo-library-build
+ 0:04.99     Finished release [optimized] target(s) in 0.0 secs
+ 0:12.88 PASS
+ 0:12.88 PASS
+ 0:15.42   adding: install.rdf (deflated 53%)
+ 0:15.45   adding: plugins/libnptest.so (deflated 65%)
+ 0:15.49   adding: plugins/libnpsecondtest.so (deflated 65%)
+ 0:15.52   adding: plugins/libnpthirdtest.so (deflated 65%)
+ 0:15.55   adding: plugins/libnpswftest.so (deflated 65%)
+ 0:33.64 Packaging specialpowers@mozilla.org.xpi...
+ 0:33.84 Packaging quitter@mozilla.org.xpi...
+ 0:34.10 Packaging mozscreenshots@mozilla.org.xpi...
+ 0:34.33 375 compiler warnings present.
+ 0:34.42 Overall system resources - Wall time: 34s; CPU: 57%; Read bytes: 0; Write bytes: 18534400; Read time: 0; Write time: 1488
+ 0:34.43 Your build was successful!
+To view resource usage of the build, run |mach resource-usage|.
+To take your build for a test drive, run: |mach run|
+For more information on what to do now, see https://developer.mozilla.org/docs/Developer_Guide/So_You_Just_Built_Firefox
+
+real	0m34.588s
+user	0m52.268s
+sys	0m11.106s

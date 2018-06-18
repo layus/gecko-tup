@@ -1,0 +1,1192 @@
++ mach build
++ ./mach build
+ 0:00.64 Clobber not needed.
+ 0:00.64 Adding make options from /home/gmaudoux/projets/gecko-tup/static_make_tests/.mozconfig.nix-shell
+    AUTOCONF=/nix/store/6m16jx9snhl5k1y078az476g9vfqvk4k-autoconf-2.13/bin/autoconf
+    MOZ_OBJDIR=/home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu
+    OBJDIR=/home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu
+    FOUND_MOZCONFIG=/home/gmaudoux/projets/gecko-tup/static_make_tests/.mozconfig.nix-shell
+    export FOUND_MOZCONFIG
+ 0:00.64 /nix/store/lhp5rw0dagi5mgqwr9i3x41240ba4ypz-gnumake-4.2.1/bin/make -f client.mk -s
+ 0:01.11 Elapsed: 0.00s; From dist/private: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.11 Elapsed: 0.00s; From dist/public: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.21 Elapsed: 0.10s; From dist/idl: Kept 866 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.42 Elapsed: 0.00s; From dist/xpi-stage: Kept 9 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.53 Elapsed: 0.13s; From _tests: Kept 993 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.65 Elapsed: 0.55s; From dist/include: Kept 5342 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.71 Elapsed: 0.22s; From dist/bin: Kept 2096 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:02.20 Elapsed: 0.05s; From ../../dist/idl: Kept 866 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:02.27 accessibility.xpt
+ 0:02.27 alerts.xpt
+ 0:02.27 appshell.xpt
+ 0:02.27 appstartup.xpt
+ 0:02.27 autocomplete.xpt
+ 0:02.67 autoconfig.xpt
+ 0:02.71 backgroundhangmonitor.xpt
+ 0:02.82 browser-element.xpt
+ 0:03.12 browser-feeds.xpt
+ 0:03.21 browser-newtab.xpt
+ 0:03.23 browsercompsbase.xpt
+ 0:03.35 caps.xpt
+ 0:03.55 captivedetect.xpt
+ 0:03.63 chrome.xpt
+ 0:03.64 commandhandler.xpt
+ 0:03.74 commandlines.xpt
+ 0:04.04 composer.xpt
+ 0:04.04 content_events.xpt
+ 0:04.09 content_geckomediaplugins.xpt
+ 0:04.34 content_html.xpt
+ 0:04.45 content_webrtc.xpt
+ 0:04.51 content_xslt.xpt
+ 0:04.53 directory.xpt
+ 0:04.79 diskspacewatcher.xpt
+ 0:04.88 docshell.xpt
+ 0:04.91 dom.xpt
+ 0:04.92 dom_audiochannel.xpt
+ 0:05.18 dom_base.xpt
+ 0:05.27 dom_bindings.xpt
+ 0:05.59 dom_core.xpt
+ 0:05.79 dom_events.xpt
+ 0:05.93 dom_file.xpt
+ 0:06.02 dom_geolocation.xpt
+ 0:06.21 dom_media.xpt
+ 0:06.35 dom_network.xpt
+ 0:06.41 dom_notification.xpt
+ 0:06.41 dom_offline.xpt
+ 0:06.68 dom_payments.xpt
+ 0:06.81 dom_power.xpt
+ 0:06.82 dom_presentation.xpt
+ 0:06.84 dom_push.xpt
+ 0:07.09 dom_quota.xpt
+ 0:07.25 dom_range.xpt
+ 0:07.50 dom_security.xpt
+ 0:07.55 dom_sidebar.xpt
+ 0:07.72 dom_storage.xpt
+ 0:07.89 dom_system.xpt
+ 0:07.99 dom_webauthn.xpt
+ 0:08.01 dom_webspeechrecognition.xpt
+ 0:08.13 dom_webspeechsynth.xpt
+ 0:08.31 dom_workers.xpt
+ 0:08.39 dom_xul.xpt
+ 0:08.41 downloads.xpt
+ 0:08.53 editor.xpt
+ 0:08.73 enterprisepolicies.xpt
+ 0:08.80 extensions.xpt
+ 0:08.94 exthandler.xpt
+ 0:09.00 fastfind.xpt
+ 0:09.20 feeds.xpt
+ 0:09.35 gfx.xpt
+ 0:09.53 html5.xpt
+ 0:09.55 htmlparser.xpt
+ 0:09.63 imglib2.xpt
+ 0:09.93 inspector.xpt
+ 0:09.96 intl.xpt
+ 0:09.97 jar.xpt
+ 0:10.04 jsdebugger.xpt
+ 0:10.37 jsinspector.xpt
+ 0:10.39 layout_base.xpt
+ 0:10.57 layout_printing.xpt
+ 0:10.59 layout_xul.xpt
+ 0:10.77 layout_xul_tree.xpt
+ 0:10.78 locale.xpt
+ 0:11.01 migration.xpt
+ 0:11.01 mimetype.xpt
+ 0:11.20 mozfind.xpt
+ 0:11.31 mozintl.xpt
+ 0:11.42 necko.xpt
+ 0:11.46 necko_about.xpt
+ 0:11.68 necko_cache.xpt
+ 0:11.75 necko_cache2.xpt
+ 0:11.84 necko_cookie.xpt
+ 0:12.09 necko_dns.xpt
+ 0:12.31 necko_file.xpt
+ 0:12.38 necko_ftp.xpt
+ 0:12.60 necko_http.xpt
+ 0:12.79 necko_mdns.xpt
+ 0:12.80 necko_res.xpt
+ 0:13.02 necko_socket.xpt
+ 0:13.22 necko_strconv.xpt
+ 0:13.47 necko_viewsource.xpt
+ 0:13.57 necko_websocket.xpt
+ 0:13.69 necko_wifi.xpt
+ 0:13.98 necko_wyciwyg.xpt
+ 0:14.01 parentalcontrols.xpt
+ 0:14.18 peerconnection.xpt
+ 0:14.40 pipnss.xpt
+ 0:14.46 pippki.xpt
+ 0:14.56 places.xpt
+ 0:14.58 plugin.xpt
+ 0:14.85 pref.xpt
+ 0:14.98 prefetch.xpt
+ 0:15.40 privatebrowsing.xpt
+ 0:15.48 profiler.xpt
+ 0:15.51 rdf.xpt
+ 0:15.59 remote.xpt
+ 0:15.85 sandbox.xpt
+ 0:15.86 saxparser.xpt
+ 0:15.92 services-crypto-component.xpt
+ 0:16.26 services_fxaccounts.xpt
+ 0:16.27 shellservice.xpt
+ 0:16.40 shistory.xpt
+ 0:16.65 spellchecker.xpt
+ 0:16.66 storage.xpt
+ 0:16.82 telemetry.xpt
+ 0:17.14 test_necko.xpt
+ 0:17.20 thumbnails.xpt
+ 0:17.22 toolkit_asyncshutdown.xpt
+ 0:17.59 toolkit_crashservice.xpt
+ 0:17.63 toolkit_filewatcher.xpt
+ 0:17.63 toolkit_finalizationwitness.xpt
+ 0:17.65 toolkit_osfile.xpt
+ 0:18.02 toolkit_perfmonitoring.xpt
+ 0:18.04 toolkit_securityreporter.xpt
+ 0:18.04 toolkit_xulstore.xpt
+ 0:18.05 toolkitprofile.xpt
+ 0:18.43 toolkitremote.xpt
+ 0:18.45 txmgr.xpt
+ 0:18.45 txtsvc.xpt
+ 0:18.48 uconv.xpt
+ 0:18.83 update.xpt
+ 0:18.90 uriloader.xpt
+ 0:18.90 url-classifier.xpt
+ 0:18.95 urlformatter.xpt
+ 0:19.27 webBrowser_core.xpt
+ 0:19.36 webbrowserpersist.xpt
+ 0:19.46 webextensions.xpt
+ 0:19.56 webvtt.xpt
+ 0:19.67 widget.xpt
+ 0:19.94 windowcreator.xpt
+ 0:19.97 windowwatcher.xpt
+ 0:20.08 xpcom_base.xpt
+ 0:20.08 xpcom_components.xpt
+ 0:20.39 xpcom_ds.xpt
+ 0:20.59 xpcom_io.xpt
+ 0:20.83 xpcom_system.xpt
+ 0:20.90 xpcom_threads.xpt
+ 0:21.43 xpcomtest.xpt
+ 0:21.47 xpconnect.xpt
+ 0:21.53 xpctest.xpt
+ 0:21.77 xul.xpt
+ 0:21.87 xulapp.xpt
+ 0:22.13 zipwriter.xpt
+ 0:23.06 force-cargo-library-build
+ 0:23.10 security/sandbox/linux/broker
+ 0:23.30 xpcom/base
+ 0:23.30 xpcom/io
+ 0:25.56    Compiling style v0.0.1 (file:///home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/servo/components/style)
+ 0:36.92 xpcom/threads
+ 0:49.78 xpcom/reflect/xptinfo
+ 0:55.98 chrome
+ 1:03.33 xpcom/build
+ 1:07.02 xpcom/tests/gtest
+ 1:07.56 modules/libpref
+ 1:20.44 intl/hyphenation/glue
+ 1:23.97 intl/strres
+ 1:25.82 netwerk/base
+ 1:29.80 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/gtest.h:58:0,
+ 1:29.80                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestThreadMetrics.cpp:7,
+ 1:29.80                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:2:
+ 1:29.80 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h: In member function 'virtual void Tokenizer_IntegerReading_Test::TestBody()':
+ 1:29.81 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3: warning: 'u64' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:29.81    if (const ::testing::AssertionResult gtest_ar_ = \
+ 1:29.81    ^~
+ 1:29.81 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:65:0:
+ 1:29.81 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestTokenizer.cpp:647:14: note: 'u64' was declared here
+ 1:29.81      uint64_t u64;
+ 1:29.81               ^~~
+ 1:29.81 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/gtest.h:58:0,
+ 1:29.81                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestThreadMetrics.cpp:7,
+ 1:29.81                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:2:
+ 1:29.81 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3: warning: 's64' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:29.81    if (const ::testing::AssertionResult gtest_ar_ = \
+ 1:29.81    ^~
+ 1:29.81 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:65:0:
+ 1:29.81 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestTokenizer.cpp:619:13: note: 's64' was declared here
+ 1:29.81      int64_t s64;
+ 1:29.81              ^~~
+ 1:29.81 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/gtest.h:58:0,
+ 1:29.81                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestThreadMetrics.cpp:7,
+ 1:29.81                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:2:
+ 1:29.81 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3: warning: 's32' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:29.81    if (const ::testing::AssertionResult gtest_ar_ = \
+ 1:29.81    ^~
+ 1:29.81 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:65:0:
+ 1:29.81 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestTokenizer.cpp:618:13: note: 's32' was declared here
+ 1:29.81      int32_t s32;
+ 1:29.81              ^~~
+ 1:29.81 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/gtest.h:58:0,
+ 1:29.81                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestThreadMetrics.cpp:7,
+ 1:29.81                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:2:
+ 1:29.81 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3: warning: 'u64' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:29.81    if (const ::testing::AssertionResult gtest_ar_ = \
+ 1:29.81    ^~
+ 1:29.81 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:65:0:
+ 1:29.81 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestTokenizer.cpp:605:14: note: 'u64' was declared here
+ 1:29.81      uint64_t u64;
+ 1:29.81               ^~~
+ 1:29.82 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/gtest.h:58:0,
+ 1:29.83                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestThreadMetrics.cpp:7,
+ 1:29.83                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:2:
+ 1:29.83 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3: warning: 's64' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:29.83    if (const ::testing::AssertionResult gtest_ar_ = \
+ 1:29.83    ^~
+ 1:29.83 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:65:0:
+ 1:29.83 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestTokenizer.cpp:583:13: note: 's64' was declared here
+ 1:29.83      int64_t s64;
+ 1:29.83              ^~~
+ 1:29.83 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/gtest.h:58:0,
+ 1:29.83                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestThreadMetrics.cpp:7,
+ 1:29.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:2:
+ 1:29.84 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3: warning: 's32' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:29.84    if (const ::testing::AssertionResult gtest_ar_ = \
+ 1:29.84    ^~
+ 1:29.84 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:65:0:
+ 1:29.84 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestTokenizer.cpp:582:13: note: 's32' was declared here
+ 1:29.84      int32_t s32;
+ 1:29.84              ^~~
+ 1:29.84 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/gtest.h:58:0,
+ 1:29.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestThreadMetrics.cpp:7,
+ 1:29.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:2:
+ 1:29.84 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3: warning: 's16' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:29.84    if (const ::testing::AssertionResult gtest_ar_ = \
+ 1:29.84    ^~
+ 1:29.84 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:65:0:
+ 1:29.84 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestTokenizer.cpp:581:13: note: 's16' was declared here
+ 1:29.84      int16_t s16;
+ 1:29.84              ^~~
+ 1:29.84 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/gtest.h:58:0,
+ 1:29.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestThreadMetrics.cpp:7,
+ 1:29.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:2:
+ 1:29.84 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3: warning: 's8' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:29.84    if (const ::testing::AssertionResult gtest_ar_ = \
+ 1:29.84    ^~
+ 1:29.84 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:65:0:
+ 1:29.84 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestTokenizer.cpp:580:12: note: 's8' was declared here
+ 1:29.84      int8_t s8;
+ 1:29.84             ^~
+ 1:29.84 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/gtest.h:58:0,
+ 1:29.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestThreadMetrics.cpp:7,
+ 1:29.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:2:
+ 1:29.84 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3: warning: 'u64' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:29.84    if (const ::testing::AssertionResult gtest_ar_ = \
+ 1:29.84    ^~
+ 1:29.84 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:65:0:
+ 1:29.84 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestTokenizer.cpp:565:14: note: 'u64' was declared here
+ 1:29.84      uint64_t u64;
+ 1:29.84               ^~~
+ 1:29.84 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/gtest.h:58:0,
+ 1:29.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestThreadMetrics.cpp:7,
+ 1:29.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:2:
+ 1:29.84 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3: warning: 'u16' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:29.84    if (const ::testing::AssertionResult gtest_ar_ = \
+ 1:29.85    ^~
+ 1:29.85 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:65:0:
+ 1:29.85 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestTokenizer.cpp:563:14: note: 'u16' was declared here
+ 1:29.85      uint16_t u16;
+ 1:29.85               ^~~
+ 1:29.85 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/gtest.h:58:0,
+ 1:29.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestThreadMetrics.cpp:7,
+ 1:29.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:2:
+ 1:29.85 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3: warning: 'u8' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:29.85    if (const ::testing::AssertionResult gtest_ar_ = \
+ 1:29.85    ^~
+ 1:29.85 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:65:0:
+ 1:29.85 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestTokenizer.cpp:562:13: note: 'u8' was declared here
+ 1:29.85      uint8_t u8;
+ 1:29.85              ^~
+ 1:30.80 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/gtest.h:58:0,
+ 1:30.80                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestThreadMetrics.cpp:7,
+ 1:30.80                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:2:
+ 1:30.80 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h: In member function 'virtual void Tokenizer_ReadIntegers_Test::TestBody()':
+ 1:30.80 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3: warning: 'signed_value64' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:30.80    if (const ::testing::AssertionResult gtest_ar_ = \
+ 1:30.80    ^~
+ 1:30.80 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/xpcom/tests/gtest/Unified_cpp_xpcom_tests_gtest3.cpp:65:0:
+ 1:30.80 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/xpcom/tests/gtest/TestTokenizer.cpp:1165:11: note: 'signed_value64' was declared here
+ 1:30.80    int64_t signed_value64;
+ 1:30.80            ^~~~~~~~~~~~~~
+ 1:40.75    Compiling geckoservo v0.0.1 (file:///home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/servo/ports/geckolib)
+ 1:52.17 netwerk/cookie
+ 1:52.23    Compiling gkrust-shared v0.1.0 (file:///home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/toolkit/library/rust/shared)
+ 1:54.93    Compiling gkrust v0.1.0 (file:///home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/toolkit/library/rust)
+ 2:00.94     Finished release [optimized] target(s) in 95.38 secs
+ 2:01.25 netwerk/protocol/about
+ 2:01.69 netwerk/protocol/data
+ 2:06.33 netwerk/protocol/file
+ 2:08.99 netwerk/protocol/ftp
+ 2:12.15 netwerk/protocol/http
+ 2:16.42 netwerk/protocol/res
+ 2:16.88 netwerk/protocol/viewsource
+ 2:24.10 netwerk/protocol/websocket
+ 2:30.82 netwerk/protocol/wyciwyg
+ 2:32.25 netwerk/ipc
+ 2:47.04 netwerk/sctp/datachannel
+ 2:48.11 netwerk/build
+ 2:53.36 netwerk/test
+ 3:01.29 ipc/glue
+ 3:37.77 ipc/ipdl
+ 3:40.93 ipc/testshell
+ 3:44.25 js/ipc
+ 4:01.85 hal
+ 4:03.13 js/xpconnect/wrappers
+ 4:05.74 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/js/GCPolicyAPI.h:43:0,
+ 4:05.74                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/js/RootingAPI.h:22,
+ 4:05.74                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/js/CallArgs.h:73,
+ 4:05.74                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/jsapi.h:29,
+ 4:05.74                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/StructuredCloneHolder.h:10,
+ 4:05.74                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ipc/StructuredCloneData.h:12,
+ 4:05.74                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/ipc/IPCMessageUtils.h:16,
+ 4:05.74                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/jsipc/JavaScriptTypes.h:11,
+ 4:05.74                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/JavaScriptTypes.cpp:7,
+ 4:05.74                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/UnifiedProtocols1.cpp:2:
+ 4:05.74 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h: In function 'bool mozilla::ipc::ReadIPDLParam(const IPC::Message*, PickleIterator*, mozilla::ipc::IProtocol*, P*) [with P = mozilla::layers::AsyncDragMetrics]':
+ 4:05.74 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h:281:9: warning: 'tmp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 4:05.74          ref() = Move(aOther.ref());
+ 4:05.74          ^~~
+ 4:05.74 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/jsipc/JavaScriptTypes.h:11:0,
+ 4:05.74                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/JavaScriptTypes.cpp:7,
+ 4:05.74                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/UnifiedProtocols1.cpp:2:
+ 4:05.74 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/ipc/IPCMessageUtils.h:935:9: note: 'tmp' was declared here
+ 4:05.74        T tmp;
+ 4:05.74          ^~~
+ 4:13.31 js/xpconnect/loader
+ 4:16.48 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/js/GCPolicyAPI.h:43:0,
+ 4:16.48                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/js/RootingAPI.h:22,
+ 4:16.48                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/js/CallArgs.h:73,
+ 4:16.48                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/jsapi.h:29,
+ 4:16.48                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/StructuredCloneHolder.h:10,
+ 4:16.48                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ipc/StructuredCloneData.h:12,
+ 4:16.48                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/ipc/IPCMessageUtils.h:16,
+ 4:16.48                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/jsipc/JavaScriptTypes.h:11,
+ 4:16.48                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/JavaScriptTypes.cpp:7,
+ 4:16.48                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/UnifiedProtocols1.cpp:2:
+ 4:16.48 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h: In static member function 'static bool IPC::ParamTraits<mozilla::Maybe<T> >::Read(const IPC::Message*, PickleIterator*, IPC::ParamTraits<mozilla::Maybe<T> >::paramType*) [with T = mozilla::layers::ScrollDirection]':
+ 4:16.48 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h:281:9: warning: 'tmp' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 4:16.48          ref() = Move(aOther.ref());
+ 4:16.48          ^~~
+ 4:16.48 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/jsipc/JavaScriptTypes.h:11:0,
+ 4:16.48                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/JavaScriptTypes.cpp:7,
+ 4:16.48                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/UnifiedProtocols1.cpp:2:
+ 4:16.48 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/ipc/IPCMessageUtils.h:935:9: note: 'tmp' was declared here
+ 4:16.48        T tmp;
+ 4:16.48          ^~~
+ 4:30.40 js/xpconnect/src
+ 4:37.18 modules/libjar
+ 4:47.47 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:18:0,
+ 4:47.47                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+ 4:47.47                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/PContentBridgeParent.cpp:7,
+ 4:47.47                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/UnifiedProtocols10.cpp:2:
+ 4:47.47 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h: In member function 'void mozilla::MozPromise<ResolveValueT, RejectValueT, IsExclusive>::DispatchAll() [with ResolveValueT = mozilla::dom::CreatedWindowInfo; RejectValueT = mozilla::ipc::ResponseRejectReason; bool IsExclusive = false]':
+ 4:47.47 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h:1174:7: warning: '<anonymous>.mozilla::dom::CreatedWindowInfo::windowOpened_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 4:47.47  class CreatedWindowInfo final
+ 4:47.47        ^~~~~~~~~~~~~~~~~
+ 4:47.61 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h: In static member function 'static void std::_Function_handler<void(_ArgTypes ...), _Functor>::_M_invoke(const std::_Any_data&, _ArgTypes&& ...) [with _Functor = mozilla::dom::PContentChild::SendCreateWindow(mozilla::dom::PContentChild::PBrowserChild*, mozilla::dom::PContentChild::PBrowserChild*, mozilla::dom::PContentChild::PRenderFrameChild*, const uint32_t&, const bool&, const bool&, const bool&, const OptionalURIParams&, const nsCString&, const nsCString&, const float&, const Principal&, const uint32_t&)::<lambda(mozilla::dom::PContentChild::ResponseRejectReason)>; _ArgTypes = {mozilla::ipc::ResponseRejectReason}]':
+ 4:47.61 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h:1174:7: warning: '<anonymous>.mozilla::dom::CreatedWindowInfo::windowOpened_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 4:47.61  class CreatedWindowInfo final
+ 4:47.61        ^~~~~~~~~~~~~~~~~
+ 4:48.48 extensions/cookie
+ 5:03.90 extensions/permissions
+ 5:09.11 rdf/base
+ 5:21.49 media/webrtc/signaling/src/peerconnection
+ 5:24.81 media/mtransport/ipc
+ 5:29.85 uriloader/base
+ 5:32.67 uriloader/exthandler
+ 5:38.07 uriloader/prefetch
+ 5:55.37 caps
+ 6:00.58 parser/htmlparser
+ 6:01.84 parser/html
+ 6:16.77 gfx/src
+ 6:33.52 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/Units.h:18:0,
+ 6:33.52                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsITheme.h:15,
+ 6:33.52                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsIWidget.h:18,
+ 6:33.52                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/ipc/IPCMessageUtils.h:34,
+ 6:33.52                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+ 6:33.52                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+ 6:33.52                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+ 6:33.53                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentChild.h:12,
+ 6:33.53                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+ 6:33.53                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:2:
+ 6:33.53 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In member function 'void nsRegion::Inflate(const nsMargin&)':
+ 6:33.53 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:33.53          mCurrentStrip->right - mCurrentStrip->left,
+ 6:33.53                                 ~~~~~~~~~~~~~~~^~~~
+ 6:33.53 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:83:0:
+ 6:33.53 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/nsRegion.cpp:132:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+ 6:33.53    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+ 6:33.53                      ^~~~
+ 6:33.56 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/Units.h:18:0,
+ 6:33.56                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsITheme.h:15,
+ 6:33.56                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsIWidget.h:18,
+ 6:33.56                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/ipc/IPCMessageUtils.h:34,
+ 6:33.56                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+ 6:33.56                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+ 6:33.56                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+ 6:33.56                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentChild.h:12,
+ 6:33.56                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+ 6:33.56                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:2:
+ 6:33.56 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In member function 'nsRegion& nsRegion::ScaleRoundOut(float, float)':
+ 6:33.56 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:33.56          mCurrentStrip->right - mCurrentStrip->left,
+ 6:33.56                                 ~~~~~~~~~~~~~~~^~~~
+ 6:33.56 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:83:0:
+ 6:33.56 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/nsRegion.cpp:491:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+ 6:33.56    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+ 6:33.56                      ^~~~
+ 6:33.65 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/Units.h:18:0,
+ 6:33.65                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsITheme.h:15,
+ 6:33.65                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsIWidget.h:18,
+ 6:33.65                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/ipc/IPCMessageUtils.h:34,
+ 6:33.65                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+ 6:33.65                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+ 6:33.65                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+ 6:33.65                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentChild.h:12,
+ 6:33.65                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+ 6:33.65                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:2:
+ 6:33.65 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In member function 'nsRegion& nsRegion::Transform(const Matrix4x4&)':
+ 6:33.65 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:33.65          mCurrentStrip->right - mCurrentStrip->left,
+ 6:33.65                                 ~~~~~~~~~~~~~~~^~~~
+ 6:33.65 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:83:0:
+ 6:33.65 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/nsRegion.cpp:536:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+ 6:33.65    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+ 6:33.65                      ^~~~
+ 6:34.01 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/Units.h:18:0,
+ 6:34.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsITheme.h:15,
+ 6:34.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsIWidget.h:18,
+ 6:34.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/ipc/IPCMessageUtils.h:34,
+ 6:34.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+ 6:34.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+ 6:34.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+ 6:34.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentChild.h:12,
+ 6:34.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+ 6:34.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:2:
+ 6:34.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In member function 'nsRegion& nsRegion::Or(const nsRegion&, const nsRegion&)':
+ 6:34.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:34.01          mCurrentStrip->right - mCurrentStrip->left,
+ 6:34.01                                 ~~~~~~~~~~~~~~~^~~~
+ 6:34.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:986:23: note: 'idx.nsRegion::RectIterator::mCurrentStrip' was declared here
+ 6:34.01      for (RectIterator idx(aRgn2); !idx.Done(); idx.Next()) {
+ 6:34.01                        ^~~
+ 6:34.05 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In member function 'nsRegion nsRegion::ScaleToOtherAppUnitsRoundOut(int32_t, int32_t) const':
+ 6:34.05 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:34.05          mCurrentStrip->right - mCurrentStrip->left,
+ 6:34.05                                 ~~~~~~~~~~~~~~~^~~~
+ 6:34.05 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:83:0:
+ 6:34.05 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/nsRegion.cpp:552:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+ 6:34.05    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+ 6:34.05                      ^~~~
+ 6:34.09 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/Units.h:18:0,
+ 6:34.09                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsITheme.h:15,
+ 6:34.09                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsIWidget.h:18,
+ 6:34.09                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/ipc/IPCMessageUtils.h:34,
+ 6:34.09                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+ 6:34.09                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+ 6:34.09                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+ 6:34.09                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentChild.h:12,
+ 6:34.09                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+ 6:34.09                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:2:
+ 6:34.09 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In member function 'nsRegion nsRegion::ScaleToOtherAppUnitsRoundIn(int32_t, int32_t) const':
+ 6:34.10 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:34.10          mCurrentStrip->right - mCurrentStrip->left,
+ 6:34.10                                 ~~~~~~~~~~~~~~~^~~~
+ 6:34.10 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:83:0:
+ 6:34.10 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/nsRegion.cpp:568:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+ 6:34.10    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+ 6:34.10                      ^~~~
+ 6:34.17 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/Units.h:18:0,
+ 6:34.17                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsITheme.h:15,
+ 6:34.17                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsIWidget.h:18,
+ 6:34.18                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/ipc/IPCMessageUtils.h:34,
+ 6:34.18                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+ 6:34.18                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+ 6:34.18                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+ 6:34.18                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentChild.h:12,
+ 6:34.18                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+ 6:34.18                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:2:
+ 6:34.18 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In member function 'nsIntRegion nsRegion::ScaleToOutsidePixels(float, float, nscoord) const':
+ 6:34.18 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:34.18          mCurrentStrip->right - mCurrentStrip->left,
+ 6:34.18                                 ~~~~~~~~~~~~~~~^~~~
+ 6:34.18 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:83:0:
+ 6:34.18 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/nsRegion.cpp:620:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+ 6:34.18    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+ 6:34.18                      ^~~~
+ 6:34.21 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/Units.h:18:0,
+ 6:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsITheme.h:15,
+ 6:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsIWidget.h:18,
+ 6:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/ipc/IPCMessageUtils.h:34,
+ 6:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+ 6:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+ 6:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+ 6:34.22                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentChild.h:12,
+ 6:34.22                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+ 6:34.22                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:2:
+ 6:34.22 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In member function 'nsIntRegion nsRegion::ToPixels(nscoord, bool) const':
+ 6:34.22 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:34.22          mCurrentStrip->right - mCurrentStrip->left,
+ 6:34.22                                 ~~~~~~~~~~~~~~~^~~~
+ 6:34.22 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:83:0:
+ 6:34.22 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/nsRegion.cpp:580:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+ 6:34.22    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+ 6:34.22                      ^~~~
+ 6:35.08 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/Units.h:18:0,
+ 6:35.08                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsITheme.h:15,
+ 6:35.08                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsIWidget.h:18,
+ 6:35.08                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/ipc/IPCMessageUtils.h:34,
+ 6:35.08                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridge.h:11,
+ 6:35.08                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/PContentBridgeParent.h:9,
+ 6:35.08                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentBridgeParent.h:10,
+ 6:35.08                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ContentChild.h:12,
+ 6:35.08                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/DriverCrashGuard.cpp:20,
+ 6:35.08                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:2:
+ 6:35.08 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In member function 'nsRegion& nsRegion::ScaleInverseRoundOut(float, float)':
+ 6:35.08 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:35.08          mCurrentStrip->right - mCurrentStrip->left,
+ 6:35.08                                 ~~~~~~~~~~~~~~~^~~~
+ 6:35.08 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/src/Unified_cpp_gfx_src0.cpp:83:0:
+ 6:35.08 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/src/nsRegion.cpp:504:21: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+ 6:35.08    for (RectIterator iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+ 6:35.08                      ^~~~
+ 6:35.38 gfx/layers
+ 6:38.10 gfx/ipc
+ 9:03.16 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/ipc/PBackground.h:18:0,
+ 9:03.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/ipc/PBackgroundParent.h:9,
+ 9:03.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/PBackgroundStorage.cpp:8,
+ 9:03.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/UnifiedProtocols5.cpp:11:
+ 9:03.16 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h: In member function 'void mozilla::MozPromise<ResolveValueT, RejectValueT, IsExclusive>::DispatchAll() [with ResolveValueT = mozilla::dom::CreatedWindowInfo; RejectValueT = mozilla::ipc::ResponseRejectReason; bool IsExclusive = false]':
+ 9:03.16 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h:1174:7: warning: '<anonymous>.mozilla::dom::CreatedWindowInfo::windowOpened_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 9:03.16  class CreatedWindowInfo final
+ 9:03.16        ^~~~~~~~~~~~~~~~~
+ 9:03.30 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h: In static member function 'static void std::_Function_handler<void(_ArgTypes ...), _Functor>::_M_invoke(const std::_Any_data&, _ArgTypes&& ...) [with _Functor = mozilla::dom::PBrowserChild::SendBrowserFrameOpenWindow(mozilla::dom::PBrowserChild*, mozilla::dom::PBrowserChild::PRenderFrameChild*, const nsString&, const nsString&, const nsString&)::<lambda(mozilla::dom::PBrowserChild::ResponseRejectReason)>; _ArgTypes = {mozilla::ipc::ResponseRejectReason}]':
+ 9:03.30 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h:1174:7: warning: '<anonymous>.mozilla::dom::CreatedWindowInfo::windowOpened_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 9:03.30  class CreatedWindowInfo final
+ 9:03.30        ^~~~~~~~~~~~~~~~~
+ 9:10.72 gfx/vr
+ 9:13.55 gfx/config
+ 9:21.78 image
+ 9:23.86 dom/animation
+ 9:33.31 dom/base
+ 9:47.96 dom/bindings
+10:24.35 dom/bindings/test
+11:37.66 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dom/bindings/TestCodeGenBinding.cpp: In member function 'virtual bool mozilla::dom::TestNamedDeleterWithRetvalInterfaceBinding::DOMProxyHandler::delete_(JSContext*, JS::Handle<JSObject*>, JS::Handle<jsid>, JS::ObjectOpResult&) const':
+11:37.68 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dom/bindings/TestCodeGenBinding.cpp:52413:30: warning: 'deleteSucceeded' may be used uninitialized in this function [-Wmaybe-uninitialized]
+11:37.68        return deleteSucceeded ? opresult.succeed() : opresult.failCantDelete();
+11:37.68               ~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+13:04.72 dom/battery
+13:11.81 dom/browser-element
+13:29.17 dom/cache
+13:58.31 dom/clients/api
+14:11.47 dom/clients/manager
+14:44.27 dom/commandhandler
+14:50.86 dom/credentialmanagement
+14:58.55 dom/crypto
+15:13.77 dom/encoding
+15:20.40 dom/events
+16:43.33 dom/fetch
+16:44.47 dom/file
+17:06.47 dom/file/ipc
+17:10.60 dom/filesystem
+17:14.50 dom/filesystem/compat
+17:19.18 dom/gamepad
+17:23.55 dom/geolocation
+17:25.84 dom/html
+17:37.43 dom/html/input
+17:48.61 dom/jsurl
+17:57.74 dom/asmjscache
+18:08.52 dom/mathml
+18:15.88 dom/media
+19:04.67 dom/media/doctor
+20:45.99 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dom/media/Unified_cpp_dom_media7.cpp:11:0:
+20:45.99 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/media/MediaStreamGraph.cpp: In member function 'void mozilla::MediaStreamGraphImpl::CloseAudioInputImpl(mozilla::AudioDataListener*)':
+20:46.00 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/media/MediaStreamGraph.cpp:888:7: warning: 'count' may be used uninitialized in this function [-Wmaybe-uninitialized]
+20:46.00    if (--count > 0) {
+20:46.00        ^~~~~~~
+21:00.02 dom/media/eme
+21:02.99 dom/media/gmp
+21:08.27 dom/media/ipc
+21:08.68 dom/media/mediasource
+21:24.26 dom/media/systemservices
+21:39.78 dom/media/webaudio
+21:42.24 dom/media/webrtc
+21:44.64 dom/media/webspeech/synth
+21:56.31 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dom/media/webspeech/synth/Unified_cpp_webspeech_synth0.cpp:20:0:
+21:56.31 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/media/webspeech/synth/SpeechSynthesisVoice.cpp: In member function 'bool mozilla::dom::SpeechSynthesisVoice::LocalService() const':
+21:56.31 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/media/webspeech/synth/SpeechSynthesisVoice.cpp:78:10: warning: 'isLocal' may be used uninitialized in this function [-Wmaybe-uninitialized]
+21:56.31    return isLocal;
+21:56.31           ^~~~~~~
+21:58.03 dom/media/webspeech/recognition
+22:06.60 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsString.h:23:0,
+22:06.60                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsAtom.h:11,
+22:06.60                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsGkAtoms.h:10,
+22:06.60                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/DOMEventTargetHelper.h:11,
+22:06.60                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/AudioNode.h:10,
+22:06.60                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/ChannelMergerNode.h:10,
+22:06.60                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/media/webaudio/ChannelMergerNode.cpp:7,
+22:06.60                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dom/media/webaudio/Unified_cpp_dom_media_webaudio1.cpp:2:
+22:06.60 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsTString.h: In member function 'void mozilla::WebAudioDecodeJob::OnFailure(mozilla::WebAudioDecodeJob::ErrorCode)':
+22:06.60 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsTString.h:605:5: warning: 'errorMessage' may be used uninitialized in this function [-Wmaybe-uninitialized]
+22:06.60      this->Assign(aData, aLength);
+22:06.60      ^~~~
+22:06.60 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dom/media/webaudio/Unified_cpp_dom_media_webaudio1.cpp:92:0:
+22:06.60 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/media/webaudio/MediaBufferDecoder.cpp:563:15: note: 'errorMessage' was declared here
+22:06.60    const char* errorMessage;
+22:06.60                ^~~~~~~~~~~~
+22:12.70 dom/midi
+22:13.25 dom/notification
+22:13.69 dom/offline
+22:20.19 dom/power
+22:20.95 dom/push
+22:29.33 dom/quota
+22:31.02 dom/security
+22:33.60 dom/storage
+22:34.53 dom/svg
+22:50.93 dom/network
+22:54.08 dom/permission
+22:54.82 dom/plugins/base
+23:15.48 dom/plugins/ipc
+23:34.36 dom/indexedDB
+23:34.47 dom/system
+23:41.48 dom/workers
+23:42.44 dom/audiochannel
+23:50.44 dom/broadcastchannel
+24:11.44 dom/messagechannel
+24:13.07 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/indexedDB/ActorsParent.cpp: In member function 'virtual nsresult mozilla::dom::indexedDB::{anonymous}::DatabaseMaintenance::Run()':
+24:13.07 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/indexedDB/ActorsParent.cpp:18913:3: warning: 'maintenanceAction' may be used uninitialized in this function [-Wmaybe-uninitialized]
+24:13.07    switch (maintenanceAction) {
+24:13.07    ^~~~~~
+24:13.07 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/indexedDB/ActorsParent.cpp:18907:21: note: 'maintenanceAction' was declared here
+24:13.07    MaintenanceAction maintenanceAction;
+24:13.07                      ^~~~~~~~~~~~~~~~~
+24:24.28 dom/promise
+24:30.58 dom/smil
+24:34.64 dom/url
+24:36.49 dom/webauthn
+24:43.76 dom/xbl
+24:44.73 dom/xml
+24:49.58 dom/xslt/base
+24:55.23 dom/xslt/xml
+24:55.68 dom/xslt/xpath
+24:58.34 dom/xslt/xslt
+25:03.84 dom/xul
+25:19.61 dom/vr
+25:24.29 dom/u2f
+25:28.53 dom/console
+25:32.56 dom/performance
+25:34.00 dom/webbrowserpersist
+25:35.52 dom/xhr
+25:43.39 dom/worklet
+25:43.96 dom/script
+25:57.14 dom/payments
+25:58.08 dom/websocket
+26:00.97 dom/serviceworkers
+26:01.23 dom/presentation
+26:08.39 view
+26:20.93 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/view/nsView.h:12:0,
+26:20.93                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/view/nsView.cpp:6,
+26:20.93                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/view/Unified_cpp_view0.cpp:2:
+26:20.93 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In member function 'void nsViewManager::InvalidateViewNoSuppression(nsView*, const nsRect&)':
+26:20.93 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+26:20.93          mCurrentStrip->right - mCurrentStrip->left,
+26:20.93                                 ~~~~~~~~~~~~~~~^~~~
+26:20.93 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:986:23: note: 'idx.nsRegion::RectIterator::mCurrentStrip' was declared here
+26:20.93      for (RectIterator idx(aRgn2); !idx.Done(); idx.Next()) {
+26:20.93                        ^~~
+26:21.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In member function 'void nsViewManager::Refresh(nsView*, const LayoutDeviceIntRegion&)':
+26:21.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+26:21.01          mCurrentStrip->right - mCurrentStrip->left,
+26:21.01                                 ~~~~~~~~~~~~~~~^~~~
+26:21.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2461:15: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+26:21.01      for (auto iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+26:21.01                ^~~~
+26:21.19 widget
+26:23.65 widget/gtk
+26:49.04 editor/libeditor
+27:12.84 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/js/GCPolicyAPI.h:43:0,
+27:12.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/js/RootingAPI.h:22,
+27:12.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsCycleCollectionParticipant.h:13,
+27:12.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditTransactionBase.h:9,
+27:12.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ChangeStyleTransaction.h:9,
+27:12.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/CSSEditUtils.h:9,
+27:12.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/editor/libeditor/CSSEditUtils.cpp:6,
+27:12.84                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/editor/libeditor/Unified_cpp_editor_libeditor0.cpp:2:
+27:12.84 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h: In member function 'virtual nsresult mozilla::CreateElementTransaction::DoTransaction()':
+27:12.84 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h:321:16: warning: '*((void*)& afterNewNode +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+27:12.84      return ref();
+27:12.84                 ^
+27:14.44 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h: In member function 'already_AddRefed<mozilla::dom::Element> mozilla::EditorBase::InsertContainerWithTransactionInternal(nsIContent&, nsAtom&, nsAtom&, const nsAString&)':
+27:14.44 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h:321:16: warning: '*((void*)& pointToInsertNewContainer +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+27:14.44      return ref();
+27:14.44                 ^
+27:23.99 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorBase.h:10:0,
+27:24.00                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/TextEditor.h:9,
+27:24.00                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/HTMLEditor.h:14,
+27:24.00                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/editor/libeditor/HTMLAnonymousNodeEditor.cpp:5,
+27:24.00                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/editor/libeditor/Unified_cpp_editor_libeditor1.cpp:2:
+27:24.00 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorDOMPoint.h: In member function 'mozilla::EditorRawDOMPoint mozilla::SplitNodeResult::SplitPoint() const':
+27:24.00 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorDOMPoint.h:465:7: warning: '*((void*)& point +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+27:24.00        if (NS_WARN_IF(mOffset.value() >= mParent->Length())) {
+27:24.00        ^~
+27:24.00 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/editor/libeditor/HTMLEditRules.cpp:18:0,
+27:24.00                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/editor/libeditor/Unified_cpp_editor_libeditor1.cpp:11:
+27:24.00 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorUtils.h:227:23: note: '*((void*)& point +16)' was declared here
+27:24.00      EditorRawDOMPoint point(mPreviousNode);
+27:24.00                        ^~~~~
+27:28.04 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/js/GCPolicyAPI.h:43:0,
+27:28.04                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/js/RootingAPI.h:22,
+27:28.04                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsCycleCollectionParticipant.h:13,
+27:28.04                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ComposerCommandsUpdater.h:11,
+27:28.04                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/HTMLEditor.h:10,
+27:28.05                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/editor/libeditor/HTMLAnonymousNodeEditor.cpp:5,
+27:28.05                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/editor/libeditor/Unified_cpp_editor_libeditor1.cpp:2:
+27:28.05 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h: In member function 'virtual nsresult mozilla::HTMLEditor::SetCaretAfterElement(mozilla::EditorBase::Element*)':
+27:28.05 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h:321:16: warning: '*((void*)& afterElement +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+27:28.05      return ref();
+27:28.05                 ^
+27:30.24 editor/spellchecker
+27:30.50 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorBase.h:10:0,
+27:30.50                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/TextEditor.h:9,
+27:30.50                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/HTMLEditor.h:14,
+27:30.50                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/editor/libeditor/HTMLAnonymousNodeEditor.cpp:5,
+27:30.50                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/editor/libeditor/Unified_cpp_editor_libeditor1.cpp:2:
+27:30.50 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorDOMPoint.h: In function 'nsresult mozilla::HTMLEditor::SplitStyleAbovePoint(nsCOMPtr<nsINode>*, int32_t*, nsAtom*, nsAtom*, nsIContent**, nsIContent**)':
+27:30.50 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorDOMPoint.h:469:47: warning: '*((void*)& point +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+27:30.50        mOffset = mozilla::Some(mOffset.value() + 1);
+27:30.50                                ~~~~~~~~~~~~~~~~^~~
+27:30.50 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/editor/libeditor/HTMLEditRules.cpp:18:0,
+27:30.50                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/editor/libeditor/Unified_cpp_editor_libeditor1.cpp:11:
+27:30.50 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorUtils.h:227:23: note: '*((void*)& point +16)' was declared here
+27:30.50      EditorRawDOMPoint point(mPreviousNode);
+27:30.50                        ^~~~~
+27:33.01 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorBase.h:10:0,
+27:33.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/TextEditor.h:9,
+27:33.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/HTMLEditor.h:14,
+27:33.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/editor/libeditor/HTMLAnonymousNodeEditor.cpp:5,
+27:33.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/editor/libeditor/Unified_cpp_editor_libeditor1.cpp:2:
+27:33.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorDOMPoint.h: In member function 'mozilla::SplitNodeResult mozilla::HTMLEditRules::MaybeSplitAncestorsForInsertWithTransaction(nsAtom&, const mozilla::EditorDOMPointBase<PT, CT>&) [with PT = nsCOMPtr<nsINode>; CT = nsCOMPtr<nsIContent>]':
+27:33.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorDOMPoint.h:813:12: warning: '*((void*)& pointToInsert +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+27:33.01      mChild = mParent->GetChildAt_Deprecated(mOffset.value());
+27:33.01 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/editor/libeditor/Unified_cpp_editor_libeditor1.cpp:11:0:
+27:33.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/editor/libeditor/HTMLEditRules.cpp:8026:21: note: '*((void*)& pointToInsert +16)' was declared here
+27:33.01    EditorRawDOMPoint pointToInsert(aStartOfDeepestRightNode);
+27:33.01                      ^~~~~~~~~~~~~
+27:33.08 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorBase.h:10:0,
+27:33.08                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/TextEditor.h:9,
+27:33.08                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/HTMLEditor.h:14,
+27:33.08                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/editor/libeditor/HTMLAnonymousNodeEditor.cpp:5,
+27:33.08                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/editor/libeditor/Unified_cpp_editor_libeditor1.cpp:2:
+27:33.08 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorDOMPoint.h: In member function 'mozilla::SplitNodeResult mozilla::HTMLEditRules::MaybeSplitAncestorsForInsertWithTransaction(nsAtom&, const mozilla::EditorDOMPointBase<PT, CT>&) [with PT = nsINode*; CT = nsIContent*]':
+27:33.08 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorDOMPoint.h:813:12: warning: '*((void*)& pointToInsert +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+27:33.08      mChild = mParent->GetChildAt_Deprecated(mOffset.value());
+27:33.08 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/editor/libeditor/Unified_cpp_editor_libeditor1.cpp:11:0:
+27:33.08 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/editor/libeditor/HTMLEditRules.cpp:8026:21: note: '*((void*)& pointToInsert +16)' was declared here
+27:33.08    EditorRawDOMPoint pointToInsert(aStartOfDeepestRightNode);
+27:33.08                      ^~~~~~~~~~~~~
+27:33.16 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/js/GCPolicyAPI.h:43:0,
+27:33.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/js/RootingAPI.h:22,
+27:33.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsCycleCollectionParticipant.h:13,
+27:33.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ComposerCommandsUpdater.h:11,
+27:33.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/HTMLEditor.h:10,
+27:33.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/editor/libeditor/HTMLAnonymousNodeEditor.cpp:5,
+27:33.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/editor/libeditor/Unified_cpp_editor_libeditor1.cpp:2:
+27:33.16 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h: In member function 'void mozilla::HTMLEditRules::SplitBlock(mozilla::TextEditRules::Element&, nsIContent&, nsIContent&, nsIContent**, nsIContent**, nsIContent**)':
+27:33.16 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h:321:16: warning: '*((void*)& atAfterEnd +16)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+27:33.16      return ref();
+27:33.16                 ^
+27:43.77 editor/composer
+27:44.85 layout/style
+27:45.41 layout/base
+28:12.47 layout/base/gtest
+28:29.92 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/base/Unified_cpp_layout_base0.cpp:65:0:
+28:29.92 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/PresShell.cpp: In member function 'virtual void mozilla::PresShell::FrameNeedsReflow(nsIFrame*, nsIPresShell::IntrinsicDirty, nsFrameState, nsIPresShell::ReflowRootHandling)':
+28:29.92 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/PresShell.cpp:2744:23: warning: 'targetNeedsReflowFromParent' may be used uninitialized in this function [-Wmaybe-uninitialized]
+28:29.92     (_f != subtreeRoot || !targetNeedsReflowFromParent))
+28:29.93                        ^~
+28:47.28 layout/generic
+28:58.16 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/Units.h:18:0,
+28:58.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/nsIPresShell.h:45,
+28:58.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/nsPresContext.h:20,
+28:58.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/Element.h:27,
+28:58.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ServoElementSnapshot.h:13,
+28:58.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ServoBindings.h:15,
+28:58.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ComputedStyleInlines.h:20,
+28:58.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/WritingModes.h:11,
+28:58.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsIFrame.h:32,
+28:58.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/nsBidi.h:12,
+28:58.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/nsBidiPresUtils.h:11,
+28:58.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/nsBidiPresUtils.cpp:7,
+28:58.16                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/base/Unified_cpp_layout_base1.cpp:2:
+28:58.16 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In static member function 'static void nsLayoutUtils::TransformToAncestorAndCombineRegions(const nsRegion&, nsIFrame*, const nsIFrame*, nsRegion*, nsRegion*, mozilla::Maybe<mozilla::gfx::Matrix4x4TypedFlagged<mozilla::gfx::UnknownUnits, mozilla::gfx::UnknownUnits> >*, const mozilla::DisplayItemClip*)':
+28:58.16 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+28:58.16          mCurrentStrip->right - mCurrentStrip->left,
+28:58.16                                 ~~~~~~~~~~~~~~~^~~~
+28:58.16 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:971:23: note: 'idx.nsRegion::RectIterator::mCurrentStrip' was declared here
+28:58.16      for (RectIterator idx(aOther); !idx.Done(); idx.Next()) {
+28:58.16                        ^~~
+29:05.95 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/ReflowInput.cpp:23:0,
+29:05.95                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic0.cpp:65:
+29:05.95 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/tables/nsTableFrame.h: In member function 'void mozilla::ReflowInput::InitConstraints(nsPresContext*, const mozilla::LogicalSize&, const nsMargin*, const nsMargin*, mozilla::LayoutFrameType)':
+29:05.95 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/tables/nsTableFrame.h:45:20: warning: 'fType' may be used uninitialized in this function [-Wmaybe-uninitialized]
+29:05.95           frameType == mozilla::LayoutFrameType::BCTableCell;
+29:05.95           ~~~~~~~~~~^~~~~~~~~~
+29:05.95 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic0.cpp:65:0:
+29:05.95 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/ReflowInput.cpp:2226:21: note: 'fType' was declared here
+29:05.95      LayoutFrameType fType;
+29:05.95                      ^~~~~
+29:09.38 layout/forms
+29:31.01 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsIFrame.h:36:0,
+29:31.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/painting/nsCSSRenderingBorders.h:18,
+29:31.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/forms/nsButtonFrameRenderer.h:12,
+29:31.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/forms/nsButtonFrameRenderer.cpp:6,
+29:31.01                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/forms/Unified_cpp_layout_forms0.cpp:2:
+29:31.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ReflowOutput.h: In member function 'virtual void nsDateTimeControlFrame::Reflow(nsPresContext*, nsIFrame::ReflowOutput&, const ReflowInput&, nsReflowStatus&)':
+29:31.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ReflowOutput.h:258:12: warning: 'borderBoxBSize' may be used uninitialized in this function [-Wmaybe-uninitialized]
+29:31.01      mBSize = convertedSize.BSize(mWritingMode);
+29:31.01      ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+29:31.01 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/forms/Unified_cpp_layout_forms0.cpp:38:0:
+29:31.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/forms/nsDateTimeControlFrame.cpp:217:11: note: 'borderBoxBSize' was declared here
+29:31.01    nscoord borderBoxBSize;
+29:31.01            ^~~~~~~~~~~~~~
+29:33.58 layout/tables
+29:39.55 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic1.cpp:128:0:
+29:39.55 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsFrame.cpp: In member function 'nscoord nsIFrame::ComputeISizeValue(gfxContext*, nscoord, nscoord, nscoord, const nsStyleCoord&, nsIFrame::ComputeSizeFlags)':
+29:39.55 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsFrame.cpp:6417:11: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+29:39.55    nscoord result;
+29:39.55            ^~~~~~
+29:49.32 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic1.cpp:101:0:
+29:49.32 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsFlexContainerFrame.cpp: In member function 'void nsFlexContainerFrame::ResolveAutoFlexBasisAndMinSize(nsPresContext*, nsFlexContainerFrame::FlexItem&, const ReflowInput&, const nsFlexContainerFrame::FlexboxAxisTracker&)':
+29:49.32 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsFlexContainerFrame.cpp:1577:11: warning: 'resolvedMinSize' may be used uninitialized in this function [-Wmaybe-uninitialized]
+29:49.32    nscoord resolvedMinSize; // (only set/used if isMainMinSizeAuto==true)
+29:49.32            ^~~~~~~~~~~~~~~
+29:50.31 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic2.cpp:29:0:
+29:50.31 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsGfxScrollFrame.cpp: In member function 'void mozilla::ScrollFrameHelper::BuildDisplayList(nsDisplayListBuilder*, const nsDisplayListSet&)':
+29:50.31 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsGfxScrollFrame.cpp:3313:23: warning: 'extraContentBoxClipForNonCaretContent' may be used uninitialized in this function [-Wmaybe-uninitialized]
+29:50.31    ClipItemsExceptCaret(aLists->Content(), aBuilder, aClipFrame, aExtraClip, cache);
+29:50.31    ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+29:50.31 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsGfxScrollFrame.cpp:3470:38: note: 'extraContentBoxClipForNonCaretContent' was declared here
+29:50.31    Maybe<const DisplayItemClipChain*> extraContentBoxClipForNonCaretContent;
+29:50.31                                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+29:52.85 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/Units.h:18:0,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/nsIPresShell.h:45,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/nsPresContext.h:20,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/Element.h:27,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ServoElementSnapshot.h:13,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ServoBindings.h:15,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ComputedStyleInlines.h:20,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/WritingModes.h:11,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsIFrame.h:32,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/xul/nsBox.h:11,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsFrame.h:15,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsSplittableFrame.h:16,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsContainerFrame.h:13,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/painting/nsDisplayList.h:27,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/TextOverflow.h:10,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/TextOverflow.cpp:7,
+29:52.85                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic1.cpp:2:
+29:52.85 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In member function 'void nsDisplayItem::ComputeInvalidationRegionDifference(nsDisplayListBuilder*, const nsDisplayItemBoundsGeometry*, nsRegion*) const':
+29:52.85 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+29:52.85          mCurrentStrip->right - mCurrentStrip->left,
+29:52.85                                 ~~~~~~~~~~~~~~~^~~~
+29:52.85 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:986:23: note: 'idx.nsRegion::RectIterator::mCurrentStrip' was declared here
+29:52.85      for (RectIterator idx(aRgn2); !idx.Done(); idx.Next()) {
+29:52.85                        ^~~
+29:53.94 layout/svg
+29:54.03 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsSize.h:10:0,
+29:54.04                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gfxASurface.h:16,
+29:54.04                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/gfxContext.h:11,
+29:54.04                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/painting/nsDisplayList.h:17,
+29:54.04                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/TextOverflow.h:10,
+29:54.04                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/TextOverflow.cpp:7,
+29:54.04                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic1.cpp:2:
+29:54.04 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsCoord.h: In member function 'mozilla::LogicalSize nsFrame::ComputeSizeWithIntrinsicDimensions(gfxContext*, mozilla::WritingMode, const mozilla::IntrinsicSize&, nsSize, const mozilla::LogicalSize&, const mozilla::LogicalSize&, const mozilla::LogicalSize&, const mozilla::LogicalSize&, nsIFrame::ComputeSizeFlags)':
+29:54.04 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsCoord.h:82:11: warning: 'bSize' may be used uninitialized in this function [-Wmaybe-uninitialized]
+29:54.04    return (int64_t(aMult1) * int64_t(aMult2) / int64_t(aDiv));
+29:54.04            ^~~~~~~~~~~~~~~
+29:54.04 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic1.cpp:128:0:
+29:54.04 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsFrame.cpp:5991:38: note: 'bSize' was declared here
+29:54.04    nscoord iSize, minISize, maxISize, bSize, minBSize, maxBSize;
+29:54.04                                       ^~~~~
+29:54.04 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsFrame.cpp:6193:45: warning: 'iSize' may be used uninitialized in this function [-Wmaybe-uninitialized]
+29:54.04            stretchI != eStretch && tentISize > iSize) {
+29:54.04                                    ~~~~~~~~~~^~~~~~~
+29:54.72 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/TextOverflow.h:10:0,
+29:54.72                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/TextOverflow.cpp:7,
+29:54.72                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic1.cpp:2:
+29:54.72 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/painting/nsDisplayList.h: In member function 'void nsIFrame::BuildDisplayListForStackingContext(nsDisplayListBuilder*, nsDisplayList*, bool*)':
+29:54.73 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/painting/nsDisplayList.h:1201:41: warning: 'perspectiveIndex.nsDisplayListBuilder::AutoSaveRestorePerspectiveIndex::mCachedItemIndex' may be used uninitialized in this function [-Wmaybe-uninitialized]
+29:54.73          mBuilder->mPerspectiveItemIndex = mCachedItemIndex;
+29:54.73          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~
+29:54.73 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic1.cpp:128:0:
+29:54.73 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsFrame.cpp:3053:7: note: 'perspectiveIndex.nsDisplayListBuilder::AutoSaveRestorePerspectiveIndex::mCachedItemIndex' was declared here
+29:54.73        perspectiveIndex(aBuilder, childrenHavePerspective);
+29:54.73        ^~~~~~~~~~~~~~~~
+29:57.89 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic1.cpp:101:0:
+29:57.89 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsFlexContainerFrame.cpp: In member function 'void nsFlexContainerFrame::DoFlexLayout(nsPresContext*, nsIFrame::ReflowOutput&, const ReflowInput&, nsReflowStatus&, nscoord, nscoord, nsTArray<nsFlexContainerFrame::StrutInfo>&, const nsFlexContainerFrame::FlexboxAxisTracker&)':
+29:57.89 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsFlexContainerFrame.cpp:4821:31: warning: 'flexContainerAscent' may be used uninitialized in this function [-Wmaybe-uninitialized]
+29:57.89            flexContainerAscent == nscoord_MIN) {
+30:08.26 layout/xul
+30:18.98 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/Units.h:18:0,
+30:18.98                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/nsIPresShell.h:45,
+30:18.98                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/nsPresContext.h:20,
+30:18.98                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/dom/Element.h:27,
+30:18.98                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ServoElementSnapshot.h:13,
+30:18.98                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ServoBindings.h:15,
+30:18.98                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ComputedStyleInlines.h:20,
+30:18.98                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/WritingModes.h:11,
+30:18.98                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsIFrame.h:32,
+30:18.98                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/xul/nsBox.h:11,
+30:18.98                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsFrame.h:15,
+30:18.98                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/svg/nsSVGFilterFrame.h:11,
+30:18.98                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/svg/nsSVGFilterFrame.cpp:8,
+30:18.98                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/svg/Unified_cpp_layout_svg1.cpp:2:
+30:18.98 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In static member function 'static nsIntRegion nsSVGIntegrationUtils::AdjustInvalidAreaForSVGEffects(nsIFrame*, const nsPoint&, const nsIntRegion&)':
+30:18.98 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+30:18.98          mCurrentStrip->right - mCurrentStrip->left,
+30:18.98                                 ~~~~~~~~~~~~~~~^~~~
+30:18.98 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2461:15: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+30:18.98      for (auto iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+30:18.98                ^~~~
+30:19.04 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In member function 'nsRegion& nsRegion::Or(const nsRegion&, const nsRegion&)':
+30:19.04 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+30:19.04          mCurrentStrip->right - mCurrentStrip->left,
+30:19.04                                 ~~~~~~~~~~~~~~~^~~~
+30:19.04 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:986:23: note: 'idx.nsRegion::RectIterator::mCurrentStrip' was declared here
+30:19.04      for (RectIterator idx(aRgn2); !idx.Done(); idx.Next()) {
+30:19.04                        ^~~
+30:26.18 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsIFrame.h:36:0,
+30:26.18                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/xul/nsBox.h:11,
+30:26.18                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsFrame.h:15,
+30:26.18                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsSplittableFrame.h:16,
+30:26.18                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsContainerFrame.h:13,
+30:26.18                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsRubyBaseContainerFrame.h:12,
+30:26.18                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsRubyBaseContainerFrame.cpp:9,
+30:26.18                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic3.cpp:2:
+30:26.18 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ReflowOutput.h: In member function 'virtual void nsVideoFrame::Reflow(nsPresContext*, nsIFrame::ReflowOutput&, const ReflowInput&, nsReflowStatus&)':
+30:26.18 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/ReflowOutput.h:259:12: warning: 'borderBoxBSize' may be used uninitialized in this function [-Wmaybe-uninitialized]
+30:26.18      mISize = convertedSize.ISize(mWritingMode);
+30:26.18      ~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+30:26.18 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic3.cpp:110:0:
+30:26.18 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsVideoFrame.cpp:301:11: note: 'borderBoxBSize' was declared here
+30:26.18    nscoord borderBoxBSize;
+30:26.18            ^~~~~~~~~~~~~~
+30:33.95 layout/xul/tree
+30:34.20 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsIFrame.h:27:0,
+30:34.20                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/xul/nsBox.h:11,
+30:34.20                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsFrame.h:15,
+30:34.20                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsSplittableFrame.h:16,
+30:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsContainerFrame.h:13,
+30:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsRubyBaseContainerFrame.h:12,
+30:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsRubyBaseContainerFrame.cpp:9,
+30:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic3.cpp:2:
+30:34.21 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/FrameProperties.h: In member function 'virtual nsIFrame::RenderedText nsTextFrame::GetRenderedText(uint32_t, uint32_t, nsIFrame::TextOffsetType, nsIFrame::TrailingWhitespace)':
+30:34.21 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/base/FrameProperties.h:179:5: warning: 'autoLineCursor.nsBlockFrame::AutoLineCursorSetup::mOrigCursor' may be used uninitialized in this function [-Wmaybe-uninitialized]
+30:34.21      SetInternal(aProperty, ptr, aFrame);
+30:34.21      ^~~~~~~~~~~
+30:34.21 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic3.cpp:83:0:
+30:34.21 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsTextFrame.cpp:10035:44: note: 'autoLineCursor.nsBlockFrame::AutoLineCursorSetup::mOrigCursor' was declared here
+30:34.21    Maybe<nsBlockFrame::AutoLineCursorSetup> autoLineCursor;
+30:34.21                                             ^~~~~~~~~~~~~~
+30:34.21 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/xul/nsBox.h:11:0,
+30:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsFrame.h:15,
+30:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsSplittableFrame.h:16,
+30:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsContainerFrame.h:13,
+30:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsRubyBaseContainerFrame.h:12,
+30:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsRubyBaseContainerFrame.cpp:9,
+30:34.21                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic3.cpp:2:
+30:34.21 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsIFrame.h:3586:5: warning: 'autoLineCursor.nsBlockFrame::AutoLineCursorSetup::mFrame' may be used uninitialized in this function [-Wmaybe-uninitialized]
+30:34.21      mProperties.Set(aProperty, aValue, this);
+30:34.21      ^~~~~~~~~~~
+30:34.21 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/generic/Unified_cpp_layout_generic3.cpp:83:0:
+30:34.21 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/generic/nsTextFrame.cpp:10035:44: note: 'autoLineCursor.nsBlockFrame::AutoLineCursorSetup::mFrame' was declared here
+30:34.21    Maybe<nsBlockFrame::AutoLineCursorSetup> autoLineCursor;
+30:34.21                                             ^~~~~~~~~~~~~~
+30:38.69 layout/ipc
+30:45.42 layout/mathml
+30:52.23 layout/inspector
+30:55.43 layout/painting
+31:00.51 layout/printing
+31:03.72 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/inspector/InspectorUtils.cpp:37:0,
+31:03.72                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/inspector/Unified_cpp_layout_inspector0.cpp:11:
+31:03.72 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/style/nsCSSProps.h: In static member function 'static void mozilla::dom::InspectorUtils::GetCSSPropertyNames(mozilla::dom::GlobalObject&, const mozilla::dom::PropertyNamesOptions&, nsTArray<nsTString<char16_t> >&)':
+31:03.72 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/style/nsCSSProps.h:146:46: warning: array subscript is above array bounds [-Warray-bounds]
+31:03.72      return (nsCSSProps::kFlagsTable[aProperty] & aFlags) == aFlags;
+31:03.72              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+31:03.72 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/style/nsCSSProps.h:146:46: warning: array subscript is above array bounds [-Warray-bounds]
+31:03.72      return (nsCSSProps::kFlagsTable[aProperty] & aFlags) == aFlags;
+31:03.72              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+31:05.22 layout/build
+31:18.46 docshell/base
+31:22.23 docshell/base/timeline
+31:28.97 docshell/shistory
+31:34.67 docshell/build
+31:35.14 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/painting/nsCSSRenderingBorders.cpp:22:0,
+31:35.14                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/painting/Unified_cpp_layout_painting0.cpp:110:
+31:35.14 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/painting/nsCSSRenderingGradients.h: In static member function 'static mozilla::nsCSSGradientRenderer mozilla::nsCSSGradientRenderer::Create(nsPresContext*, nsStyleGradient*, const nsSize&)':
+31:35.14 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/painting/nsCSSRenderingGradients.h:31:66: warning: 'position' may be used uninitialized in this function [-Wmaybe-uninitialized]
+31:35.14      mPosition(aPosition), mIsMidpoint(aIsMidPoint), mColor(aColor) {}
+31:35.14                                                                   ^
+31:35.14 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/painting/Unified_cpp_layout_painting0.cpp:119:0:
+31:35.14 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/painting/nsCSSRenderingGradients.cpp:580:12: note: 'position' was declared here
+31:35.14      double position;
+31:35.14             ^~~~~~~~
+31:36.67 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/Units.h:18:0,
+31:36.67                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsIPresShell.h:45,
+31:36.68                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsIDocument.h:25,
+31:36.68                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRFPService.h:12,
+31:36.68                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/mozilla/AnimationUtils.h:13,
+31:36.68                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/layout/painting/ActiveLayerTracker.cpp:9,
+31:36.68                  from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/layout/painting/Unified_cpp_layout_painting0.cpp:2:
+31:36.68 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In member function 'nsRegion& nsRegion::Or(const nsRegion&, const nsRegion&)':
+31:36.68 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+31:36.68          mCurrentStrip->right - mCurrentStrip->left,
+31:36.68                                 ~~~~~~~~~~~~~~~^~~~
+31:36.68 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:986:23: note: 'idx.nsRegion::RectIterator::mCurrentStrip' was declared here
+31:36.68      for (RectIterator idx(aRgn2); !idx.Done(); idx.Next()) {
+31:36.68                        ^~~
+31:36.86 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In member function 'nsRegion& nsRegion::OrWith(const nsRegion&)':
+31:36.86 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+31:36.86          mCurrentStrip->right - mCurrentStrip->left,
+31:36.86                                 ~~~~~~~~~~~~~~~^~~~
+31:36.86 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:971:23: note: 'idx.nsRegion::RectIterator::mCurrentStrip' was declared here
+31:36.86      for (RectIterator idx(aOther); !idx.Done(); idx.Next()) {
+31:36.86                        ^~~
+31:37.44 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h: In static member function 'static void mozilla::FrameLayerBuilder::RecomputeVisibilityForItems(nsTArray<mozilla::AssignedDisplayItem>&, nsDisplayListBuilder*, const nsIntRegion&, const nsIntPoint&, int32_t, float, float)':
+31:37.45 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47: warning: 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function [-Wmaybe-uninitialized]
+31:37.45          mCurrentStrip->right - mCurrentStrip->left,
+31:37.45                                 ~~~~~~~~~~~~~~~^~~~
+31:37.45 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2461:15: note: 'iter.nsRegion::RectIterator::mCurrentStrip' was declared here
+31:37.45      for (auto iter = RectIterator(*this); !iter.Done(); iter.Next()) {
+31:37.45                ^~~~
+31:42.62 xpfe/appshell
+31:50.16 accessible/atk
+31:54.13 accessible/aom
+32:03.35 accessible/base
+32:06.59 accessible/generic
+32:16.83 accessible/html
+32:31.34 accessible/ipc
+32:38.85 accessible/ipc/other
+32:48.83 accessible/xpcom
+32:51.41 accessible/xul
+33:04.20 xpfe/components/directory
+33:05.94 extensions/spellcheck/hunspell/glue
+33:08.03 extensions/spellcheck/src
+33:10.47 toolkit/components/alerts
+33:20.92 toolkit/components/backgroundhangmonitor
+33:21.42 toolkit/components/browser
+33:25.80 toolkit/components/extensions
+33:31.36 toolkit/components/extensions/webrequest
+33:33.98 toolkit/components/find
+33:40.37 toolkit/components/perfmonitoring
+33:45.41 toolkit/components/places
+33:54.35 toolkit/components/reputationservice
+33:54.63 toolkit/components/telemetry
+34:25.76 toolkit/components/url-classifier
+34:29.13 toolkit/components/windowwatcher
+34:33.61 toolkit/components/printingui/ipc
+34:50.66 toolkit/components/satchel
+34:52.62 netwerk/dns
+34:56.95 gfx/thebes
+35:03.44 toolkit/mozapps/extensions
+35:04.29 devtools/shared/heapsnapshot
+35:08.27 extensions/pref/autoconfig/src
+35:15.47 dom/ipc
+35:21.24 security/sandbox/linux/glue
+35:35.55 security/manager/ssl
+35:45.02 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/thebes/Unified_cpp_gfx_thebes1.cpp:2:0:
+35:45.02 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/thebes/gfxGraphiteShaper.cpp: In member function 'nsresult gfxGraphiteShaper::SetGlyphsFromSegment(gfxShapedText*, uint32_t, uint32_t, const char16_t*, gr_segment*, gfxFontShaper::RoundingFlags)':
+35:45.02 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/thebes/gfxGraphiteShaper.cpp:349:36: warning: 'clusterLoc' may be used uninitialized in this function [-Wmaybe-uninitialized]
+35:45.02                      float dx = rtl ? (xLocs[j] - clusterLoc) :
+35:45.02                                 ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+35:45.02                                       (xLocs[j] - clusterLoc - adv);
+35:45.02                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+35:49.62 toolkit/xre
+36:06.24 dom/canvas
+36:18.91 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dom/ipc/Unified_cpp_dom_ipc0.cpp:56:0:
+36:18.91 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/ipc/ContentProcess.cpp: In member function 'virtual bool mozilla::dom::ContentProcess::Init(int, char**)':
+36:18.91 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/ipc/ContentProcess.cpp:217:22: warning: 'schedulerPrefs' may be used uninitialized in this function [-Wmaybe-uninitialized]
+36:18.91    Scheduler::SetPrefs(*schedulerPrefs);
+36:18.91    ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+36:18.91 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/ipc/ContentProcess.cpp:210:15: warning: 'prefsLen' may be used uninitialized in this function [-Wmaybe-uninitialized]
+36:18.91    if (!shm.Map(*prefsLen)) {
+36:18.91         ~~~~~~~^~~~~~~~~~~
+36:18.91 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/ipc/ContentProcess.cpp:222:17: warning: 'isForBrowser' may be used uninitialized in this function [-Wmaybe-uninitialized]
+36:18.91                  *isForBrowser);
+36:18.91                  ^~~~~~~~~~~~~
+36:18.91 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/ipc/ContentProcess.cpp:218:16: warning: 'childID' may be used uninitialized in this function [-Wmaybe-uninitialized]
+36:18.91    mContent.Init(IOThreadChild::message_loop(),
+36:18.91    ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+36:18.91                  ParentPid(),
+36:18.91                  ~~~~~~~~~~~~
+36:18.91                  IOThreadChild::channel(),
+36:18.91                  ~~~~~~~~~~~~~~~~~~~~~~~~~
+36:18.91                  *childID,
+36:18.91                  ~~~~~~~~~
+36:18.92                  *isForBrowser);
+36:18.92                  ~~~~~~~~~~~~~~
+37:02.03 libxul.so
+37:52.15 dependentlibs.list
+37:55.49 PASS
+37:55.49 PASS
+37:57.81   adding: install.rdf (deflated 53%)
+37:57.85   adding: plugins/libnptest.so (deflated 65%)
+37:57.88   adding: plugins/libnpsecondtest.so (deflated 65%)
+37:57.91   adding: plugins/libnpthirdtest.so (deflated 65%)
+37:57.94   adding: plugins/libnpswftest.so (deflated 65%)
+38:13.72 Packaging specialpowers@mozilla.org.xpi...
+38:13.91 Packaging quitter@mozilla.org.xpi...
+38:14.13 Packaging mozscreenshots@mozilla.org.xpi...
+38:14.35 547 compiler warnings present.
+38:16.68 Overall system resources - Wall time: 2294s; CPU: 97%; Read bytes: 1758978048; Write bytes: 6363439104; Read time: 19118; Write time: 1923745
+38:16.69 Swap in/out (MB): 0/31
+38:17.24 warning: dom/indexedDB/ActorsParent.cpp:18913:3 [-Wmaybe-uninitialized] 'maintenanceAction' may be used uninitialized in this function
+38:17.24 warning: dom/ipc/ContentProcess.cpp:210:15 [-Wmaybe-uninitialized] 'prefsLen' may be used uninitialized in this function
+38:17.24 warning: dom/ipc/ContentProcess.cpp:217:22 [-Wmaybe-uninitialized] 'schedulerPrefs' may be used uninitialized in this function
+38:17.24 warning: dom/ipc/ContentProcess.cpp:218:16 [-Wmaybe-uninitialized] 'childID' may be used uninitialized in this function
+38:17.24 warning: dom/ipc/ContentProcess.cpp:222:17 [-Wmaybe-uninitialized] 'isForBrowser' may be used uninitialized in this function
+38:17.24 warning: dom/media/MediaStreamGraph.cpp:888:7 [-Wmaybe-uninitialized] 'count' may be used uninitialized in this function
+38:17.24 warning: dom/media/webspeech/synth/SpeechSynthesisVoice.cpp:78:10 [-Wmaybe-uninitialized] 'isLocal' may be used uninitialized in this function
+38:17.24 warning: gfx/thebes/gfxGraphiteShaper.cpp:349:36 [-Wmaybe-uninitialized] 'clusterLoc' may be used uninitialized in this function
+38:17.24 warning: layout/base/FrameProperties.h:179:5 [-Wmaybe-uninitialized] 'autoLineCursor.nsBlockFrame::AutoLineCursorSetup::mOrigCursor' may be used uninitialized in this function
+38:17.24 warning: layout/base/PresShell.cpp:2744:23 [-Wmaybe-uninitialized] 'targetNeedsReflowFromParent' may be used uninitialized in this function
+38:17.24 warning: layout/generic/nsFlexContainerFrame.cpp:1577:11 [-Wmaybe-uninitialized] 'resolvedMinSize' may be used uninitialized in this function
+38:17.24 warning: layout/generic/nsFlexContainerFrame.cpp:4821:31 [-Wmaybe-uninitialized] 'flexContainerAscent' may be used uninitialized in this function
+38:17.24 warning: layout/generic/nsFrame.cpp:6193:45 [-Wmaybe-uninitialized] 'iSize' may be used uninitialized in this function
+38:17.24 warning: layout/generic/nsFrame.cpp:6417:11 [-Wmaybe-uninitialized] 'result' may be used uninitialized in this function
+38:17.24 warning: layout/generic/nsGfxScrollFrame.cpp:3313:23 [-Wmaybe-uninitialized] 'extraContentBoxClipForNonCaretContent' may be used uninitialized in this function
+38:17.24 warning: layout/generic/nsIFrame.h:3586:5 [-Wmaybe-uninitialized] 'autoLineCursor.nsBlockFrame::AutoLineCursorSetup::mFrame' may be used uninitialized in this function
+38:17.24 warning: layout/painting/nsCSSRenderingGradients.h:31:66 [-Wmaybe-uninitialized] 'position' may be used uninitialized in this function
+38:17.24 warning: layout/painting/nsDisplayList.h:1201:41 [-Wmaybe-uninitialized] 'perspectiveIndex.nsDisplayListBuilder::AutoSaveRestorePerspectiveIndex::mCachedItemIndex' may be used uninitialized in this function
+38:17.24 warning: layout/style/nsCSSProps.h:146:46 [-Warray-bounds] array subscript is above array bounds
+38:17.24 warning: layout/tables/nsTableFrame.h:45:20 [-Wmaybe-uninitialized] 'fType' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3 [-Wmaybe-uninitialized] 'u64' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3 [-Wmaybe-uninitialized] 's32' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3 [-Wmaybe-uninitialized] 'u8' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3 [-Wmaybe-uninitialized] 's8' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3 [-Wmaybe-uninitialized] 'signed_value64' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3 [-Wmaybe-uninitialized] 'u16' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3 [-Wmaybe-uninitialized] 's64' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/gtest/internal/gtest-internal.h:1188:3 [-Wmaybe-uninitialized] 's16' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorDOMPoint.h:465:7 [-Wmaybe-uninitialized] '*((void*)& point +16)' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorDOMPoint.h:469:47 [-Wmaybe-uninitialized] '*((void*)& point +16)' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/mozilla/EditorDOMPoint.h:813:12 [-Wmaybe-uninitialized] '*((void*)& pointToInsert +16)' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h:281:9 [-Wmaybe-uninitialized] 'tmp' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h:321:16 [-Wmaybe-uninitialized] '*((void*)& atAfterEnd +16)' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h:321:16 [-Wmaybe-uninitialized] '*((void*)& afterElement +16)' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h:321:16 [-Wmaybe-uninitialized] '*((void*)& pointToInsertNewContainer +16)' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/mozilla/Maybe.h:321:16 [-Wmaybe-uninitialized] '*((void*)& afterNewNode +16)' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/mozilla/ReflowOutput.h:258:12 [-Wmaybe-uninitialized] 'borderBoxBSize' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/mozilla/ReflowOutput.h:259:12 [-Wmaybe-uninitialized] 'borderBoxBSize' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/nsCoord.h:82:11 [-Wmaybe-uninitialized] 'bSize' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47 [-Wmaybe-uninitialized] 'idx.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/nsRegion.h:2199:47 [-Wmaybe-uninitialized] 'iter.nsRegion::RectIterator::mCurrentStrip' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dist/include/nsTString.h:605:5 [-Wmaybe-uninitialized] 'errorMessage' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/dom/bindings/TestCodeGenBinding.cpp:52413:30 [-Wmaybe-uninitialized] 'deleteSucceeded' may be used uninitialized in this function
+38:17.25 warning: obj-x86_64-pc-linux-gnu/ipc/ipdl/_ipdlheaders/mozilla/dom/DOMTypes.h:1174:7 [-Wmaybe-uninitialized] '<anonymous>.mozilla::dom::CreatedWindowInfo::windowOpened_' may be used uninitialized in this function
+38:17.26 /nix/store/vbvlba36jl5dfqnma2xqdl1ci294rnbr-libnotify-0.7.7/bin/notify-send --app-name=Mozilla Build System Mozilla Build System Build complete
+38:17.33 We know it took a while, but your build finally finished successfully!
+To view resource usage of the build, run |mach resource-usage|.
+To take your build for a test drive, run: |mach run|
+For more information on what to do now, see https://developer.mozilla.org/docs/Developer_Guide/So_You_Just_Built_Firefox
+
+real	38m19.676s
+user	138m56.210s
+sys	6m55.767s

@@ -1,0 +1,29 @@
+ 0:00.56 /nix/store/lmq72s0kwyd3dfm1k9ahmaha5zcj5igh-tup/bin/tup upd /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup -j4
+ 0:00.57 [ tup ] [0.000s] Scanning filesystem...
+ 0:01.60 [ tup ] [1.030s] Reading in new environment variables...
+ 0:01.60 [ tup ] [1.031s] Parsing Tupfiles...
+ 0:01.63   25% 1) [0.002s] .
+ 0:01.63   50% 2) [0.003s] obj-tup
+ 0:01.63   75% 3) [0.001s] obj-tup/dist/bin
+ 0:01.63  100% 4) [0.002s] obj-tup/build
+ 0:01.63 [ tup ] [1.065s] No files to delete.
+ 0:01.63 [ tup ] [1.065s] Generating .gitignore files...
+ 0:01.67 [ tup ] [1.100s] Executing Commands...
+ 0:01.78    0% 1) [0.111s] obj-tup/browser/themes/linux: Preprocess /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/bin/browser/chrome/browser/skin/classic/browser/compacttheme.css
+ 0:03.42   89% 2) [1.752s] obj-tup/toolkit/library/rust: RUSTC libgkrust.a
+ 0:03.42     Finished release [optimized] target(s) in 0.0 secs
+ 0:03.42 + MOZ_OBJ_ROOT=../../..
+ 0:03.42 + topsrcdir=../../../..
+ 0:03.42 + rm -rf ../../../dist/rust_bindings ../../../../servo/components/style/properties/data.pyc ../../../../servo/components/style/properties/build.pyc
+ 1:32.68   99% 3) [89.258s] obj-tup/toolkit/library: LINK libxul.so
+ 1:33.17   99% 4) [0.486s] obj-tup/toolkit/library: python /home/gmaudoux/projets/gecko-tup/gecko-dev/toolkit/library/dependentlibs.py:gen_list -> [dependentlibs.list dependentlibs.list.gtest dependentlibs.list.pp]
+ 1:33.19   99% 5) [0.509s] obj-tup/ipc/app: LINK ../../dist/bin/plugin-container
+ 1:33.23  100% 6) [0.551s] obj-tup/js/xpconnect/shell: LINK ../../../dist/bin/xpcshell
+ 1:33.28 [ tup ] [92.716s] Updated.
+ 1:33.54 418 compiler warnings present.
+ 1:33.64 Overall system resources - Wall time: 93s; CPU: 30%; Read bytes: 599531520; Write bytes: 937320448; Read time: 3000; Write time: 216487
+ 1:33.64 Swap in/out (MB): 0/5
+ 1:33.66 Your build was successful!
+To view resource usage of the build, run |mach resource-usage|.
+To take your build for a test drive, run: |mach run|
+For more information on what to do now, see https://developer.mozilla.org/docs/Developer_Guide/So_You_Just_Built_Firefox

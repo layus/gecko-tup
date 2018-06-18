@@ -1,0 +1,226 @@
++ mach build
++ ./mach build
+ 0:00.66 Clobber not needed.
+ 0:00.66 Adding make options from /home/gmaudoux/projets/gecko-tup/static_make_tests/.mozconfig.nix-shell
+    AUTOCONF=/nix/store/6m16jx9snhl5k1y078az476g9vfqvk4k-autoconf-2.13/bin/autoconf
+    MOZ_OBJDIR=/home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu
+    OBJDIR=/home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu
+    FOUND_MOZCONFIG=/home/gmaudoux/projets/gecko-tup/static_make_tests/.mozconfig.nix-shell
+    export FOUND_MOZCONFIG
+ 0:00.67 /nix/store/lhp5rw0dagi5mgqwr9i3x41240ba4ypz-gnumake-4.2.1/bin/make -f client.mk -s
+ 0:01.14 Elapsed: 0.00s; From dist/public: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.15 Elapsed: 0.00s; From dist/private: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.25 Elapsed: 0.11s; From dist/idl: Kept 866 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.45 Elapsed: 0.00s; From dist/xpi-stage: Kept 9 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.65 Elapsed: 0.19s; From _tests: Kept 993 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.70 Elapsed: 0.19s; From dist/bin: Kept 2095 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.72 Elapsed: 0.59s; From dist/include: Kept 5341 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:02.23 Elapsed: 0.05s; From ../../dist/idl: Kept 866 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:02.29 accessibility.xpt
+ 0:02.30 alerts.xpt
+ 0:02.30 appshell.xpt
+ 0:02.30 appstartup.xpt
+ 0:02.30 autocomplete.xpt
+ 0:02.71 autoconfig.xpt
+ 0:02.76 backgroundhangmonitor.xpt
+ 0:02.84 browser-element.xpt
+ 0:03.18 browser-feeds.xpt
+ 0:03.26 browser-newtab.xpt
+ 0:03.27 browsercompsbase.xpt
+ 0:03.50 caps.xpt
+ 0:03.62 captivedetect.xpt
+ 0:03.68 chrome.xpt
+ 0:03.69 commandhandler.xpt
+ 0:03.93 commandlines.xpt
+ 0:04.07 composer.xpt
+ 0:04.13 content_events.xpt
+ 0:04.17 content_geckomediaplugins.xpt
+ 0:04.53 content_html.xpt
+ 0:04.55 content_webrtc.xpt
+ 0:04.58 content_xslt.xpt
+ 0:04.59 directory.xpt
+ 0:04.97 diskspacewatcher.xpt
+ 0:04.99 docshell.xpt
+ 0:05.00 dom.xpt
+ 0:05.04 dom_audiochannel.xpt
+ 0:05.38 dom_base.xpt
+ 0:05.39 dom_bindings.xpt
+ 0:05.81 dom_core.xpt
+ 0:05.94 dom_events.xpt
+ 0:06.02 dom_file.xpt
+ 0:06.26 dom_geolocation.xpt
+ 0:06.37 dom_media.xpt
+ 0:06.41 dom_network.xpt
+ 0:06.58 dom_notification.xpt
+ 0:06.65 dom_offline.xpt
+ 0:06.88 dom_payments.xpt
+ 0:06.89 dom_power.xpt
+ 0:07.04 dom_presentation.xpt
+ 0:07.06 dom_push.xpt
+ 0:07.33 dom_quota.xpt
+ 0:07.46 dom_range.xpt
+ 0:07.76 dom_security.xpt
+ 0:07.86 dom_sidebar.xpt
+ 0:07.93 dom_storage.xpt
+ 0:08.09 dom_system.xpt
+ 0:08.16 dom_webauthn.xpt
+ 0:08.34 dom_webspeechrecognition.xpt
+ 0:08.34 dom_webspeechsynth.xpt
+ 0:08.52 dom_workers.xpt
+ 0:08.57 dom_xul.xpt
+ 0:08.76 downloads.xpt
+ 0:08.76 editor.xpt
+ 0:08.94 enterprisepolicies.xpt
+ 0:09.02 extensions.xpt
+ 0:09.17 exthandler.xpt
+ 0:09.41 fastfind.xpt
+ 0:09.43 feeds.xpt
+ 0:09.60 gfx.xpt
+ 0:09.79 html5.xpt
+ 0:09.85 htmlparser.xpt
+ 0:10.01 imglib2.xpt
+ 0:10.18 inspector.xpt
+ 0:10.22 intl.xpt
+ 0:10.26 jar.xpt
+ 0:10.45 jsdebugger.xpt
+ 0:10.63 jsinspector.xpt
+ 0:10.70 layout_base.xpt
+ 0:10.88 layout_printing.xpt
+ 0:11.03 layout_xul.xpt
+ 0:11.04 layout_xul_tree.xpt
+ 0:11.11 locale.xpt
+ 0:11.31 migration.xpt
+ 0:11.47 mimetype.xpt
+ 0:11.47 mozfind.xpt
+ 0:11.69 mozintl.xpt
+ 0:11.78 necko.xpt
+ 0:11.88 necko_about.xpt
+ 0:11.95 necko_cache.xpt
+ 0:12.14 necko_cache2.xpt
+ 0:12.20 necko_cookie.xpt
+ 0:12.35 necko_dns.xpt
+ 0:12.71 necko_file.xpt
+ 0:12.74 necko_ftp.xpt
+ 0:12.84 necko_http.xpt
+ 0:13.16 necko_mdns.xpt
+ 0:13.25 necko_res.xpt
+ 0:13.26 necko_socket.xpt
+ 0:13.67 necko_strconv.xpt
+ 0:13.73 necko_viewsource.xpt
+ 0:13.94 necko_websocket.xpt
+ 0:14.14 necko_wifi.xpt
+ 0:14.25 necko_wyciwyg.xpt
+ 0:14.40 parentalcontrols.xpt
+ 0:14.64 peerconnection.xpt
+ 0:14.71 pipnss.xpt
+ 0:14.86 pippki.xpt
+ 0:15.11 places.xpt
+ 0:15.18 plugin.xpt
+ 0:15.25 pref.xpt
+ 0:15.55 prefetch.xpt
+ 0:15.87 privatebrowsing.xpt
+ 0:16.00 profiler.xpt
+ 0:16.08 rdf.xpt
+ 0:16.29 remote.xpt
+ 0:16.41 sandbox.xpt
+ 0:16.49 saxparser.xpt
+ 0:16.54 services-crypto-component.xpt
+ 0:16.81 services_fxaccounts.xpt
+ 0:16.91 sessionstore.xpt
+ 0:17.09 shellservice.xpt
+ 0:17.23 shistory.xpt
+ 0:17.39 spellchecker.xpt
+ 0:17.50 storage.xpt
+ 0:17.67 telemetry.xpt
+ 0:17.98 test_necko.xpt
+ 0:18.16 thumbnails.xpt
+ 0:18.18 toolkit_asyncshutdown.xpt
+ 0:18.50 toolkit_crashservice.xpt
+ 0:18.52 toolkit_filewatcher.xpt
+ 0:18.58 toolkit_finalizationwitness.xpt
+ 0:18.60 toolkit_osfile.xpt
+ 0:18.97 toolkit_perfmonitoring.xpt
+ 0:18.98 toolkit_securityreporter.xpt
+ 0:19.02 toolkit_xulstore.xpt
+ 0:19.04 toolkitprofile.xpt
+ 0:19.39 toolkitremote.xpt
+ 0:19.45 txmgr.xpt
+ 0:19.47 txtsvc.xpt
+ 0:19.48 uconv.xpt
+ 0:19.84 update.xpt
+ 0:19.85 uriloader.xpt
+ 0:19.94 url-classifier.xpt
+ 0:19.98 urlformatter.xpt
+ 0:20.28 webBrowser_core.xpt
+ 0:20.33 webbrowserpersist.xpt
+ 0:20.57 webextensions.xpt
+ 0:20.65 webvtt.xpt
+ 0:20.67 widget.xpt
+ 0:21.06 windowcreator.xpt
+ 0:21.07 windowwatcher.xpt
+ 0:21.09 xpcom_base.xpt
+ 0:21.09 xpcom_components.xpt
+ 0:21.49 xpcom_ds.xpt
+ 0:21.65 xpcom_io.xpt
+ 0:21.84 xpcom_system.xpt
+ 0:22.03 xpcom_threads.xpt
+ 0:22.55 xpcomtest.xpt
+ 0:22.66 xpconnect.xpt
+ 0:22.71 xpctest.xpt
+ 0:22.79 xul.xpt
+ 0:23.07 xulapp.xpt
+ 0:23.22 zipwriter.xpt
+ 0:24.29 force-cargo-library-build
+ 0:26.70     Finished release [optimized] target(s) in 0.0 secs
+ 0:26.84 dom/file
+ 0:27.04 dom/html
+ 0:31.84 dom/ipc
+ 0:56.97 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dom/ipc/Unified_cpp_dom_ipc0.cpp:56:0:
+ 0:56.97 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/ipc/ContentProcess.cpp: In member function 'virtual bool mozilla::dom::ContentProcess::Init(int, char**)':
+ 0:56.97 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/ipc/ContentProcess.cpp:217:22: warning: 'schedulerPrefs' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 0:56.97    Scheduler::SetPrefs(*schedulerPrefs);
+ 0:56.97    ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+ 0:56.97 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/ipc/ContentProcess.cpp:210:15: warning: 'prefsLen' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 0:56.97    if (!shm.Map(*prefsLen)) {
+ 0:56.97         ~~~~~~~^~~~~~~~~~~
+ 0:56.97 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/ipc/ContentProcess.cpp:222:17: warning: 'isForBrowser' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 0:56.97                  *isForBrowser);
+ 0:56.97                  ^~~~~~~~~~~~~
+ 0:56.97 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/ipc/ContentProcess.cpp:218:16: warning: 'childID' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 0:56.97    mContent.Init(IOThreadChild::message_loop(),
+ 0:56.97    ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 0:56.97                  ParentPid(),
+ 0:56.97                  ~~~~~~~~~~~~
+ 0:56.97                  IOThreadChild::channel(),
+ 0:56.97                  ~~~~~~~~~~~~~~~~~~~~~~~~~
+ 0:56.97                  *childID,
+ 0:56.97                  ~~~~~~~~~
+ 0:56.97                  *isForBrowser);
+ 0:56.97                  ~~~~~~~~~~~~~~
+ 1:04.04 libxul.so
+ 1:53.42 dependentlibs.list
+ 1:56.13 PASS
+ 1:56.14 PASS
+ 1:58.49   adding: install.rdf (deflated 53%)
+ 1:58.51   adding: plugins/libnptest.so (deflated 65%)
+ 1:58.55   adding: plugins/libnpsecondtest.so (deflated 65%)
+ 1:58.58   adding: plugins/libnpthirdtest.so (deflated 65%)
+ 1:58.61   adding: plugins/libnpswftest.so (deflated 65%)
+ 2:14.68 Packaging specialpowers@mozilla.org.xpi...
+ 2:14.87 Packaging quitter@mozilla.org.xpi...
+ 2:15.11 Packaging mozscreenshots@mozilla.org.xpi...
+ 2:15.30 547 compiler warnings present.
+ 2:15.41 Overall system resources - Wall time: 135s; CPU: 53%; Read bytes: 633851904; Write bytes: 1958621184; Read time: 2975; Write time: 615254
+ 2:15.41 Swap in/out (MB): 0/0
+ 2:15.44 warning: dom/ipc/ContentProcess.cpp:210:15 [-Wmaybe-uninitialized] 'prefsLen' may be used uninitialized in this function
+ 2:15.44 warning: dom/ipc/ContentProcess.cpp:217:22 [-Wmaybe-uninitialized] 'schedulerPrefs' may be used uninitialized in this function
+ 2:15.44 warning: dom/ipc/ContentProcess.cpp:218:16 [-Wmaybe-uninitialized] 'childID' may be used uninitialized in this function
+ 2:15.44 warning: dom/ipc/ContentProcess.cpp:222:17 [-Wmaybe-uninitialized] 'isForBrowser' may be used uninitialized in this function
+ 2:15.45 Your build was successful!
+To view resource usage of the build, run |mach resource-usage|.
+To take your build for a test drive, run: |mach run|
+For more information on what to do now, see https://developer.mozilla.org/docs/Developer_Guide/So_You_Just_Built_Firefox
+
+real	2m15.604s
+user	3m55.393s
+sys	0m25.262s

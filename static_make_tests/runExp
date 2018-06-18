@@ -1,0 +1,38 @@
+set -xe
+
+reconfigure () {
+    pushd obj-make &>/dev/null 
+    PYTHONDONTWRITEBYTECODE=True ./config.status
+    popd &>/dev/null
+}
+
+mach () {
+    ./mach "$@"
+}
+
+runOnce () {
+    local i=$1
+
+    git describe --tags
+    git checkout make-backend-merge/n$i
+    echo Now on $(git describe --tags)
+
+    {                   time mach build; } |& tee inbound-merge-n$i-build.log
+    { time reconfigure; time mach build; } |& tee inbound-merge-n$i-build-reconfigure.log
+}
+
+[ -d obj-make ] || exit 1
+[ -f mach -a -x mach ] || exit 1
+! hostname || exit 1
+
+main () {
+    for i in $(seq 54 100)
+    do
+        echo run $i
+        sleep 2
+        runOnce $i
+    done
+}
+
+time main
+

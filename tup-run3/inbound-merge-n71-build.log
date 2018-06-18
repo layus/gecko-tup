@@ -1,0 +1,706 @@
++runOnce:7> mach build
++mach:1> env - 'HOME=/home/gmaudoux' 'DISPLAY=:0' 'TERM=screen' 'PKG_CONFIG_PATH=/nix/store/1dm1zygy7n0iqvxzzqf3livr7ydvs2mf-python3-3.6.5/lib/pkgconfig:/nix/store/wfv291gbplmq0l7h5pypdjb5xjnv5axg-libICE-1.0.9-dev/lib/pkgconfig:/nix/store/sl5cjzdpd2vk1lam52sxh4nyqa6s72zl-xproto-7.0.31/lib/pkgconfig:/nix/store/wdhvmkwrsd7ayxq24lz3wsnqhmxbfv1x-libSM-1.2.2-dev/lib/pkgconfig:/nix/store/l5acsgbn1vbl1m7iv12y56fvx83p5kn7-libX11-1.6.5-dev/lib/pkgconfig:/nix/store/kgylbxg6b6chcsa888rg45zr6q6mcg6v-libxcb-1.12-dev/lib/pkgconfig:/nix/store/8rw2fvr5xrmc8ri0i7l2v1fvabkp18r8-kbproto-1.0.7/lib/pkgconfig:/nix/store/pfldr84r68dg1rybrrfl7l03jhws4ph1-libXau-1.0.8-dev/lib/pkgconfig:/nix/store/3qv4dmbzrjkxnsxmgkh5ji3cwyxfvkpq-libXdmcp-1.1.2-dev/lib/pkgconfig:/nix/store/lxyd3mgllr8jj8vly4xfwrsbf2fk8pgn-libXext-1.3.3-dev/lib/pkgconfig:/nix/store/j38nc3a31ship4vznz5q33hizngifgbv-xextproto-7.3.0/lib/pkgconfig:/nix/store/kmkr3xk314mcnvmpyz716cr8qx4kbqar-libXt-1.1.5-dev/lib/pkgconfig:/nix/store/a6yf6gg9mkaabdnv1cpya9k2ssb9wi8i-printproto-1.0.5/lib/pkgconfig:/nix/store/k4wb4vyja1dcjqxpfgvzznwhg30nvhkp-renderproto-0.11.1/lib/pkgconfig:/nix/store/vqfayvls2gcvph9789krq36abnz9dcvs-libXcomposite-0.4.4-dev/lib/pkgconfig:/nix/store/6la8h3r7lxzkly4qf5knlsyfm8drjwhg-libXfixes-5.0.3-dev/lib/pkgconfig:/nix/store/jwbfi28vwyzjijr50zbkb98q7xa3zvij-fixesproto-5.0/lib/pkgconfig:/nix/store/xrdpdcidbngwwwia41ads3rlhxnv3xnv-compositeproto-0.4.2/lib/pkgconfig:/nix/store/2ym5x49h8fjyghjbzg3b0krcz0kqiswa-damageproto-1.2.1/lib/pkgconfig:/nix/store/0n6k21rggvk5c3zi7dpfadrhbwq7rjjf-libXdamage-1.1.4-dev/lib/pkgconfig:/nix/store/6ha6fvm8bjs9l0jd2sm43r13dfb5bagf-libXrender-0.9.10-dev/lib/pkgconfig:/nix/store/2r6bvw7za4ynd1n2xr65b1jrqfg0yjfp-libart_lgpl-2.3.21/lib/pkgconfig:/nix/store/8qizrxfh0yk1s9n1kzrc1lk7v1qprxrg-libbonobo-2.32.1-dev/lib/pkgconfig:/nix/store/yqv1mkxddrhd9m079cqwslxq8h2yl440-popt-1.16/lib/pkgconfig:/nix/store/cxf1sj5mkgb2z60qji1lyb9wp7fp76wa-glib-2.54.3-dev/lib/pkgconfig:/nix/store/8bsyix63bn598h4vr6zkx9r5yhv8f13r-zlib-1.2.11-dev/lib/pkgconfig:/nix/store/yb9axzdqhnamqssl2i9l8kl30x22pcb9-libffi-3.2.1-dev/lib/pkgconfig:/nix/store/7szhczx871gdip17crd7bg3rchhqa86y-ORBit2-2.14.19-dev/lib/pkgconfig:/nix/store/nccbs1aiwwajqg7gz8y3bgag31hmlqfb-libIDL-0.8.14/lib/pkgconfig:/nix/store/0sf0v8fz43n5sz0k7cjxaifkzjimh0x6-libbonoboui-2.24.5-dev/lib/pkgconfig:/nix/store/9mzk7afm6m8dh1iz197kqqdra9rnji4v-libgnomecanvas-2.30.3-dev/lib/pkgconfig:/nix/store/cc8z8srk4rqdrz234a4xzbbaf9i5b0nr-gtk+-2.24.32-dev/lib/pkgconfig:/nix/store/qbhfjb2fagmn9vz9wh280w0j73lq2hjg-cairo-1.14.10-dev/lib/pkgconfig:/nix/store/2lgd6qnfhrzhy3vy7lw25qn0fvsbvzd7-fontconfig-2.12.1-dev/lib/pkgconfig:/nix/store/9yksdd65yard03m7ads6mysrxgnnmdss-freetype-2.7.1-dev/lib/pkgconfig:/nix/store/yhzxhwikm403q7m01g63rr0rzvrsg825-bzip2-1.0.6.0.1-dev/lib/pkgconfig:/nix/store/k9fjbxm37cq6pv0m4j9hp74lg64p038z-libpng-apng-1.6.34-dev/lib/pkgconfig:/nix/store/8ncpzbdgbwg3h8889w67fmb0ay06dpm1-expat-2.2.5-dev/lib/pkgconfig:/nix/store/8zwkx851l4v782f8jdcvk1lk4z42s8x0-pixman-0.34.0/lib/pkgconfig:/nix/store/1j4yb6jnn5d1vkb8pbv25c51hvgdibpr-xcb-util-0.4.0-dev/lib/pkgconfig:/nix/store/yn4mvjyiif6vp37ys7kxq3m7yfkkhjrc-mesa-noglu-17.3.6-dev/lib/pkgconfig:/nix/store/8p0n1zla4w9ybj6iqzmd8qgikjm0fahf-libXxf86vm-1.1.4-dev/lib/pkgconfig:/nix/store/gsdakxyxgzb2j0fch1hgb9zq8cppasxa-xf86vidmodeproto-2.3.1/lib/pkgconfig:/nix/store/2pds79ywmlvxhzd90q7xyjda5vc4jp60-libdrm-2.4.90-dev/lib/pkgconfig:/nix/store/mxqzc40rai0j8z73lgxh1bsnxmddw3kz-pango-1.40.14-dev/lib/pkgconfig:/nix/store/45py252dqicp5zr8hm0gm6hacdmsks82-harfbuzz-1.7.1-dev/lib/pkgconfig:/nix/store/0cj94v3rj7ixn5fqd7a4kh1ajnlprz4r-graphite2-1.3.6/lib/pkgconfig:/nix/store/5hy0yyp0qnyb8xngb285z1vzg3lm5k10-libXft-2.3.2-dev/lib/pkgconfig:/nix/store/jwjlcjj1qq6hnf90kdfpqii5v8qhsnh3-gdk-pixbuf-2.36.7-dev/lib/pkgconfig:/nix/store/vaqvlcgav3ly3hdx5yvk6gssnh5b9wkb-libtiff-4.0.9-dev/lib/pkgconfig:/nix/store/g5wlw7fshg23288pbqyc505vm6ilhqxm-libjpeg-turbo-1.5.3-dev/lib/pkgconfig:/nix/store/ww996cjyv9gdsfvg5v6467adp5x00fjp-xz-5.2.3-dev/lib/pkgconfig:/nix/store/4wrn67c4r6lbx70vw5yvx7z9nl8yfkqk-jasper-2.0.14-dev/lib/pkgconfig:/nix/store/k5kaamp13w1jx8di5931zvc5nd4dnp10-atk-2.26.1-dev/lib/pkgconfig:/nix/store/nnd9y92fglhn0yw3brhz6yffxy97kvr2-libXrandr-1.5.1-dev/lib/pkgconfig:/nix/store/vcvhflwnwsmxfxljqcmq7y9fzraj4a2a-randrproto-1.5.0/lib/pkgconfig:/nix/store/bwb18dlcr0zsrk5pmb3wlj9kh8x3hgib-libXi-1.7.9-dev/lib/pkgconfig:/nix/store/fss7sk3lrr4v19qp3h5narp4xlyrzps6-inputproto-2.3.2/lib/pkgconfig:/nix/store/j89lj703pvshcw9b30ma68x191z42zrj-libXcursor-1.1.15-dev/lib/pkgconfig:/nix/store/m2jfscscvzp0x1isnqf35rvx5nmbz4ch-libXinerama-1.1.3-dev/lib/pkgconfig:/nix/store/64igm2b6wsffw4ab4rwsr0d6syq4cliq-xineramaproto-1.2.1/lib/pkgconfig:/nix/store/0vr9lni0n2y31r3q9a0ppmhvvz4mwh9d-libgnome-2.32.1-dev/lib/pkgconfig:/nix/store/2fvw424y8sk7k78wx91ypygp97bbpaql-libogg-1.3.3-dev/lib/pkgconfig:/nix/store/603pjqb39js7i6j4122vb90iij1z8sfh-libgnomeui-2.24.5-dev/lib/pkgconfig:/nix/store/5miakzzfrkqrx1pyanws2125m1r4msxf-gnome-vfs-2.24.4-dev/lib/pkgconfig:/nix/store/hql1dc0vdmwxv5dalr75nmkgwjl3m601-gconf-2.32.4-dev/lib/pkgconfig:/nix/store/30gy5qynrb97zyhlc9v4r74ryfxx9l5i-dbus-1.10.24-dev/lib/pkgconfig:/nix/store/64hw8wpmp4xq19kxl5m59qn916iciixa-dbus-glib-0.108-dev/lib/pkgconfig:/nix/store/la9ssv41cvkrp0pksh5lbv1qq4qxrjl1-alsa-lib-1.1.5-dev/lib/pkgconfig:/nix/store/8bxzpqbchyha2bn8qabd23dg34fpgp6v-libpulseaudio-11.1-dev/lib/pkgconfig:/nix/store/4k61wqjqi8qs6clmir5af09viwqvihj8-libcap-2.25-dev/lib/pkgconfig:/nix/store/rjx2ncvp8g4bq1xkr494sfzzga01pybh-gstreamer-0.10.36-dev/lib/pkgconfig:/nix/store/3143f24xkdh6ihww7q8cgjnlyzqd5zmc-libxml2-2.9.7-dev/lib/pkgconfig:/nix/store/3b3avm6bj80dlvjrv7qjk42lfq6i6w28-gst-plugins-base-0.10.36-dev/lib/pkgconfig:/nix/store/0mz62gba7s21qlhq4mph81ixf2v0nlb4-gtk+3-3.22.28-dev/lib/pkgconfig:/nix/store/wq9dxr9vzrv1gfzlb0z7jam6lp7m7xq1-at-spi2-atk-2.26.1/lib/pkgconfig:/nix/store/4p1h4n411927l2s2mwca33m0s1l1z61q-gsettings-desktop-schemas-3.24.1/share/pkgconfig:/nix/store/mlmm2a007gg49ia1wa2klniki4ph0jv1-wayland-1.14.0/lib/pkgconfig:/nix/store/qz0rr5xiqh4wa1ls5cqywkgz1brmb5fh-wayland-protocols-1.11/share/pkgconfig:/nix/store/vc7a2ay0pbs5isscc1fda3wa557jchs3-gobject-introspection-1.54.1-dev/lib/pkgconfig:/nix/store/awsi1h746ian2afdmrhpw8ajkn0gsavb-procps-3.3.12/lib/pkgconfig:/nix/store/nx3jw576gqw01iiijgsav39w2qa4cni2-python-2.7.14/lib/pkgconfig:/nix/store/jd644x3ppch1i92lbiw837bd1rylqgip-openssl-1.0.2o-dev/lib/pkgconfig:/nix/store/vbvlba36jl5dfqnma2xqdl1ci294rnbr-libnotify-0.7.7/lib/pkgconfig:/nix/store/i4k7d8vmqhxhzkq775067mf6gjmw439f-valgrind-3.13.0-dev/lib/pkgconfig:/nix/store/kwdbw37kpgym0a1bnd5yczcsxl84vya4-icu4c-59.1-dev/lib/pkgconfig:/nix/store/bwh528xapwgjzxnxsjbj3fyppxzpawh0-nss-3.35-dev/lib/pkgconfig:/nix/store/ysgkjcxkci63mj6smp8s2w72abhzxv4p-nspr-4.18-dev/lib/pkgconfig:/nix/store/n2w7c9m4kbwlqrlxcja1akvwasagpcbp-libvpx-1.6.1-dev/lib/pkgconfig:/nix/store/cxn4wv56d1871pq38fqbyd996p1kc8nj-hunspell-1.6.2-dev/lib/pkgconfig:/nix/store/gzcly4bpvm78alliyl8vbzjdxm3bsgfv-sqlite-3.21.0-dev/lib/pkgconfig:/nix/store/jnlz9n0avbnlrccdqmi91ibhkf905q7x-libstartup-notification-0.12/lib/pkgconfig' 'SHELL=/nix/store/zqh3l3lyw32q1ayb15bnvg9f24j5v2p0-bash-4.4-p12/bin/bash' 'PATH=/nix/store/y5rlyv6nz8134s687d95ysc2gakwx7am-patchelf-0.9/bin:/nix/store/rf7pnq8qk9bkjpl4s2pm5dm2pk4yqhrc-paxctl-0.9/bin:/nix/store/gqg2vrcq7krqi9rrl6pphvsg81sb8pjw-gcc-wrapper-7.3.0/bin:/nix/store/bm7pb1s7rx1ad80706b5xqrznq7fgpgx-gcc-7.3.0/bin:/nix/store/6ca5dl2wy0nh37li1n4b152fcazsp3f6-glibc-2.26-131-bin/bin:/nix/store/cb3slv3szhp46xkrczqw7mscy5mnk64l-coreutils-8.29/bin:/nix/store/cmxaqb5cbzy4jk26na842n6hy1s4yn19-binutils-wrapper-2.28.1/bin:/nix/store/b0zlxla7dmy1iwc3g459rjznx59797xy-binutils-2.28.1/bin:/nix/store/1dm1zygy7n0iqvxzzqf3livr7ydvs2mf-python3-3.6.5/bin:/nix/store/ixlf9p8sjmw0zvd2ggzmfcsl7i5dp3pq-python3.6-setuptools-38.4.0/bin:/nix/store/pnjn1fv5s5a89vpqa63cvb407dapzy6c-which-2.21/bin:/nix/store/6m16jx9snhl5k1y078az476g9vfqvk4k-autoconf-2.13/bin:/nix/store/s029gmjpgvm776wfb56naqny9qja9339-perl-5.24.3/bin:/nix/store/afs58x7k2mpgv9wdq5v6xr7g31jjihpl-unzip-6.0/bin:/nix/store/rq684hfjyi84crlry4pwdqhbyyxjsk2d-zip-3.0/bin:/nix/store/lhp5rw0dagi5mgqwr9i3x41240ba4ypz-gnumake-4.2.1/bin:/nix/store/ax0xvjs9kqz7fn2gr5giciiigi6q7n0k-yasm-1.3.0/bin:/nix/store/340wmknqs4by554nwpg3hcr52lshqdj2-pkg-config-0.29.2/bin:/nix/store/2r6bvw7za4ynd1n2xr65b1jrqfg0yjfp-libart_lgpl-2.3.21/bin:/nix/store/cxf1sj5mkgb2z60qji1lyb9wp7fp76wa-glib-2.54.3-dev/bin:/nix/store/7szhczx871gdip17crd7bg3rchhqa86y-ORBit2-2.14.19-dev/bin:/nix/store/nccbs1aiwwajqg7gz8y3bgag31hmlqfb-libIDL-0.8.14/bin:/nix/store/1psa21c6ycl337k7pm698l75bhxgyfzy-ORBit2-2.14.19/bin:/nix/store/jljvnr34rv1fzh2m03d46isvzk95ssdr-libbonobo-2.32.1/bin:/nix/store/cc8z8srk4rqdrz234a4xzbbaf9i5b0nr-gtk+-2.24.32-dev/bin:/nix/store/qbhfjb2fagmn9vz9wh280w0j73lq2hjg-cairo-1.14.10-dev/bin:/nix/store/9yksdd65yard03m7ads6mysrxgnnmdss-freetype-2.7.1-dev/bin:/nix/store/qqv6r9vkpb44rw5d8wyfpx64rgqzlvdm-bzip2-1.0.6.0.1-bin/bin:/nix/store/k9fjbxm37cq6pv0m4j9hp74lg64p038z-libpng-apng-1.6.34-dev/bin:/nix/store/0alz3scxpgnirzkyz254j3jvf2syf9d8-fontconfig-2.12.1-bin/bin:/nix/store/8ncpzbdgbwg3h8889w67fmb0ay06dpm1-expat-2.2.5-dev/bin:/nix/store/1pdl62g1inalcc13mfwbmvc5alzqal2n-libdrm-2.4.90-bin/bin:/nix/store/45py252dqicp5zr8hm0gm6hacdmsks82-harfbuzz-1.7.1-dev/bin:/nix/store/0cj94v3rj7ixn5fqd7a4kh1ajnlprz4r-graphite2-1.3.6/bin:/nix/store/3qvsxrsw5ij79wi1sn1y3z3hwqygx9gx-pango-1.40.14-bin/bin:/nix/store/jwjlcjj1qq6hnf90kdfpqii5v8qhsnh3-gdk-pixbuf-2.36.7-dev/bin:/nix/store/ssmhdid5b2s3gf4kwvky8q0119dy5vyf-libjpeg-turbo-1.5.3-bin/bin:/nix/store/aakgkcvw6j54zg38zrn1w00sgxx0zj8b-xz-5.2.3-bin/bin:/nix/store/nr17jlbss1jffdgh6rknf0wxvz9df219-libtiff-4.0.9-bin/bin:/nix/store/x0jclbms2bldcq7azzsw6c9z68sbhdgs-jasper-2.0.14-bin/bin:/nix/store/nnd0d1jbaph3xgs1z0s969xv5n3csdxa-gdk-pixbuf-2.36.7/bin:/nix/store/avcr8ri97kynqpqafg5c2bq3l67cca5v-cups-2.2.6-dev/bin:/nix/store/qbwhkl8qs76715cl5sa0893vp4fm8k7b-cups-2.2.6/bin:/nix/store/xwyp69b2b85y56h7akw9j7sxwzkr0y92-gtk+-2.24.32/bin:/nix/store/9ccy81kzwjnxjxsar78gkmakwwdfq26n-libgnome-2.32.1/bin:/nix/store/p2xv7zcg9pak48j5i689jl5nmkssmf98-libbonoboui-2.24.5/bin:/nix/store/s2xvg8k21w3y9pzhh51wlscwgz6h9v83-gconf-2.32.4/bin:/nix/store/rkzpvfz9f45lghj9i35p2z9ls66flvpi-gnome-vfs-2.24.4/bin:/nix/store/fcg60r125nzdzk0cimrd4z277gqf8ca9-dbus-1.10.24-lib/bin:/nix/store/ia9x1pjgqb3slk15sv2y1llrk9nplpri-dbus-1.10.24/bin:/nix/store/64hw8wpmp4xq19kxl5m59qn916iciixa-dbus-glib-0.108-dev/bin:/nix/store/n07bypvyip8xgjmynqg50q37wvmnfvs2-alsa-lib-1.1.5/bin:/nix/store/6bzyb2y3mkz1spg6l3i4wp2lmkkh6f3v-attr-2.4.47-bin/bin:/nix/store/ygi8766zlysmzqxvk7dhc6wkv93jcpzd-libcap-2.25/bin:/nix/store/3143f24xkdh6ihww7q8cgjnlyzqd5zmc-libxml2-2.9.7-dev/bin:/nix/store/mnm5w1h20ddkrd3i435n03qiqqqvll97-libxml2-2.9.7-bin/bin:/nix/store/c4i4fi42drpzyik34h0rlbkxk9g5nbc5-gstreamer-0.10.36/bin:/nix/store/icc4mss4gpi9yw8hk1wc7by1scmrv53v-gst-plugins-base-0.10.36/bin:/nix/store/0mz62gba7s21qlhq4mph81ixf2v0nlb4-gtk+3-3.22.28-dev/bin:/nix/store/mlmm2a007gg49ia1wa2klniki4ph0jv1-wayland-1.14.0/bin:/nix/store/19y1sm233aa4q93qsbib04za9brvax64-gtk+3-3.22.28/bin:/nix/store/vc7a2ay0pbs5isscc1fda3wa557jchs3-gobject-introspection-1.54.1-dev/bin:/nix/store/awsi1h746ian2afdmrhpw8ajkn0gsavb-procps-3.3.12/bin:/nix/store/6lkl4g8jbg0m4fgl5s1jclafic2k6lhx-git-2.16.2/bin:/nix/store/d7gspk4njym9k88qk2a3sqjasi8ab2z6-mercurial-4.5/bin:/nix/store/a3qhl9b5v89b3gh0qjna6my1wl5vbqq7-python2.7-dulwich-0.18.6/bin:/nix/store/nx3jw576gqw01iiijgsav39w2qa4cni2-python-2.7.14/bin:/nix/store/xr3li4as4jycwk9lgqn08s0q9s86svqf-python2.7-setuptools-38.4.0/bin:/nix/store/0bgnx6v0i3zi6kpc4dnh98l8isix3rw2-openssl-1.0.2o-bin/bin:/nix/store/5dh5x82i892s162bqrlrym71qp4dwvq3-cmake-3.10.2/bin:/nix/store/vbvlba36jl5dfqnma2xqdl1ci294rnbr-libnotify-0.7.7/bin:/nix/store/j35sgbqnyxfn7rz31812r7l82az9zmzk-valgrind-3.13.0/bin:/nix/store/vyl4q1bhxnqbgkslbaxzp09nh48x6wdb-gdb-8.1/bin:/nix/store/1591qvjywwvw9f1m0smzkb1p3yfk8gpd-rr-5.1.0/bin:/nix/store/bk3hvkxywzc537m2w3di68aw7pwz80df-ccache-3.4.1/bin:/nix/store/0i0b8390dab21pd34x7wjgl49301qqgb-rustc-1.24.0/bin:/nix/store/d6g30kgzg9j7jvf1hci8k813vbay2iqb-cargo-0.24.0/bin:/nix/store/77bsskn86yf6h11mx96xkxm9bqv42kqg-zsh-5.5.1/bin:/nix/store/lmq72s0kwyd3dfm1k9ahmaha5zcj5igh-tup/bin:/nix/store/pxsrm9avcrp833rd96sp6vgs45yzrij9-fusermount/bin:/nix/store/xa5qvlg5pp5rh2dshlwvd708ks066azv-librsvg-2.42.2/bin:/nix/store/kwdbw37kpgym0a1bnd5yczcsxl84vya4-icu4c-59.1-dev/bin:/nix/store/bwh528xapwgjzxnxsjbj3fyppxzpawh0-nss-3.35-dev/bin:/nix/store/ysgkjcxkci63mj6smp8s2w72abhzxv4p-nspr-4.18-dev/bin:/nix/store/cffgk5hna0yljhy7japikcbxy7f55arl-libvpx-1.6.1-bin/bin:/nix/store/iy5737v30gb1zwyai59c5y83f3ymy797-hunspell-1.6.2-bin/bin:/nix/store/jhrwlpfijc4igz6xsx01z4z45k50kjsv-sqlite-3.21.0-bin/bin:/nix/store/364b5gkvgrm87bh1scxm5h8shp975n0r-findutils-4.6.0/bin:/nix/store/cg3yhpr5hfr00y0aah23pgxiijpzl6nz-diffutils-3.6/bin:/nix/store/navldm477k3ar6cy0zlw9rk43i459g69-gnused-4.4/bin:/nix/store/s63b2myh6rxfl4aqwi9yxd6rq66djk33-gnugrep-3.1/bin:/nix/store/j79xs2j519bmvq0gihz8ff4nw5aj3vlh-gawk-4.2.0/bin:/nix/store/2p00w952ljb1172nsf3jm7nsjgsw5qpw-gnutar-1.30/bin:/nix/store/d7895h1an2pgcd6a3vx3yb5fbg786lci-gzip-1.9/bin:/nix/store/zqh3l3lyw32q1ayb15bnvg9f24j5v2p0-bash-4.4-p12/bin:/nix/store/gd1mp76qr4zpbw3lccivhvi30b025x51-patch-2.7.6/bin' 'PYTHONDONTWRITEBYTECODE=True' ./mach build
+ 0:00.46 /nix/store/lmq72s0kwyd3dfm1k9ahmaha5zcj5igh-tup/bin/tup upd /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup -j4 --no-environ-check
+ 0:00.47 [ tup ] [0.000s] Scanning filesystem...
+ 0:01.41 [ tup ] [0.943s] No tup.config changes (environment check disabled).
+ 0:01.41 [ tup ] [0.945s] Parsing Tupfiles...
+ 0:01.42   20% 1) [0.001s] .
+ 0:01.42   40% 2) [0.002s] obj-tup
+ 0:01.42   60% 3) [0.001s] obj-tup/dist/bin
+ 0:01.42   80% 4) [0.001s] obj-tup/build
+ 0:01.43  100% 5) [0.001s] js/src/jit-test/tests/wasm/gc
+ 0:01.43 [ tup ] [0.958s] No files to delete.
+ 0:01.43 [ tup ] [0.958s] Generating .gitignore files...
+ 0:01.47 [ tup ] [0.995s] Executing Commands...
+ 0:11.11    0%  1) [9.646s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/gc/StoreBuffer.cpp
+ 0:16.84    1%  2) [15.369s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/builtin/RegExp.cpp
+ 0:21.79    2%  3) [10.674s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/x86-shared/Disassembler-x86-shared.cpp
+ 0:26.08    3%  4) [24.613s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/ctypes/CTypes.cpp
+ 0:29.35    4%  5) [12.516s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jsmath.cpp
+ 0:30.45    4%  6) [8.666s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jsutil.cpp
+ 0:30.78    6%  7) [29.313s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/Parser.cpp
+ 0:37.33    6%  8) [7.981s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vtune/VTuneWrapper.cpp
+ 0:56.30    8%  9) [25.842s] obj-tup/js/src: CXX Unified_cpp_js_src0.cpp
+ 0:57.05   10% 10) [30.973s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/Interpreter.cpp
+ 1:03.22   11% 11) [25.893s] obj-tup/js/src: CXX Unified_cpp_js_src10.cpp
+ 1:04.68   13% 12) [33.901s] obj-tup/js/src: CXX Unified_cpp_js_src1.cpp
+ 1:04.68 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCAPI.h:15:0,
+ 1:04.68                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/Value.h:24,
+ 1:04.68                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/CallArgs.h:74,
+ 1:04.68                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jsapi.h:29,
+ 1:04.68                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/builtin/ModuleObject.h:12,
+ 1:04.68                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/builtin/ModuleObject.cpp:7,
+ 1:04.68                  from Unified_cpp_js_src1.cpp:2:
+ 1:04.68 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Vector.h: In lambda function:
+ 1:04.68 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Vector.h:1399:11: warning: 'vlength' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:04.68    mLength += aInsLength;
+ 1:04.68    ~~~~~~~~^~~~~~~~~~~~~
+ 1:04.68 In file included from Unified_cpp_js_src1.cpp:11:0:
+ 1:04.68 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/builtin/Object.cpp:289:25: note: 'vlength' was declared here
+ 1:04.68          size_t voffset, vlength;
+ 1:04.68                          ^~~~~~~
+ 1:04.68 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/builtin/Object.cpp:17:0,
+ 1:04.68                  from Unified_cpp_js_src1.cpp:11:
+ 1:04.68 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/util/StringBuffer.h:303:35: warning: 'voffset' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 1:04.68             ? twoByteChars().append(base->latin1Chars(nogc) + off, len)
+ 1:04.68               ~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 1:04.68 In file included from Unified_cpp_js_src1.cpp:11:0:
+ 1:04.68 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/builtin/Object.cpp:289:16: note: 'voffset' was declared here
+ 1:04.68          size_t voffset, vlength;
+ 1:04.68                 ^~~~~~~
+ 1:19.41   14% 13) [14.729s] obj-tup/js/src: CXX Unified_cpp_js_src14.cpp
+ 1:25.71   16% 14) [28.654s] obj-tup/js/src: CXX Unified_cpp_js_src12.cpp
+ 1:30.31   18% 15) [34.017s] obj-tup/js/src: CXX Unified_cpp_js_src11.cpp
+ 1:49.13   19% 16) [23.424s] obj-tup/js/src: CXX Unified_cpp_js_src16.cpp
+ 1:49.91   20% 17) [19.591s] obj-tup/js/src: CXX Unified_cpp_js_src17.cpp
+ 1:54.17   23% 18) [50.944s] obj-tup/js/src: CXX Unified_cpp_js_src13.cpp
+ 2:15.38   27% 19) [55.973s] obj-tup/js/src: CXX Unified_cpp_js_src15.cpp
+ 2:15.38 In file included from Unified_cpp_js_src15.cpp:38:0:
+ 2:15.38 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/IonCacheIRCompiler.cpp: In member function 'bool js::jit::IonCacheIRCompiler::emitStoreUnboxedProperty()':
+ 2:15.38 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/IonCacheIRCompiler.cpp:1775:32: warning: '*((void*)& scratch +8)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 2:15.38      Maybe<AutoScratchRegister> scratch;
+ 2:15.38                                 ^~~~~~~
+ 2:15.38 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/IonCacheIRCompiler.cpp: In member function 'bool js::jit::IonCacheIRCompiler::emitStoreFixedSlot()':
+ 2:15.38 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/IonCacheIRCompiler.cpp:1616:32: warning: '*((void*)& scratch +8)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 2:15.38      Maybe<AutoScratchRegister> scratch;
+ 2:15.38                                 ^~~~~~~
+ 2:16.50   28% 20) [26.591s] obj-tup/js/src: CXX Unified_cpp_js_src19.cpp
+ 2:16.50 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jsutil.h:24:0,
+ 2:16.50                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/InlineList.h:10,
+ 2:16.50                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/MoveResolver.h:10,
+ 2:16.50                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/MoveResolver.cpp:7,
+ 2:16.50                  from Unified_cpp_js_src19.cpp:2:
+ 2:16.50 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/Value.h: In member function 'virtual bool js::jit::RSignExtendInt32::recover(JSContext*, js::jit::SnapshotIterator&) const':
+ 2:16.50 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/Value.h:404:51: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 2:16.50          return fromTagAndPayload(JSVAL_TAG_INT32, uint32_t(i));
+ 2:16.50                                                    ^~~~~~~~~~~
+ 2:16.50 In file included from Unified_cpp_js_src19.cpp:47:0:
+ 2:16.50 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/Recover.cpp:356:13: note: 'result' was declared here
+ 2:16.50      int32_t result;
+ 2:16.50              ^~~~~~
+ 2:40.60   31% 21) [51.467s] obj-tup/js/src: CXX Unified_cpp_js_src18.cpp
+ 2:40.60 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jsutil.h:24:0,
+ 2:40.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/ds/LifoAlloc.h:24,
+ 2:40.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/JitAllocPolicy.h:15,
+ 2:40.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/IonAnalysis.h:12,
+ 2:40.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/RangeAnalysis.h:13,
+ 2:40.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/LoopUnroller.h:10,
+ 2:40.60                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/LoopUnroller.cpp:7,
+ 2:40.60                  from Unified_cpp_js_src18.cpp:2:
+ 2:40.60 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/Value.h: In member function 'virtual js::jit::MDefinition* js::jit::MSignExtendInt32::foldsTo(js::jit::TempAllocator&)':
+ 2:40.60 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/Value.h:404:51: warning: 'res' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 2:40.60          return fromTagAndPayload(JSVAL_TAG_INT32, uint32_t(i));
+ 2:40.60                                                    ^~~~~~~~~~~
+ 2:40.60 In file included from Unified_cpp_js_src18.cpp:29:0:
+ 2:40.60 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/MIR.cpp:4521:17: note: 'res' was declared here
+ 2:40.60          int32_t res;
+ 2:40.60                  ^~~
+ 2:40.60 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/MIR.cpp: In member function 'virtual js::jit::MDefinition* js::jit::MSignExtendInt64::foldsTo(js::jit::TempAllocator&)':
+ 2:40.61 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/MIR.cpp:4544:46: warning: 'res' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 2:40.61          return MConstant::NewInt64(alloc, res);
+ 2:40.61                                               ^
+ 2:44.34   33% 22) [28.949s] obj-tup/js/src: CXX Unified_cpp_js_src20.cpp
+ 2:47.77   35% 23) [31.274s] obj-tup/js/src: CXX Unified_cpp_js_src21.cpp
+ 2:48.37   38% 24) [54.205s] obj-tup/js/src: CXX Unified_cpp_js_src2.cpp
+ 3:00.07   39% 25) [19.467s] obj-tup/js/src: CXX Unified_cpp_js_src22.cpp
+ 3:03.31   40% 26) [18.973s] obj-tup/js/src: CXX Unified_cpp_js_src23.cpp
+ 3:03.98   41% 27) [16.199s] obj-tup/js/src: CXX Unified_cpp_js_src24.cpp
+ 3:16.05   42% 28) [12.074s] obj-tup/js/src: CXX Unified_cpp_js_src28.cpp
+ 3:19.42   43% 29) [31.039s] obj-tup/js/src: CXX Unified_cpp_js_src25.cpp
+ 3:21.19   44% 30) [17.881s] obj-tup/js/src: CXX Unified_cpp_js_src27.cpp
+ 3:28.41   45% 31) [12.352s] obj-tup/js/src: CXX Unified_cpp_js_src29.cpp
+ 3:34.47   47% 32) [34.400s] obj-tup/js/src: CXX Unified_cpp_js_src26.cpp
+ 3:38.98   48% 33) [19.558s] obj-tup/js/src: CXX Unified_cpp_js_src3.cpp
+ 3:44.94   50% 34) [23.749s] obj-tup/js/src: CXX Unified_cpp_js_src30.cpp
+ 4:02.63   51% 35) [28.157s] obj-tup/js/src: CXX Unified_cpp_js_src32.cpp
+ 4:03.69   53% 36) [24.714s] obj-tup/js/src: CXX Unified_cpp_js_src33.cpp
+ 4:13.27   55% 37) [44.869s] obj-tup/js/src: CXX Unified_cpp_js_src31.cpp
+ 4:13.27 In file included from Unified_cpp_js_src31.cpp:47:0:
+ 4:13.28 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/Debugger.cpp: In static member function 'static bool js::DebuggerEnvironment::typeGetter(JSContext*, unsigned int, JS::Value*)':
+ 4:13.28 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/Debugger.cpp:10849:52: warning: 's' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 4:13.28      JSAtom* str = Atomize(cx, s, strlen(s), PinAtom);
+ 4:13.28                                                     ^
+ 4:19.11   56% 38) [15.424s] obj-tup/js/src: CXX Unified_cpp_js_src36.cpp
+ 4:19.56   58% 39) [34.612s] obj-tup/js/src: CXX Unified_cpp_js_src34.cpp
+ 4:19.56 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSCompartment.h:13:0,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSCompartment-inl.h:10,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSCompartment.cpp:7,
+ 4:19.56                  from Unified_cpp_js_src34.cpp:2:
+ 4:19.56 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Tuple.h: In member function 'void js::WrapperMap::sweep()':
+ 4:19.56 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Tuple.h:152:41: warning: 't.mozilla::detail::TupleImpl<0, js::NativeObject*, JSObject*, js::CrossCompartmentKey::DebuggerObjectKind>::mHead' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 4:19.56      , mHead(Forward<HeadT>(Head(aOther))) {}
+ 4:19.56                                          ^
+ 4:19.56 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/TracingAPI.h:11:0,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCPolicyAPI.h:47,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/RootingAPI.h:22,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/CallArgs.h:73,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/CallNonGenericMethod.h:12,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/NamespaceImports.h:15,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/gc/Barrier.h:10,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSCompartment.h:19,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSCompartment-inl.h:10,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSCompartment.cpp:7,
+ 4:19.56                  from Unified_cpp_js_src34.cpp:2:
+ 4:19.56 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/HashTable.h:1893:47: note: 't.mozilla::detail::TupleImpl<0, js::NativeObject*, JSObject*, js::CrossCompartmentKey::DebuggerObjectKind>::mHead' was declared here
+ 4:19.56          typename HashTableEntry<T>::NonConstT t(mozilla::Move(*p));
+ 4:19.56                                                ^
+ 4:19.56 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSCompartment.h:13:0,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSCompartment-inl.h:10,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSCompartment.cpp:7,
+ 4:19.56                  from Unified_cpp_js_src34.cpp:2:
+ 4:19.56 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Tuple.h:152:41: warning: 't.mozilla::detail::TupleImpl<1, JSObject*, js::CrossCompartmentKey::DebuggerObjectKind>::mHead' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 4:19.56      , mHead(Forward<HeadT>(Head(aOther))) {}
+ 4:19.56                                          ^
+ 4:19.56 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/TracingAPI.h:11:0,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCPolicyAPI.h:47,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/RootingAPI.h:22,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/CallArgs.h:73,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/CallNonGenericMethod.h:12,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/NamespaceImports.h:15,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/gc/Barrier.h:10,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSCompartment.h:19,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSCompartment-inl.h:10,
+ 4:19.56                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSCompartment.cpp:7,
+ 4:19.56                  from Unified_cpp_js_src34.cpp:2:
+ 4:19.56 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/HashTable.h:1893:47: note: 't.mozilla::detail::TupleImpl<1, JSObject*, js::CrossCompartmentKey::DebuggerObjectKind>::mHead' was declared here
+ 4:19.56          typename HashTableEntry<T>::NonConstT t(mozilla::Move(*p));
+ 4:19.56                                                ^
+ 4:43.82   61% 40) [41.192s] obj-tup/js/src: CXX Unified_cpp_js_src35.cpp
+ 4:48.17   62% 41) [29.058s] obj-tup/js/src: CXX Unified_cpp_js_src38.cpp
+ 4:48.47   64% 42) [35.192s] obj-tup/js/src: CXX Unified_cpp_js_src37.cpp
+ 4:58.41   65% 43) [14.597s] obj-tup/js/src: CXX Unified_cpp_js_src4.cpp
+ 4:59.19   68% 44) [39.639s] obj-tup/js/src: CXX Unified_cpp_js_src39.cpp
+ 5:16.89   69% 45) [28.419s] obj-tup/js/src: CXX Unified_cpp_js_src41.cpp
+ 5:16.89 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBinaryToAST.h:24:0,
+ 5:16.89                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBinaryToAST.cpp:19,
+ 5:16.89                  from Unified_cpp_js_src41.cpp:2:
+ 5:16.89 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmAST.h: In function 'bool AstDecodeExpr(AstDecodeContext&)':
+ 5:16.89 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmAST.h:232:32: warning: 'type' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:16.89        : kind_(kind), type_(type)
+ 5:16.89                                 ^
+ 5:16.89 In file included from Unified_cpp_js_src41.cpp:2:0:
+ 5:16.89 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBinaryToAST.cpp:826:14: note: 'type' was declared here
+ 5:16.89      ExprType type;
+ 5:16.89               ^~~~
+ 5:16.89 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBinaryToAST.cpp:55:18: warning: 'type' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:16.89          type(type)
+ 5:16.89                   ^
+ 5:16.89 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBinaryToAST.cpp:570:14: note: 'type' was declared here
+ 5:16.89      ExprType type;
+ 5:16.89               ^~~~
+ 5:16.89 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBinaryToAST.cpp:55:18: warning: 'type' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:16.89          type(type)
+ 5:16.89                   ^
+ 5:16.89 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBinaryToAST.cpp:585:14: note: 'type' was declared here
+ 5:16.89      ExprType type;
+ 5:16.89               ^~~~
+ 5:16.89 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBinaryToAST.cpp:26:0,
+ 5:16.89                  from Unified_cpp_js_src41.cpp:2:
+ 5:16.89 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmOpIter.h:135:62: warning: 'trueType' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:16.89      if (gcTypesEnabled == HasGcTypes::True && IsRefType(one) && IsRefType(two)) {
+ 5:16.89          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+ 5:16.89 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmOpIter.h:1453:15: note: 'trueType' was declared here
+ 5:16.89      StackType trueType;
+ 5:16.90                ^~~~~~~~
+ 5:16.90 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmOpIter.h:135:44: warning: 'falseType' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:16.90      if (gcTypesEnabled == HasGcTypes::True && IsRefType(one) && IsRefType(two)) {
+ 5:16.90          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+ 5:16.90 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmOpIter.h:1449:15: note: 'falseType' was declared here
+ 5:16.90      StackType falseType;
+ 5:16.90                ^~~~~~~~~
+ 5:16.90 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCAPI.h:15:0,
+ 5:16.90                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/Value.h:24,
+ 5:16.90                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jsutil.h:24,
+ 5:16.90                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/ds/LifoAlloc.h:24,
+ 5:16.90                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBinaryToAST.h:22,
+ 5:16.90                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBinaryToAST.cpp:19,
+ 5:16.90                  from Unified_cpp_js_src41.cpp:2:
+ 5:16.90 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Vector.h: In function 'bool js::wasm::BinaryToAst(JSContext*, const uint8_t*, uint32_t, js::LifoAlloc&, js::wasm::AstModule**)':
+ 5:16.90 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/mozilla/Vector.h:172:5: warning: 'func' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:16.90      *aDst = temp;
+ 5:16.90      ^
+ 5:16.90 In file included from Unified_cpp_js_src41.cpp:2:0:
+ 5:16.90 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBinaryToAST.cpp:2225:18: note: 'func' was declared here
+ 5:16.90          AstFunc* func;
+ 5:16.90                   ^~~~
+ 5:16.90 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBinaryToAST.cpp:2130:64: warning: 'index' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:16.90          AstExport* e = new(c.lifo) AstExport(name, exp.kind(), AstRef(index));
+ 5:16.90                                                                 ^~~~~~~~~~~~~
+ 5:16.90 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBinaryToAST.cpp:2118:16: note: 'index' was declared here
+ 5:16.90          size_t index;
+ 5:16.90                 ^~~~~
+ 5:23.19   71% 46) [23.994s] obj-tup/js/src: CXX Unified_cpp_js_src43.cpp
+ 5:35.78   73% 47) [47.615s] obj-tup/js/src: CXX Unified_cpp_js_src40.cpp
+ 5:35.78 In file included from Unified_cpp_js_src40.cpp:38:0:
+ 5:35.78 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/AsmJS.cpp: In member function 'bool ModuleValidator::declareFuncPtrTable(js::wasm::Sig&&, js::PropertyName*, uint32_t, uint32_t, uint32_t*)':
+ 5:35.79 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/AsmJS.cpp:2261:43: warning: 'sigIndex' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:35.79          env_.asmJSSigToTableIndex[sigIndex] = env_.tables.length();
+ 5:35.79                                            ^
+ 5:35.79 In file included from Unified_cpp_js_src40.cpp:47:0:
+ 5:35.79 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp: In member function 'void js::wasm::BaseCompiler::emitQuotientI32()':
+ 5:35.79 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:6073:22: warning: 'c' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:35.79          if (!isConst || c == -1)
+ 5:35.79              ~~~~~~~~~^~~~~~~~~~
+ 5:35.79 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp: In member function 'void js::wasm::BaseCompiler::emitRemainderI32()':
+ 5:35.79 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:6141:22: warning: 'c' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:35.79          if (!isConst || c == -1)
+ 5:35.79              ~~~~~~~~~^~~~~~~~~~
+ 5:35.79 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp: In member function 'bool js::wasm::BaseCompiler::emitElse()':
+ 5:35.80 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:7450:33: warning: 'thenType' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:35.80          r = popJoinRegUnlessVoid(thenType);
+ 5:35.80              ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+ 5:35.80 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp: In member function 'bool js::wasm::BaseCompiler::emitEnd()':
+ 5:35.80 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:7523:5: warning: 'kind' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:35.80      switch (kind) {
+ 5:35.80      ^~~~~~
+ 5:35.81 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:7524:38: warning: 'type' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:35.81        case LabelKind::Block: endBlock(type); break;
+ 5:35.81                               ~~~~~~~~^~~~~~
+ 5:35.81 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp: In member function 'bool js::wasm::BaseCompiler::emitBr()':
+ 5:35.81 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:7553:48: warning: 'type' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:35.81      Maybe<AnyReg> r = popJoinRegUnlessVoid(type);
+ 5:35.81                                                 ^
+ 5:35.81 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp: In member function 'bool js::wasm::BaseCompiler::emitBrIf()':
+ 5:35.81 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:5640:34: warning: 'type' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:35.81              resultType(resultType)
+ 5:35.81                                   ^
+ 5:35.81 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:7572:14: note: 'type' was declared here
+ 5:35.81      ExprType type;
+ 5:35.81               ^~~~
+ 5:35.81 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp: In member function 'bool js::wasm::BaseCompiler::emitSelect()':
+ 5:35.82 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:8631:5: warning: 'type' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:35.82      switch (NonAnyToValType(type)) {
+ 5:35.82      ^~~~~~
+ 5:35.82 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:139:0,
+ 5:35.82                  from Unified_cpp_js_src40.cpp:47:
+ 5:35.82 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmOpIter.h:120:5: warning: 'trueType' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:35.82      if (MOZ_LIKELY(one == two)) {
+ 5:35.82      ^~
+ 5:35.82 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmOpIter.h:1453:15: note: 'trueType' was declared here
+ 5:35.82      StackType trueType;
+ 5:35.82                ^~~~~~~~
+ 5:35.82 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmOpIter.h:120:5: warning: 'falseType' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:35.82      if (MOZ_LIKELY(one == two)) {
+ 5:35.82      ^~
+ 5:35.82 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmOpIter.h:1449:15: note: 'falseType' was declared here
+ 5:35.82      StackType falseType;
+ 5:35.82                ^~~~~~~~~
+ 5:43.56   76% 48) [45.150s] obj-tup/js/src: CXX Unified_cpp_js_src42.cpp
+ 5:43.56 In file included from Unified_cpp_js_src42.cpp:38:0:
+ 5:43.56 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp: In function 'bool EmitSimdOp({anonymous}::FunctionCompiler&, js::wasm::ValType, js::SimdOperation, js::SimdSign)':
+ 5:43.57 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:3026:23: warning: 'lane' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:43.57      f.iter().setResult(f.insertElementSimd(vector, scalar, lane, ToMIRType(simdType)));
+ 5:43.57      ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 5:43.57 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:3020:13: note: 'lane' was declared here
+ 5:43.57      uint8_t lane;
+ 5:43.57              ^~~~
+ 5:43.57 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:3000:23: warning: 'lane' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:43.57      f.iter().setResult(f.extractSimdElement(lane, vector,
+ 5:43.57      ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 5:43.57                                              ToMIRType(SimdToLaneType(operandType)), sign));
+ 5:43.57                                              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 5:43.57 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:2995:13: note: 'lane' was declared here
+ 5:43.57      uint8_t lane;
+ 5:43.57              ^~~~
+ 5:43.57 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp: In function 'bool js::wasm::IonCompileFunctions(const js::wasm::ModuleEnvironment&, js::LifoAlloc&, const FuncCompileInputVector&, js::wasm::CompiledCode*, JS::UniqueChars*)':
+ 5:43.57 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:2836:78: warning: 'op' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:43.57      auto* ins = f.atomicBinopHeap(op, addr.base, &access, ValType::I32, value);
+ 5:43.57                                                                               ^
+ 5:43.57 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:2828:14: note: 'op' was declared here
+ 5:43.57      AtomicOp op;
+ 5:43.57               ^~
+ 5:43.57 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:27:0,
+ 5:43.57                  from Unified_cpp_js_src42.cpp:38:
+ 5:43.58 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmOpIter.h:135:44: warning: 'falseType' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:43.58      if (gcTypesEnabled == HasGcTypes::True && IsRefType(one) && IsRefType(two)) {
+ 5:43.58          ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+ 5:43.58 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmOpIter.h:1449:15: note: 'falseType' was declared here
+ 5:43.58      StackType falseType;
+ 5:43.58                ^~~~~~~~~
+ 5:43.58 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/JitAllocPolicy.h:16:0,
+ 5:43.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/BitSet.h:12,
+ 5:43.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/Safepoints.h:10,
+ 5:43.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/JitFrames.h:13,
+ 5:43.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/x64/MacroAssembler-x64.h:10,
+ 5:43.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/MacroAssembler.h:19,
+ 5:43.58                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmDebug.cpp:26,
+ 5:43.58                  from Unified_cpp_js_src42.cpp:2:
+ 5:43.58 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jit/InlineList.h:352:9: warning: 'falseValue' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:43.58          at->next = item;
+ 5:43.58          ^~
+ 5:43.58 In file included from Unified_cpp_js_src42.cpp:38:0:
+ 5:43.58 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:2633:18: note: 'falseValue' was declared here
+ 5:43.58      MDefinition* falseValue;
+ 5:43.58                   ^~~~~~~~~~
+ 5:43.58 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:2074:5: warning: 'type' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:43.58      if (IsVoid(type)) {
+ 5:43.58      ^~
+ 5:43.58 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:2069:14: note: 'type' was declared here
+ 5:43.58      ExprType type;
+ 5:43.58               ^~~~
+ 5:43.58 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:2007:5: warning: 'thenType' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:43.59      if (!IsVoid(thenType))
+ 5:43.59      ^~
+ 5:43.59 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:2002:14: note: 'thenType' was declared here
+ 5:43.59      ExprType thenType;
+ 5:43.59               ^~~~~~~~
+ 5:43.59 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:2033:5: warning: 'kind' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:43.59      switch (kind) {
+ 5:43.59      ^~~~~~
+ 5:43.59 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:2019:15: note: 'kind' was declared here
+ 5:43.59      LabelKind kind;
+ 5:43.59                ^~~~
+ 5:43.59 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:2029:5: warning: 'type' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:43.59      if (!IsVoid(type))
+ 5:43.59      ^~
+ 5:43.59 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmIonCompile.cpp:2020:14: note: 'type' was declared here
+ 5:43.59      ExprType type;
+ 5:43.59               ^~~~
+ 5:49.30   78% 49) [32.406s] obj-tup/js/src: CXX Unified_cpp_js_src5.cpp
+ 5:58.76   79% 50) [22.962s] obj-tup/js/src: CXX Unified_cpp_js_src7.cpp
+ 6:03.72   82% 51) [40.534s] obj-tup/js/src: CXX Unified_cpp_js_src6.cpp
+ 6:03.72 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/TracingAPI.h:11:0,
+ 6:03.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCPolicyAPI.h:47,
+ 6:03.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/RootingAPI.h:22,
+ 6:03.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/CallArgs.h:73,
+ 6:03.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jsapi.h:29,
+ 6:03.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/builtin/ModuleObject.h:12,
+ 6:03.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/ParseNode.h:12,
+ 6:03.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/ParseNode-inl.h:10,
+ 6:03.72                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/ParseNode.cpp:7,
+ 6:03.72                  from Unified_cpp_js_src6.cpp:2:
+ 6:03.72 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/HashTable.h: In member function 'void js::gc::GCRuntime::beginSweepPhase(JS::gcreason::Reason, js::gc::AutoTraceSession&)':
+ 6:03.72 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/HashTable.h:1127:17: warning: 'e.js::detail::HashTable<js::HashMapEntry<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy> >, js::HashMap<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy>, js::DefaultHasher<JSCompartment*>, js::SystemAllocPolicy>::MapHashPolicy, js::SystemAllocPolicy>::Enum::rekeyed' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:03.72              if (rekeyed) {
+ 6:03.72                  ^~~~~~~
+ 6:03.73 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/HashTable.h:1128:17: warning: 'e.js::detail::HashTable<js::HashMapEntry<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy> >, js::HashMap<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy>, js::DefaultHasher<JSCompartment*>, js::SystemAllocPolicy>::MapHashPolicy, js::SystemAllocPolicy>::Enum::table_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:03.73                  table_.gen++;
+ 6:03.73                  ^~~~~~
+ 6:03.73 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/HashTable.h:1132:17: warning: 'e.js::detail::HashTable<js::HashMapEntry<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy> >, js::HashMap<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy>, js::DefaultHasher<JSCompartment*>, js::SystemAllocPolicy>::MapHashPolicy, js::SystemAllocPolicy>::Enum::removed' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:03.73              if (removed)
+ 6:03.73                  ^~~~~~~
+ 6:03.73 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/HashTable.h:1133:17: warning: 'e.js::detail::HashTable<js::HashMapEntry<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy> >, js::HashMap<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy>, js::DefaultHasher<JSCompartment*>, js::SystemAllocPolicy>::MapHashPolicy, js::SystemAllocPolicy>::Enum::table_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:03.73                  table_.compactIfUnderloaded();
+ 6:03.73                  ^~~~~~
+ 6:04.99   83% 52) [21.427s] obj-tup/js/src: CXX Unified_cpp_js_src8.cpp
+ 6:09.97   84% 53) [20.675s] obj-tup/js/src: CXX Unified_cpp_js_src9.cpp
+ 6:21.76   85% 54) [11.788s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource.cpp
+ 6:26.01   86% 55) [22.286s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/builtin/Array.cpp
+ 6:26.25   88% 56) [27.484s] obj-tup/js/src/shell: CXX Unified_cpp_js_src_shell0.cpp
+ 6:30.49   88% 57) [8.725s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinToken.cpp
+ 6:30.63   90% 58) [25.638s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp
+ 6:30.63 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp: In member function 'JS::Result<js::frontend::ParseNode*> js::frontend::BinASTParser<Tok>::parseInterfaceBinaryExpression(size_t, js::frontend::BinKind, const BinFields&) [with Tok = js::frontend::BinTokenReaderMultipart]':
+ 6:30.63 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:3523:27: warning: 'pnk' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:30.63      if (left->isKind(pnk) &&
+ 6:30.63 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/FullParseHandler.h:15:0,
+ 6:30.63                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BCEParserHandle.h:11,
+ 6:30.63                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource.h:19,
+ 6:30.63                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:20:
+ 6:30.63 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/ParseNode.h: In member function 'JS::Result<js::frontend::ParseNode*> js::frontend::BinASTParser<Tok>::parseInterfaceUnaryExpression(size_t, js::frontend::BinKind, const BinFields&) [with Tok = js::frontend::BinTokenReaderMultipart]':
+ 6:30.63 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/ParseNode.h:493:24: warning: 'pnk' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:30.64          pn_next(nullptr)
+ 6:30.64                         ^
+ 6:30.64 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:7355:19: note: 'pnk' was declared here
+ 6:30.64      ParseNodeKind pnk;
+ 6:30.64                    ^~~
+ 6:30.64 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/FullParseHandler.h:15:0,
+ 6:30.64                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BCEParserHandle.h:11,
+ 6:30.64                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource.h:19,
+ 6:30.64                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:20:
+ 6:30.64 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/ParseNode.h: In member function 'JS::Result<js::frontend::ParseNode*> js::frontend::BinASTParser<Tok>::parseInterfaceUpdateExpression(size_t, js::frontend::BinKind, const BinFields&) [with Tok = js::frontend::BinTokenReaderMultipart]':
+ 6:30.64 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/ParseNode.h:493:24: warning: 'pnk' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:30.64          pn_next(nullptr)
+ 6:30.64                         ^
+ 6:30.64 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:7453:19: note: 'pnk' was declared here
+ 6:30.64      ParseNodeKind pnk;
+ 6:30.64                    ^~~
+ 6:30.64 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BCEParserHandle.h:11:0,
+ 6:30.64                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource.h:19,
+ 6:30.64                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:20:
+ 6:30.64 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/FullParseHandler.h: In member function 'JS::Result<js::frontend::ParseNode*> js::frontend::BinASTParser<Tok>::parseInterfaceCompoundAssignmentExpression(size_t, js::frontend::BinKind, const BinFields&) [with Tok = js::frontend::BinTokenReaderMultipart]':
+ 6:30.64 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/FullParseHandler.h:750:79: warning: 'pnk' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:30.64          if (kind == ParseNodeKind::Assign && lhs->isKind(ParseNodeKind::Name) &&
+ 6:30.64              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+ 6:30.64              !lhs->isInParens())
+ 6:30.64              ~~~~~~~~~~~~~~~~~~
+ 6:30.64 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:4048:19: note: 'pnk' was declared here
+ 6:30.65      ParseNodeKind pnk;
+ 6:30.65                    ^~~
+ 6:30.65 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/FullParseHandler.h:15:0,
+ 6:30.65                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BCEParserHandle.h:11,
+ 6:30.65                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource.h:19,
+ 6:30.65                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:20:
+ 6:30.65 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/ParseNode.h: In member function 'JS::Result<js::frontend::ParseNode*> js::frontend::BinASTParser<Tok>::parseInterfaceVariableDeclaration(size_t, js::frontend::BinKind, const BinFields&) [with Tok = js::frontend::BinTokenReaderMultipart]':
+ 6:30.65 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/ParseNode.h:509:17: warning: 'pnk' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:30.65          pn_type = kind;
+ 6:30.65          ~~~~~~~~^~~~~~
+ 6:30.65 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:7519:19: note: 'pnk' was declared here
+ 6:30.65      ParseNodeKind pnk;
+ 6:30.65                    ^~~
+ 6:30.65 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp: In member function 'JS::Result<js::frontend::ParseNode*> js::frontend::BinASTParser<Tok>::parseInterfaceBinaryExpression(size_t, js::frontend::BinKind, const BinFields&) [with Tok = js::frontend::BinTokenReaderTester]':
+ 6:30.65 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:3523:27: warning: 'pnk' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:30.65      if (left->isKind(pnk) &&
+ 6:30.65 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/FullParseHandler.h:15:0,
+ 6:30.65                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BCEParserHandle.h:11,
+ 6:30.65                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource.h:19,
+ 6:30.65                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:20:
+ 6:30.65 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/ParseNode.h: In member function 'JS::Result<js::frontend::ParseNode*> js::frontend::BinASTParser<Tok>::parseInterfaceUnaryExpression(size_t, js::frontend::BinKind, const BinFields&) [with Tok = js::frontend::BinTokenReaderTester]':
+ 6:30.65 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/ParseNode.h:493:24: warning: 'pnk' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:30.65          pn_next(nullptr)
+ 6:30.65                         ^
+ 6:30.66 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:7355:19: note: 'pnk' was declared here
+ 6:30.66      ParseNodeKind pnk;
+ 6:30.66                    ^~~
+ 6:30.66 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/FullParseHandler.h:15:0,
+ 6:30.66                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BCEParserHandle.h:11,
+ 6:30.66                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource.h:19,
+ 6:30.66                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:20:
+ 6:30.66 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/ParseNode.h: In member function 'JS::Result<js::frontend::ParseNode*> js::frontend::BinASTParser<Tok>::parseInterfaceUpdateExpression(size_t, js::frontend::BinKind, const BinFields&) [with Tok = js::frontend::BinTokenReaderTester]':
+ 6:30.66 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/ParseNode.h:493:24: warning: 'pnk' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:30.66          pn_next(nullptr)
+ 6:30.66                         ^
+ 6:30.66 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:7453:19: note: 'pnk' was declared here
+ 6:30.66      ParseNodeKind pnk;
+ 6:30.66                    ^~~
+ 6:30.66 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BCEParserHandle.h:11:0,
+ 6:30.66                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource.h:19,
+ 6:30.66                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:20:
+ 6:30.66 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/FullParseHandler.h: In member function 'JS::Result<js::frontend::ParseNode*> js::frontend::BinASTParser<Tok>::parseInterfaceCompoundAssignmentExpression(size_t, js::frontend::BinKind, const BinFields&) [with Tok = js::frontend::BinTokenReaderTester]':
+ 6:30.67 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/FullParseHandler.h:750:79: warning: 'pnk' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:30.67          if (kind == ParseNodeKind::Assign && lhs->isKind(ParseNodeKind::Name) &&
+ 6:30.67              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~
+ 6:30.67              !lhs->isInParens())
+ 6:30.67              ~~~~~~~~~~~~~~~~~~
+ 6:30.67 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:4048:19: note: 'pnk' was declared here
+ 6:30.67      ParseNodeKind pnk;
+ 6:30.67                    ^~~
+ 6:30.67 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/FullParseHandler.h:15:0,
+ 6:30.67                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BCEParserHandle.h:11,
+ 6:30.67                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource.h:19,
+ 6:30.67                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:20:
+ 6:30.67 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/ParseNode.h: In member function 'JS::Result<js::frontend::ParseNode*> js::frontend::BinASTParser<Tok>::parseInterfaceVariableDeclaration(size_t, js::frontend::BinKind, const BinFields&) [with Tok = js::frontend::BinTokenReaderTester]':
+ 6:30.67 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/ParseNode.h:509:17: warning: 'pnk' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:30.67          pn_type = kind;
+ 6:30.67          ~~~~~~~~^~~~~~
+ 6:30.67 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinSource-auto.cpp:7519:19: note: 'pnk' was declared here
+ 6:30.67      ParseNodeKind pnk;
+ 6:30.67                    ^~~
+ 6:34.10   90% 59) [8.089s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinTokenReaderBase.cpp
+ 6:34.76   91% 60) [8.518s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinTokenReaderMultipart.cpp
+ 6:38.19   91% 61) [7.696s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/frontend/BinTokenReaderTester.cpp
+ 6:43.25   92% 62) [12.614s] obj-tup/js/src: CXX /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp
+ 6:43.25 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/gc/GCRuntime.h:25:0,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/Runtime.h:29,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom-inl.h:16,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:11:
+ 6:43.25 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/AtomsTable.h: In function 'JSAtom* js::Atomize(JSContext*, const char*, size_t, js::PinningBehavior, const mozilla::Maybe<unsigned int>&)':
+ 6:43.25 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/AtomsTable.h:27:66: warning: 'zonePtr.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::AddPtr::<anonymous>.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::Ptr::entry_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:43.25      AtomStateEntry(const AtomStateEntry& other) : bits(other.bits) {}
+ 6:43.25                                                                   ^
+ 6:43.25 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:366:28: note: 'zonePtr.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::AddPtr::<anonymous>.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::Ptr::entry_' was declared here
+ 6:43.25      Maybe<AtomSet::AddPtr> zonePtr;
+ 6:43.25                             ^~~~~~~
+ 6:43.25 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/TracingAPI.h:11:0,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCPolicyAPI.h:47,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCVector.h:12,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/gc/Rooting.h:10,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.h:12,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom-inl.h:10,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:11:
+ 6:43.25 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/HashTable.h:1330:25: warning: '*((void*)& zonePtr +8)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:43.25          return hash0 >> hashShift;
+ 6:43.25                          ^~~~~~~~~
+ 6:43.25 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:366:28: note: '*((void*)& zonePtr +8)' was declared here
+ 6:43.25      Maybe<AtomSet::AddPtr> zonePtr;
+ 6:43.25                             ^~~~~~~
+ 6:43.25 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/gc/GCRuntime.h:25:0,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/Runtime.h:29,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom-inl.h:16,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:11:
+ 6:43.25 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/AtomsTable.h: In function 'JSAtom* js::AtomizeChars(JSContext*, const CharT*, size_t, js::PinningBehavior) [with CharT = unsigned char]':
+ 6:43.25 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/AtomsTable.h:27:66: warning: 'zonePtr.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::AddPtr::<anonymous>.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::Ptr::entry_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:43.25      AtomStateEntry(const AtomStateEntry& other) : bits(other.bits) {}
+ 6:43.25                                                                   ^
+ 6:43.25 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:366:28: note: 'zonePtr.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::AddPtr::<anonymous>.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::Ptr::entry_' was declared here
+ 6:43.25      Maybe<AtomSet::AddPtr> zonePtr;
+ 6:43.25                             ^~~~~~~
+ 6:43.25 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/TracingAPI.h:11:0,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCPolicyAPI.h:47,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCVector.h:12,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/gc/Rooting.h:10,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.h:12,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom-inl.h:10,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:11:
+ 6:43.25 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/HashTable.h:1330:25: warning: '*((void*)& zonePtr +8)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:43.25          return hash0 >> hashShift;
+ 6:43.25                          ^~~~~~~~~
+ 6:43.25 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:366:28: note: '*((void*)& zonePtr +8)' was declared here
+ 6:43.25      Maybe<AtomSet::AddPtr> zonePtr;
+ 6:43.25                             ^~~~~~~
+ 6:43.25 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/gc/GCRuntime.h:25:0,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/Runtime.h:29,
+ 6:43.25                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom-inl.h:16,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:11:
+ 6:43.26 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/AtomsTable.h: In function 'JSAtom* js::AtomizeChars(JSContext*, const CharT*, size_t, js::PinningBehavior) [with CharT = char16_t]':
+ 6:43.26 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/AtomsTable.h:27:66: warning: 'zonePtr.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::AddPtr::<anonymous>.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::Ptr::entry_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:43.26      AtomStateEntry(const AtomStateEntry& other) : bits(other.bits) {}
+ 6:43.26                                                                   ^
+ 6:43.26 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:366:28: note: 'zonePtr.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::AddPtr::<anonymous>.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::Ptr::entry_' was declared here
+ 6:43.26      Maybe<AtomSet::AddPtr> zonePtr;
+ 6:43.26                             ^~~~~~~
+ 6:43.26 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/TracingAPI.h:11:0,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCPolicyAPI.h:47,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCVector.h:12,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/gc/Rooting.h:10,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.h:12,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom-inl.h:10,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:11:
+ 6:43.26 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/HashTable.h:1330:25: warning: '*((void*)& zonePtr +8)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:43.26          return hash0 >> hashShift;
+ 6:43.26                          ^~~~~~~~~
+ 6:43.26 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:366:28: note: '*((void*)& zonePtr +8)' was declared here
+ 6:43.26      Maybe<AtomSet::AddPtr> zonePtr;
+ 6:43.26                             ^~~~~~~
+ 6:43.26 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/TracingAPI.h:11:0,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCPolicyAPI.h:47,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCVector.h:12,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/gc/Rooting.h:10,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.h:12,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom-inl.h:10,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:11:
+ 6:43.26 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/HashTable.h: In function 'JSAtom* js::AtomizeString(JSContext*, JSString*, js::PinningBehavior)':
+ 6:43.26 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/HashTable.h:1343:26: warning: '*((void*)& zonePtr +8)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:43.26              ((curKeyHash << sizeLog2) >> hashShift) | 1,
+ 6:43.26               ~~~~~~~~~~~~^~~~~~~~~~~~
+ 6:43.26 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:366:28: note: '*((void*)& zonePtr +8)' was declared here
+ 6:43.26      Maybe<AtomSet::AddPtr> zonePtr;
+ 6:43.26                             ^~~~~~~
+ 6:43.26 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/gc/GCRuntime.h:25:0,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/Runtime.h:29,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom-inl.h:16,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:11:
+ 6:43.26 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/AtomsTable.h:27:66: warning: 'zonePtr.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::AddPtr::<anonymous>.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::Ptr::entry_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:43.26      AtomStateEntry(const AtomStateEntry& other) : bits(other.bits) {}
+ 6:43.26                                                                   ^
+ 6:43.26 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:366:28: note: 'zonePtr.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::AddPtr::<anonymous>.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::Ptr::entry_' was declared here
+ 6:43.26      Maybe<AtomSet::AddPtr> zonePtr;
+ 6:43.26                             ^~~~~~~
+ 6:43.26 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/TracingAPI.h:11:0,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCPolicyAPI.h:47,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/GCVector.h:12,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/gc/Rooting.h:10,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.h:12,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom-inl.h:10,
+ 6:43.26                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:11:
+ 6:43.26 /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup/dist/include/js/HashTable.h:1343:26: warning: '*((void*)& zonePtr +8)' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:43.26              ((curKeyHash << sizeLog2) >> hashShift) | 1,
+ 6:43.26               ~~~~~~~~~~~~^~~~~~~~~~~~
+ 6:43.26 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:366:28: note: '*((void*)& zonePtr +8)' was declared here
+ 6:43.26      Maybe<AtomSet::AddPtr> zonePtr;
+ 6:43.26                             ^~~~~~~
+ 6:43.26 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/gc/GCRuntime.h:25:0,
+ 6:43.27                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/Runtime.h:29,
+ 6:43.27                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom-inl.h:16,
+ 6:43.27                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:11:
+ 6:43.27 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/AtomsTable.h:27:66: warning: 'zonePtr.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::AddPtr::<anonymous>.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::Ptr::entry_' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:43.27      AtomStateEntry(const AtomStateEntry& other) : bits(other.bits) {}
+ 6:43.27                                                                   ^
+ 6:43.27 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:366:28: note: 'zonePtr.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::AddPtr::<anonymous>.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::Ptr::entry_' was declared here
+ 6:43.27      Maybe<AtomSet::AddPtr> zonePtr;
+ 6:43.27                             ^~~~~~~
+ 6:43.27 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/jsnum.h:18:0,
+ 6:43.27                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom-inl.h:14,
+ 6:43.27                  from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:11:
+ 6:43.27 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/StringType.h:929:30: warning: 'indexValue' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:43.27          d.u1.flags |= (index << INDEX_VALUE_SHIFT) | INDEX_VALUE_BIT;
+ 6:43.27                        ~~~~~~~^~~~~~~~~~~~~~~~~~~~~
+ 6:43.27 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/vm/JSAtom.cpp:524:21: note: 'indexValue' was declared here
+ 6:43.27      Maybe<uint32_t> indexValue;
+ 6:43.27                      ^~~~~~~~~~
+ 6:50.84   94% 63) [16.739s] obj-tup/js/src: CXX Unified_cpp_js_src44.cpp
+ 6:50.84 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmTextToBinary.cpp:33:0,
+ 6:50.84                  from Unified_cpp_js_src44.cpp:2:
+ 6:50.84 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmAST.h: In function 'js::wasm::AstConst* ParseConst({anonymous}::WasmParseContext&, {anonymous}::WasmToken)':
+ 6:50.84 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmAST.h:290:17: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:50.84          val_(val)
+ 6:50.84                  ^
+ 6:50.84 In file included from Unified_cpp_js_src44.cpp:2:0:
+ 6:50.84 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmTextToBinary.cpp:2183:11: note: 'result' was declared here
+ 6:50.84      Float result;
+ 6:50.84            ^~~~~~
+ 6:50.84 In file included from /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmTextToBinary.cpp:33:0,
+ 6:50.84                  from Unified_cpp_js_src44.cpp:2:
+ 6:50.84 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmAST.h:290:17: warning: 'result' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 6:50.84          val_(val)
+ 6:50.84                  ^
+ 6:50.84 In file included from Unified_cpp_js_src44.cpp:2:0:
+ 6:50.84 /home/gmaudoux/projets/gecko-tup/gecko-dev/js/src/wasm/WasmTextToBinary.cpp:2183:11: note: 'result' was declared here
+ 6:50.84      Float result;
+ 6:50.84            ^~~~~~
+ 6:53.09   94% 64) [2.254s] obj-tup/js/src/build: AR libjs_static.a
+ 6:57.68   94% 65) [4.588s] obj-tup/js/src/build: python /home/gmaudoux/projets/gecko-tup/gecko-dev/config/run_spidermonkey_checks.py:main -> [spidermonkey_checks spidermonkey_checks.pp]
+ 6:57.68 TEST-PASS | check_spidermonkey_style.py | ok
+ 6:57.68 TEST-PASS | check_macroassembler_style.py | ok
+ 6:57.68 TEST-PASS | check_js_opcode.py | ok
+ 7:02.31   95% 66) [9.213s] obj-tup/js/src/shell: LINK ../../../dist/bin/js
+ 8:12.19   99% 67) [79.100s] obj-tup/toolkit/library: LINK libxul.so
+ 8:13.32   99% 68) [1.127s] obj-tup/toolkit/library: python /home/gmaudoux/projets/gecko-tup/gecko-dev/toolkit/library/dependentlibs.py:gen_list -> [dependentlibs.list dependentlibs.list.gtest dependentlibs.list.pp]
+ 8:13.96   99% 69) [1.764s] obj-tup/js/xpconnect/shell: LINK ../../../dist/bin/xpcshell
+ 8:13.96  100% 70) [1.766s] obj-tup/ipc/app: LINK ../../dist/bin/plugin-container
+ 8:13.99 [ tup ] [493.519s] Updated.
+ 8:14.70 418 compiler warnings present.
+ 8:14.96 Overall system resources - Wall time: 494s; CPU: 87%; Read bytes: 2600931328; Write bytes: 4078137344; Read time: 17570; Write time: 1385693
+ 8:14.96 Swap in/out (MB): 0/0
+ 8:15.07 warning: js/src/frontend/BinSource-auto.cpp:3523:27 [-Wmaybe-uninitialized] 'pnk' may be used uninitialized in this function
+ 8:15.07 warning: js/src/frontend/FullParseHandler.h:750:79 [-Wmaybe-uninitialized] 'pnk' may be used uninitialized in this function
+ 8:15.07 warning: js/src/frontend/ParseNode.h:493:24 [-Wmaybe-uninitialized] 'pnk' may be used uninitialized in this function
+ 8:15.07 warning: js/src/frontend/ParseNode.h:509:17 [-Wmaybe-uninitialized] 'pnk' may be used uninitialized in this function
+ 8:15.07 warning: js/src/jit/InlineList.h:352:9 [-Wmaybe-uninitialized] 'falseValue' may be used uninitialized in this function
+ 8:15.07 warning: js/src/jit/IonCacheIRCompiler.cpp:1616:32 [-Wmaybe-uninitialized] '*((void*)& scratch +8)' may be used uninitialized in this function
+ 8:15.07 warning: js/src/jit/IonCacheIRCompiler.cpp:1775:32 [-Wmaybe-uninitialized] '*((void*)& scratch +8)' may be used uninitialized in this function
+ 8:15.07 warning: js/src/jit/MIR.cpp:4544:46 [-Wmaybe-uninitialized] 'res' may be used uninitialized in this function
+ 8:15.07 warning: js/src/util/StringBuffer.h:303:35 [-Wmaybe-uninitialized] 'voffset' may be used uninitialized in this function
+ 8:15.07 warning: js/src/vm/AtomsTable.h:27:66 [-Wmaybe-uninitialized] 'zonePtr.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::AddPtr::<anonymous>.js::detail::HashTable<const js::AtomStateEntry, js::HashSet<js::AtomStateEntry, js::AtomHasher, js::SystemAllocPolicy>::SetOps, js::SystemAllocPolicy>::Ptr::entry_' may be used uninitialized in this function
+ 8:15.07 warning: js/src/vm/Debugger.cpp:10849:52 [-Wmaybe-uninitialized] 's' may be used uninitialized in this function
+ 8:15.07 warning: js/src/vm/StringType.h:929:30 [-Wmaybe-uninitialized] 'indexValue' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/AsmJS.cpp:2261:43 [-Wmaybe-uninitialized] 'sigIndex' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmAST.h:232:32 [-Wmaybe-uninitialized] 'type' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmAST.h:290:17 [-Wmaybe-uninitialized] 'result' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmBaselineCompile.cpp:5640:34 [-Wmaybe-uninitialized] 'type' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmBaselineCompile.cpp:6073:22 [-Wmaybe-uninitialized] 'c' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmBaselineCompile.cpp:6141:22 [-Wmaybe-uninitialized] 'c' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmBaselineCompile.cpp:7450:33 [-Wmaybe-uninitialized] 'thenType' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmBaselineCompile.cpp:7523:5 [-Wmaybe-uninitialized] 'kind' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmBaselineCompile.cpp:7524:38 [-Wmaybe-uninitialized] 'type' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmBaselineCompile.cpp:7553:48 [-Wmaybe-uninitialized] 'type' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmBaselineCompile.cpp:8631:5 [-Wmaybe-uninitialized] 'type' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmBinaryToAST.cpp:55:18 [-Wmaybe-uninitialized] 'type' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmBinaryToAST.cpp:2130:64 [-Wmaybe-uninitialized] 'index' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmIonCompile.cpp:2007:5 [-Wmaybe-uninitialized] 'thenType' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmIonCompile.cpp:2029:5 [-Wmaybe-uninitialized] 'type' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmIonCompile.cpp:2033:5 [-Wmaybe-uninitialized] 'kind' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmIonCompile.cpp:2074:5 [-Wmaybe-uninitialized] 'type' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmIonCompile.cpp:2836:78 [-Wmaybe-uninitialized] 'op' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmIonCompile.cpp:3000:23 [-Wmaybe-uninitialized] 'lane' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmIonCompile.cpp:3026:23 [-Wmaybe-uninitialized] 'lane' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmOpIter.h:120:5 [-Wmaybe-uninitialized] 'falseType' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmOpIter.h:120:5 [-Wmaybe-uninitialized] 'trueType' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmOpIter.h:135:44 [-Wmaybe-uninitialized] 'falseType' may be used uninitialized in this function
+ 8:15.07 warning: js/src/wasm/WasmOpIter.h:135:62 [-Wmaybe-uninitialized] 'trueType' may be used uninitialized in this function
+ 8:15.07 warning: obj-tup/dist/include/js/HashTable.h:1127:17 [-Wmaybe-uninitialized] 'e.js::detail::HashTable<js::HashMapEntry<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy> >, js::HashMap<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy>, js::DefaultHasher<JSCompartment*>, js::SystemAllocPolicy>::MapHashPolicy, js::SystemAllocPolicy>::Enum::rekeyed' may be used uninitialized in this function
+ 8:15.07 warning: obj-tup/dist/include/js/HashTable.h:1128:17 [-Wmaybe-uninitialized] 'e.js::detail::HashTable<js::HashMapEntry<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy> >, js::HashMap<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy>, js::DefaultHasher<JSCompartment*>, js::SystemAllocPolicy>::MapHashPolicy, js::SystemAllocPolicy>::Enum::table_' may be used uninitialized in this function
+ 8:15.07 warning: obj-tup/dist/include/js/HashTable.h:1132:17 [-Wmaybe-uninitialized] 'e.js::detail::HashTable<js::HashMapEntry<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy> >, js::HashMap<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy>, js::DefaultHasher<JSCompartment*>, js::SystemAllocPolicy>::MapHashPolicy, js::SystemAllocPolicy>::Enum::removed' may be used uninitialized in this function
+ 8:15.07 warning: obj-tup/dist/include/js/HashTable.h:1133:17 [-Wmaybe-uninitialized] 'e.js::detail::HashTable<js::HashMapEntry<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy> >, js::HashMap<JSCompartment*, js::NurseryAwareHashMap<js::CrossCompartmentKey, JS::Value, js::CrossCompartmentKey::Hasher, js::SystemAllocPolicy>, js::DefaultHasher<JSCompartment*>, js::SystemAllocPolicy>::MapHashPolicy, js::SystemAllocPolicy>::Enum::table_' may be used uninitialized in this function
+ 8:15.07 warning: obj-tup/dist/include/js/HashTable.h:1330:25 [-Wmaybe-uninitialized] '*((void*)& zonePtr +8)' may be used uninitialized in this function
+ 8:15.07 warning: obj-tup/dist/include/js/HashTable.h:1343:26 [-Wmaybe-uninitialized] '*((void*)& zonePtr +8)' may be used uninitialized in this function
+ 8:15.07 warning: obj-tup/dist/include/js/Value.h:404:51 [-Wmaybe-uninitialized] 'res' may be used uninitialized in this function
+ 8:15.07 warning: obj-tup/dist/include/js/Value.h:404:51 [-Wmaybe-uninitialized] 'result' may be used uninitialized in this function
+ 8:15.07 warning: obj-tup/dist/include/mozilla/Tuple.h:152:41 [-Wmaybe-uninitialized] 't.mozilla::detail::TupleImpl<1, JSObject*, js::CrossCompartmentKey::DebuggerObjectKind>::mHead' may be used uninitialized in this function
+ 8:15.07 warning: obj-tup/dist/include/mozilla/Tuple.h:152:41 [-Wmaybe-uninitialized] 't.mozilla::detail::TupleImpl<0, js::NativeObject*, JSObject*, js::CrossCompartmentKey::DebuggerObjectKind>::mHead' may be used uninitialized in this function
+ 8:15.07 warning: obj-tup/dist/include/mozilla/Vector.h:172:5 [-Wmaybe-uninitialized] 'func' may be used uninitialized in this function
+ 8:15.07 warning: obj-tup/dist/include/mozilla/Vector.h:1399:11 [-Wmaybe-uninitialized] 'vlength' may be used uninitialized in this function
+ 8:15.08 /nix/store/vbvlba36jl5dfqnma2xqdl1ci294rnbr-libnotify-0.7.7/bin/notify-send --app-name=Mozilla Build System Mozilla Build System Build complete
+ 8:15.20 Your build was successful!
+To view resource usage of the build, run |mach resource-usage|.
+To take your build for a test drive, run: |mach run|
+For more information on what to do now, see https://developer.mozilla.org/docs/Developer_Guide/So_You_Just_Built_Firefox

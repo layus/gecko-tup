@@ -1,0 +1,217 @@
++ reconfigure
++ pushd obj-make
++ PYTHONDONTWRITEBYTECODE=True
++ ./config.status
+Reticulating splines...
+ 0:01.32 File already read. Skipping: /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/angle/targets/angle_common/moz.build
+Finished reading 1093 moz.build files in 2.35s
+Read 61 gyp files in parallel contributing 1.88s to total wall time
+Processed into 7698 build config descriptors in 3.27s
+RecursiveMake backend executed in 3.30s
+  2500 total backend files; 0 created; 0 updated; 2500 unchanged; 0 deleted; 28 -> 941 Makefile
+FasterMake backend executed in 0.28s
+  15 total backend files; 0 created; 0 updated; 15 unchanged; 0 deleted
+Total wall time: 11.53s; CPU time: 9.76s; Efficiency: 85%; Untracked: 2.33s
++ popd
+
+real	0m12.117s
+user	0m15.058s
+sys	0m2.205s
++ mach build
++ ./mach build
+ 0:00.64 Clobber not needed.
+ 0:00.64 Adding make options from /home/gmaudoux/projets/gecko-tup/static_make_tests/.mozconfig.nix-shell
+    AUTOCONF=/nix/store/6m16jx9snhl5k1y078az476g9vfqvk4k-autoconf-2.13/bin/autoconf
+    MOZ_OBJDIR=/home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu
+    OBJDIR=/home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu
+    FOUND_MOZCONFIG=/home/gmaudoux/projets/gecko-tup/static_make_tests/.mozconfig.nix-shell
+    export FOUND_MOZCONFIG
+ 0:00.65 /nix/store/lhp5rw0dagi5mgqwr9i3x41240ba4ypz-gnumake-4.2.1/bin/make -f client.mk -s
+ 0:01.13 Elapsed: 0.00s; From dist/public: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.14 Elapsed: 0.00s; From dist/private: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.22 Elapsed: 0.10s; From dist/idl: Kept 867 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.42 Elapsed: 0.00s; From dist/xpi-stage: Kept 9 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.64 Elapsed: 0.20s; From _tests: Kept 993 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.68 Elapsed: 0.19s; From dist/bin: Kept 2095 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.72 Elapsed: 0.59s; From dist/include: Kept 5341 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:02.25 Elapsed: 0.05s; From ../../dist/idl: Kept 867 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:02.32 accessibility.xpt
+ 0:02.32 alerts.xpt
+ 0:02.32 appshell.xpt
+ 0:02.32 appstartup.xpt
+ 0:02.32 autocomplete.xpt
+ 0:02.75 autoconfig.xpt
+ 0:02.77 backgroundhangmonitor.xpt
+ 0:02.88 browser-element.xpt
+ 0:03.19 browser-feeds.xpt
+ 0:03.28 browser-newtab.xpt
+ 0:03.30 browsercompsbase.xpt
+ 0:03.41 caps.xpt
+ 0:03.61 captivedetect.xpt
+ 0:03.71 chrome.xpt
+ 0:03.73 commandhandler.xpt
+ 0:03.80 commandlines.xpt
+ 0:04.10 composer.xpt
+ 0:04.15 content_events.xpt
+ 0:04.15 content_geckomediaplugins.xpt
+ 0:04.40 content_html.xpt
+ 0:04.56 content_webrtc.xpt
+ 0:04.56 content_xslt.xpt
+ 0:04.58 directory.xpt
+ 0:04.86 diskspacewatcher.xpt
+ 0:04.96 docshell.xpt
+ 0:04.98 dom.xpt
+ 0:05.00 dom_audiochannel.xpt
+ 0:05.25 dom_base.xpt
+ 0:05.36 dom_bindings.xpt
+ 0:05.65 dom_core.xpt
+ 0:05.86 dom_events.xpt
+ 0:05.99 dom_file.xpt
+ 0:06.09 dom_geolocation.xpt
+ 0:06.36 dom_html.xpt
+ 0:06.39 dom_media.xpt
+ 0:06.47 dom_network.xpt
+ 0:06.68 dom_notification.xpt
+ 0:06.87 dom_offline.xpt
+ 0:06.89 dom_payments.xpt
+ 0:06.96 dom_power.xpt
+ 0:07.14 dom_presentation.xpt
+ 0:07.30 dom_push.xpt
+ 0:07.30 dom_quota.xpt
+ 0:07.55 dom_range.xpt
+ 0:07.78 dom_security.xpt
+ 0:08.00 dom_sidebar.xpt
+ 0:08.02 dom_storage.xpt
+ 0:08.15 dom_system.xpt
+ 0:08.17 dom_webauthn.xpt
+ 0:08.43 dom_webspeechrecognition.xpt
+ 0:08.47 dom_webspeechsynth.xpt
+ 0:08.56 dom_workers.xpt
+ 0:08.58 dom_xul.xpt
+ 0:08.83 downloads.xpt
+ 0:08.87 editor.xpt
+ 0:08.99 enterprisepolicies.xpt
+ 0:08.99 extensions.xpt
+ 0:09.27 exthandler.xpt
+ 0:09.38 fastfind.xpt
+ 0:09.46 feeds.xpt
+ 0:09.67 gfx.xpt
+ 0:09.83 html5.xpt
+ 0:09.91 htmlparser.xpt
+ 0:09.92 imglib2.xpt
+ 0:10.24 inspector.xpt
+ 0:10.29 intl.xpt
+ 0:10.33 jar.xpt
+ 0:10.33 jsdebugger.xpt
+ 0:10.71 jsinspector.xpt
+ 0:10.75 layout_base.xpt
+ 0:10.87 layout_printing.xpt
+ 0:10.93 layout_xul.xpt
+ 0:11.11 layout_xul_tree.xpt
+ 0:11.15 locale.xpt
+ 0:11.30 loginmgr.xpt
+ 0:11.36 migration.xpt
+ 0:11.54 mimetype.xpt
+ 0:11.68 mozfind.xpt
+ 0:11.79 mozintl.xpt
+ 0:11.87 necko.xpt
+ 0:11.95 necko_about.xpt
+ 0:12.15 necko_cache.xpt
+ 0:12.25 necko_cache2.xpt
+ 0:12.29 necko_cookie.xpt
+ 0:12.55 necko_dns.xpt
+ 0:12.81 necko_file.xpt
+ 0:12.82 necko_ftp.xpt
+ 0:13.03 necko_http.xpt
+ 0:13.24 necko_mdns.xpt
+ 0:13.32 necko_res.xpt
+ 0:13.43 necko_socket.xpt
+ 0:13.76 necko_strconv.xpt
+ 0:13.88 necko_viewsource.xpt
+ 0:14.01 necko_websocket.xpt
+ 0:14.25 necko_wifi.xpt
+ 0:14.38 necko_wyciwyg.xpt
+ 0:14.47 parentalcontrols.xpt
+ 0:14.77 peerconnection.xpt
+ 0:14.80 pipnss.xpt
+ 0:14.94 pippki.xpt
+ 0:15.16 places.xpt
+ 0:15.18 plugin.xpt
+ 0:15.24 pref.xpt
+ 0:15.63 prefetch.xpt
+ 0:15.79 privatebrowsing.xpt
+ 0:16.06 profiler.xpt
+ 0:16.10 rdf.xpt
+ 0:16.16 remote.xpt
+ 0:16.25 reputationservice.xpt
+ 0:16.45 sandbox.xpt
+ 0:16.52 satchel.xpt
+ 0:16.64 saxparser.xpt
+ 0:16.90 services-crypto-component.xpt
+ 0:16.96 services_fxaccounts.xpt
+ 0:17.06 sessionstore.xpt
+ 0:17.36 shellservice.xpt
+ 0:17.38 shistory.xpt
+ 0:17.46 spellchecker.xpt
+ 0:17.77 storage.xpt
+ 0:17.78 telemetry.xpt
+ 0:17.80 test_necko.xpt
+ 0:18.04 thumbnails.xpt
+ 0:18.24 toolkit_asyncshutdown.xpt
+ 0:18.26 toolkit_crashservice.xpt
+ 0:18.51 toolkit_filewatcher.xpt
+ 0:18.61 toolkit_finalizationwitness.xpt
+ 0:18.64 toolkit_osfile.xpt
+ 0:18.70 toolkit_perfmonitoring.xpt
+ 0:18.90 toolkit_securityreporter.xpt
+ 0:19.02 toolkit_xulstore.xpt
+ 0:19.04 toolkitprofile.xpt
+ 0:19.10 toolkitremote.xpt
+ 0:19.37 txmgr.xpt
+ 0:19.43 txtsvc.xpt
+ 0:19.43 uconv.xpt
+ 0:19.55 update.xpt
+ 0:19.77 uriloader.xpt
+ 0:19.87 url-classifier.xpt
+ 0:19.90 urlformatter.xpt
+ 0:19.97 webBrowser_core.xpt
+ 0:20.26 webbrowserpersist.xpt
+ 0:20.36 webextensions.xpt
+ 0:20.44 webvtt.xpt
+ 0:20.52 widget.xpt
+ 0:20.84 windowcreator.xpt
+ 0:20.84 windowwatcher.xpt
+ 0:20.94 xpcom_base.xpt
+ 0:20.99 xpcom_components.xpt
+ 0:21.27 xpcom_ds.xpt
+ 0:21.47 xpcom_io.xpt
+ 0:21.72 xpcom_system.xpt
+ 0:21.78 xpcom_threads.xpt
+ 0:22.33 xpcomtest.xpt
+ 0:22.35 xpconnect.xpt
+ 0:22.39 xpctest.xpt
+ 0:22.66 xul.xpt
+ 0:22.75 xulapp.xpt
+ 0:23.02 zipwriter.xpt
+ 0:23.92 force-cargo-library-build
+ 0:26.26     Finished release [optimized] target(s) in 0.0 secs
+ 0:33.94 PASS
+ 0:33.94 PASS
+ 0:36.24   adding: install.rdf (deflated 53%)
+ 0:36.27   adding: plugins/libnptest.so (deflated 65%)
+ 0:36.30   adding: plugins/libnpsecondtest.so (deflated 65%)
+ 0:36.34   adding: plugins/libnpthirdtest.so (deflated 65%)
+ 0:36.36   adding: plugins/libnpswftest.so (deflated 65%)
+ 0:52.08 Packaging specialpowers@mozilla.org.xpi...
+ 0:52.27 Packaging quitter@mozilla.org.xpi...
+ 0:52.50 Packaging mozscreenshots@mozilla.org.xpi...
+ 0:52.68 547 compiler warnings present.
+ 0:52.76 Overall system resources - Wall time: 52s; CPU: 69%; Read bytes: 16384; Write bytes: 28782592; Read time: 0; Write time: 2080
+ 0:52.78 Your build was successful!
+To view resource usage of the build, run |mach resource-usage|.
+To take your build for a test drive, run: |mach run|
+For more information on what to do now, see https://developer.mozilla.org/docs/Developer_Guide/So_You_Just_Built_Firefox
+
+real	0m52.918s
+user	2m2.770s
+sys	0m18.663s

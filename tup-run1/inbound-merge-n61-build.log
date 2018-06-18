@@ -1,0 +1,18 @@
+ 0:00.60 /nix/store/lmq72s0kwyd3dfm1k9ahmaha5zcj5igh-tup/bin/tup upd /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup -j4
+ 0:00.61 [ tup ] [0.000s] Scanning filesystem...
+ 0:02.76 [ tup ] [2.148s] Reading in new environment variables...
+ 0:02.76 [ tup ] [2.149s] Parsing Tupfiles...
+ 0:02.78   25% 1) [0.003s] .
+ 0:02.79   50% 2) [0.005s] obj-tup
+ 0:02.79   75% 3) [0.002s] obj-tup/dist/bin
+ 0:02.79  100% 4) [0.003s] obj-tup/build
+ 0:02.79 [ tup ] [2.185s] No files to delete.
+ 0:02.79 [ tup ] [2.185s] Generating .gitignore files...
+ 0:02.85 [ tup ] [2.241s] No commands to execute.
+ 0:02.87 [ tup ] [2.260s] Updated.
+ 0:02.92 418 compiler warnings present.
+ 0:02.97 Overall system resources - Wall time: 2s; CPU: 16%; Read bytes: 58544128; Write bytes: 0; Read time: 1353; Write time: 0
+ 0:02.97 Your build was successful!
+To view resource usage of the build, run |mach resource-usage|.
+To take your build for a test drive, run: |mach run|
+For more information on what to do now, see https://developer.mozilla.org/docs/Developer_Guide/So_You_Just_Built_Firefox

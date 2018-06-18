@@ -1,0 +1,26 @@
+Reticulating splines...
+ 0:01.70 File already read. Skipping: /home/gmaudoux/projets/gecko-tup/gecko-dev/gfx/angle/targets/angle_common/moz.build
+Finished reading 1093 moz.build files in 2.82s
+Read 61 gyp files in parallel contributing 0.00s to total wall time
+Processed into 7698 build config descriptors in 3.20s
+Tup backend executed in 3.65s
+  2242 total backend files; 0 created; 1 updated; 2241 unchanged; 0 deleted
+Total wall time: 10.13s; CPU time: 9.62s; Efficiency: 95%; Untracked: 0.46s
+ 0:00.51 /nix/store/lmq72s0kwyd3dfm1k9ahmaha5zcj5igh-tup/bin/tup upd /home/gmaudoux/projets/gecko-tup/gecko-dev/obj-tup -j4
+ 0:00.51 [ tup ] [0.000s] Scanning filesystem...
+ 0:01.48 [ tup ] [0.963s] Reading in new environment variables...
+ 0:01.48 [ tup ] [0.963s] Parsing Tupfiles...
+ 0:01.49   25% 1) [0.001s] .
+ 0:01.49   50% 2) [0.002s] obj-tup
+ 0:01.49   75% 3) [0.001s] obj-tup/dist/bin
+ 0:01.49  100% 4) [0.001s] obj-tup/build
+ 0:01.49 [ tup ] [0.975s] No files to delete.
+ 0:01.49 [ tup ] [0.976s] Generating .gitignore files...
+ 0:01.52 [ tup ] [1.000s] No commands to execute.
+ 0:01.54 [ tup ] [1.020s] Updated.
+ 0:01.58 418 compiler warnings present.
+ 0:01.62 Overall system resources - Wall time: 1s; CPU: 33%; Read bytes: 0; Write bytes: 966656; Read time: 0; Write time: 9
+ 0:01.63 Your build was successful!
+To view resource usage of the build, run |mach resource-usage|.
+To take your build for a test drive, run: |mach run|
+For more information on what to do now, see https://developer.mozilla.org/docs/Developer_Guide/So_You_Just_Built_Firefox

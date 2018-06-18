@@ -1,0 +1,59 @@
++ reconfigure
++ pushd obj-make
++ PYTHONDONTWRITEBYTECODE=True
++ ./config.status
+Reticulating splines...
+ 0:01.26 File already read. Skipping: /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/angle/targets/angle_common/moz.build
+Finished reading 1093 moz.build files in 2.30s
+Read 61 gyp files in parallel contributing 1.82s to total wall time
+Processed into 7698 build config descriptors in 3.18s
+RecursiveMake backend executed in 3.29s
+  2500 total backend files; 0 created; 0 updated; 2500 unchanged; 0 deleted; 28 -> 941 Makefile
+FasterMake backend executed in 0.29s
+  15 total backend files; 0 created; 0 updated; 15 unchanged; 0 deleted
+Total wall time: 11.32s; CPU time: 9.60s; Efficiency: 85%; Untracked: 2.27s
++ popd
+
+real	0m11.896s
+user	0m14.777s
+sys	0m2.131s
++ mach build
++ ./mach build
+ 0:00.64 Clobber not needed.
+ 0:00.64 Adding make options from /home/gmaudoux/projets/gecko-tup/static_make_tests/.mozconfig.nix-shell
+    AUTOCONF=/nix/store/6m16jx9snhl5k1y078az476g9vfqvk4k-autoconf-2.13/bin/autoconf
+    MOZ_OBJDIR=/home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu
+    OBJDIR=/home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu
+    FOUND_MOZCONFIG=/home/gmaudoux/projets/gecko-tup/static_make_tests/.mozconfig.nix-shell
+    export FOUND_MOZCONFIG
+ 0:00.64 /nix/store/lhp5rw0dagi5mgqwr9i3x41240ba4ypz-gnumake-4.2.1/bin/make -f client.mk -s
+ 0:01.11 Elapsed: 0.00s; From dist/public: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.11 Elapsed: 0.00s; From dist/private: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.22 Elapsed: 0.10s; From dist/idl: Kept 867 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.40 Elapsed: 0.00s; From dist/xpi-stage: Kept 9 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.60 Elapsed: 0.19s; From _tests: Kept 993 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.66 Elapsed: 0.19s; From dist/bin: Kept 2095 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.68 Elapsed: 0.57s; From dist/include: Kept 5341 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:02.18 Elapsed: 0.05s; From ../../dist/idl: Kept 867 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:02.83 force-cargo-library-build
+ 0:04.46     Finished release [optimized] target(s) in 0.0 secs
+ 0:12.63 PASS
+ 0:12.63 PASS
+ 0:14.92   adding: install.rdf (deflated 53%)
+ 0:14.96   adding: plugins/libnptest.so (deflated 65%)
+ 0:14.98   adding: plugins/libnpsecondtest.so (deflated 65%)
+ 0:15.01   adding: plugins/libnpthirdtest.so (deflated 65%)
+ 0:15.05   adding: plugins/libnpswftest.so (deflated 65%)
+ 0:30.64 Packaging specialpowers@mozilla.org.xpi...
+ 0:30.87 Packaging quitter@mozilla.org.xpi...
+ 0:31.10 Packaging mozscreenshots@mozilla.org.xpi...
+ 0:31.32 410 compiler warnings present.
+ 0:31.39 Overall system resources - Wall time: 31s; CPU: 48%; Read bytes: 987136; Write bytes: 16478208; Read time: 54; Write time: 1801
+ 0:31.40 Your build was successful!
+To view resource usage of the build, run |mach resource-usage|.
+To take your build for a test drive, run: |mach run|
+For more information on what to do now, see https://developer.mozilla.org/docs/Developer_Guide/So_You_Just_Built_Firefox
+
+real	0m31.538s
+user	0m47.525s
+sys	0m9.723s

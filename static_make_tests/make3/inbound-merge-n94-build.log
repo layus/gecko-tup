@@ -1,0 +1,255 @@
++ mach build
++ ./mach build
+ 0:00.64 Clobber not needed.
+ 0:00.64 Adding make options from /home/gmaudoux/projets/gecko-tup/static_make_tests/.mozconfig.nix-shell
+    AUTOCONF=/nix/store/6m16jx9snhl5k1y078az476g9vfqvk4k-autoconf-2.13/bin/autoconf
+    MOZ_OBJDIR=/home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu
+    OBJDIR=/home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu
+    FOUND_MOZCONFIG=/home/gmaudoux/projets/gecko-tup/static_make_tests/.mozconfig.nix-shell
+    export FOUND_MOZCONFIG
+ 0:00.65 /nix/store/lhp5rw0dagi5mgqwr9i3x41240ba4ypz-gnumake-4.2.1/bin/make -f client.mk -s
+ 0:01.12 Elapsed: 0.00s; From dist/public: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.12 Elapsed: 0.00s; From dist/private: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.24 Elapsed: 0.11s; From dist/idl: Kept 866 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.42 Elapsed: 0.00s; From dist/xpi-stage: Kept 9 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.55 Elapsed: 0.14s; From _tests: Kept 993 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.65 Elapsed: 0.54s; From dist/include: Kept 5342 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.74 Elapsed: 0.21s; From dist/bin: Kept 2086 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:02.24 Elapsed: 0.05s; From ../../dist/idl: Kept 866 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:02.31 accessibility.xpt
+ 0:02.31 alerts.xpt
+ 0:02.31 appshell.xpt
+ 0:02.31 appstartup.xpt
+ 0:02.31 autocomplete.xpt
+ 0:02.73 autoconfig.xpt
+ 0:02.78 backgroundhangmonitor.xpt
+ 0:02.88 browser-element.xpt
+ 0:03.22 browser-feeds.xpt
+ 0:03.26 browser-newtab.xpt
+ 0:03.29 browsercompsbase.xpt
+ 0:03.41 caps.xpt
+ 0:03.64 captivedetect.xpt
+ 0:03.69 chrome.xpt
+ 0:03.70 commandhandler.xpt
+ 0:03.80 commandlines.xpt
+ 0:04.11 composer.xpt
+ 0:04.12 content_events.xpt
+ 0:04.19 content_geckomediaplugins.xpt
+ 0:04.41 content_html.xpt
+ 0:04.54 content_webrtc.xpt
+ 0:04.57 content_xslt.xpt
+ 0:04.63 directory.xpt
+ 0:04.87 diskspacewatcher.xpt
+ 0:04.97 docshell.xpt
+ 0:04.97 dom.xpt
+ 0:05.05 dom_audiochannel.xpt
+ 0:05.27 dom_base.xpt
+ 0:05.37 dom_bindings.xpt
+ 0:05.71 dom_core.xpt
+ 0:05.97 dom_events.xpt
+ 0:05.99 dom_file.xpt
+ 0:06.17 dom_geolocation.xpt
+ 0:06.39 dom_media.xpt
+ 0:06.41 dom_network.xpt
+ 0:06.54 dom_notification.xpt
+ 0:06.56 dom_offline.xpt
+ 0:06.86 dom_payments.xpt
+ 0:06.90 dom_power.xpt
+ 0:06.97 dom_presentation.xpt
+ 0:06.99 dom_push.xpt
+ 0:07.26 dom_quota.xpt
+ 0:07.39 dom_range.xpt
+ 0:07.65 dom_security.xpt
+ 0:07.73 dom_sidebar.xpt
+ 0:07.87 dom_storage.xpt
+ 0:08.09 dom_system.xpt
+ 0:08.13 dom_webauthn.xpt
+ 0:08.18 dom_webspeechrecognition.xpt
+ 0:08.28 dom_webspeechsynth.xpt
+ 0:08.52 dom_workers.xpt
+ 0:08.52 dom_xul.xpt
+ 0:08.56 downloads.xpt
+ 0:08.69 editor.xpt
+ 0:08.96 enterprisepolicies.xpt
+ 0:08.96 extensions.xpt
+ 0:09.09 exthandler.xpt
+ 0:09.16 fastfind.xpt
+ 0:09.39 feeds.xpt
+ 0:09.51 gfx.xpt
+ 0:09.71 html5.xpt
+ 0:09.81 htmlparser.xpt
+ 0:09.82 imglib2.xpt
+ 0:10.08 inspector.xpt
+ 0:10.13 intl.xpt
+ 0:10.23 jar.xpt
+ 0:10.28 jsdebugger.xpt
+ 0:10.53 jsinspector.xpt
+ 0:10.67 layout_base.xpt
+ 0:10.80 layout_printing.xpt
+ 0:10.83 layout_xul.xpt
+ 0:10.93 layout_xul_tree.xpt
+ 0:11.07 locale.xpt
+ 0:11.23 migration.xpt
+ 0:11.25 mimetype.xpt
+ 0:11.35 mozfind.xpt
+ 0:11.61 mozintl.xpt
+ 0:11.64 necko.xpt
+ 0:11.67 necko_about.xpt
+ 0:11.85 necko_cache.xpt
+ 0:12.06 necko_cache2.xpt
+ 0:12.06 necko_cookie.xpt
+ 0:12.25 necko_dns.xpt
+ 0:12.59 necko_file.xpt
+ 0:12.61 necko_ftp.xpt
+ 0:12.75 necko_http.xpt
+ 0:13.04 necko_mdns.xpt
+ 0:13.10 necko_res.xpt
+ 0:13.17 necko_socket.xpt
+ 0:13.53 necko_strconv.xpt
+ 0:13.61 necko_viewsource.xpt
+ 0:13.84 necko_websocket.xpt
+ 0:14.00 necko_wifi.xpt
+ 0:14.10 necko_wyciwyg.xpt
+ 0:14.30 parentalcontrols.xpt
+ 0:14.50 peerconnection.xpt
+ 0:14.52 pipnss.xpt
+ 0:14.76 pippki.xpt
+ 0:14.81 places.xpt
+ 0:14.90 plugin.xpt
+ 0:14.95 pref.xpt
+ 0:15.25 prefetch.xpt
+ 0:15.49 privatebrowsing.xpt
+ 0:15.79 profiler.xpt
+ 0:15.83 rdf.xpt
+ 0:15.87 remote.xpt
+ 0:15.96 sandbox.xpt
+ 0:16.20 saxparser.xpt
+ 0:16.24 services-crypto-component.xpt
+ 0:16.35 services_fxaccounts.xpt
+ 0:16.67 shellservice.xpt
+ 0:16.69 shistory.xpt
+ 0:16.76 spellchecker.xpt
+ 0:17.10 storage.xpt
+ 0:17.12 telemetry.xpt
+ 0:17.30 test_necko.xpt
+ 0:17.49 thumbnails.xpt
+ 0:17.58 toolkit_asyncshutdown.xpt
+ 0:17.76 toolkit_crashservice.xpt
+ 0:17.93 toolkit_filewatcher.xpt
+ 0:17.94 toolkit_finalizationwitness.xpt
+ 0:17.98 toolkit_osfile.xpt
+ 0:18.22 toolkit_perfmonitoring.xpt
+ 0:18.34 toolkit_securityreporter.xpt
+ 0:18.34 toolkit_sessionstore.xpt
+ 0:18.37 toolkit_xulstore.xpt
+ 0:18.62 toolkitprofile.xpt
+ 0:18.75 toolkitremote.xpt
+ 0:18.81 txmgr.xpt
+ 0:18.88 txtsvc.xpt
+ 0:19.04 uconv.xpt
+ 0:19.23 update.xpt
+ 0:19.26 uriloader.xpt
+ 0:19.41 url-classifier.xpt
+ 0:19.47 urlformatter.xpt
+ 0:19.73 webBrowser_core.xpt
+ 0:19.81 webbrowserpersist.xpt
+ 0:19.98 webextensions.xpt
+ 0:20.14 webvtt.xpt
+ 0:20.15 widget.xpt
+ 0:20.48 windowcreator.xpt
+ 0:20.54 windowwatcher.xpt
+ 0:20.56 xpcom_base.xpt
+ 0:20.58 xpcom_components.xpt
+ 0:21.12 xpcom_ds.xpt
+ 0:21.12 xpcom_io.xpt
+ 0:21.60 xpcom_system.xpt
+ 0:21.65 xpcom_threads.xpt
+ 0:22.12 xpcomtest.xpt
+ 0:22.22 xpconnect.xpt
+ 0:22.33 xpctest.xpt
+ 0:22.65 xul.xpt
+ 0:22.90 xulapp.xpt
+ 0:23.06 zipwriter.xpt
+ 0:24.17 js/src
+ 0:24.69 force-cargo-library-build
+ 0:27.69     Finished release [optimized] target(s) in 0.0 secs
+ 0:47.62 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/js/src/Unified_cpp_js_src40.cpp:38:0:
+ 0:47.62 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/AsmJS.cpp: In member function 'bool ModuleValidator::declareFuncPtrTable(js::wasm::Sig&&, js::PropertyName*, uint32_t, uint32_t, uint32_t*)':
+ 0:47.62 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/AsmJS.cpp:2261:43: warning: 'sigIndex' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 0:47.62          env_.asmJSSigToTableIndex[sigIndex] = env_.tables.length();
+ 0:47.62                                            ^
+ 0:48.99 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/js/src/Unified_cpp_js_src40.cpp:47:0:
+ 0:48.99 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp: In member function 'void js::wasm::BaseCompiler::emitQuotientI32()':
+ 0:48.99 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:6077:22: warning: 'c' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 0:48.99          if (!isConst || c == -1)
+ 0:48.99              ~~~~~~~~~^~~~~~~~~~
+ 0:49.15 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp: In member function 'void js::wasm::BaseCompiler::emitRemainderI32()':
+ 0:49.15 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:6145:22: warning: 'c' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 0:49.15          if (!isConst || c == -1)
+ 0:49.15              ~~~~~~~~~^~~~~~~~~~
+ 0:50.96 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp: In member function 'bool js::wasm::BaseCompiler::emitElse()':
+ 0:50.96 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:7454:33: warning: 'thenType' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 0:50.96          r = popJoinRegUnlessVoid(thenType);
+ 0:50.96              ~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~
+ 0:51.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp: In member function 'bool js::wasm::BaseCompiler::emitEnd()':
+ 0:51.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:7527:5: warning: 'kind' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 0:51.01      switch (kind) {
+ 0:51.01      ^~~~~~
+ 0:51.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:7528:38: warning: 'type' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 0:51.01        case LabelKind::Block: endBlock(type); break;
+ 0:51.01                               ~~~~~~~~^~~~~~
+ 0:51.02 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp: In member function 'bool js::wasm::BaseCompiler::emitBr()':
+ 0:51.02 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:7557:48: warning: 'type' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 0:51.02      Maybe<AnyReg> r = popJoinRegUnlessVoid(type);
+ 0:51.02                                                 ^
+ 0:51.06 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp: In member function 'bool js::wasm::BaseCompiler::emitBrIf()':
+ 0:51.07 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:5644:34: warning: 'type' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 0:51.07              resultType(resultType)
+ 0:51.07                                   ^
+ 0:51.07 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:7576:14: note: 'type' was declared here
+ 0:51.07      ExprType type;
+ 0:51.07               ^~~~
+ 0:51.24 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp: In member function 'bool js::wasm::BaseCompiler::emitSelect()':
+ 0:51.25 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/js/src/wasm/WasmBaselineCompile.cpp:8635:5: warning: 'type' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 0:51.25      switch (NonAnyToValType(type)) {
+ 0:51.25      ^~~~~~
+ 0:57.49 libjs_static.a
+ 0:59.27 gdb-tests
+ 0:59.28 libxul.so
+ 0:59.30 js/src/jsapi-tests
+ 1:08.58 jsapi-tests
+ 1:46.28 spidermonkey_checks
+ 1:48.28 dependentlibs.list
+ 1:49.65 TEST-PASS | check_spidermonkey_style.py | ok
+ 1:50.03 TEST-PASS | check_macroassembler_style.py | ok
+ 1:50.23 TEST-PASS | check_js_opcode.py | ok
+ 1:51.35 PASS
+ 1:51.35 PASS
+ 1:53.66   adding: install.rdf (deflated 53%)
+ 1:53.70   adding: plugins/libnptest.so (deflated 65%)
+ 1:53.72   adding: plugins/libnpsecondtest.so (deflated 65%)
+ 1:53.76   adding: plugins/libnpthirdtest.so (deflated 65%)
+ 1:53.78   adding: plugins/libnpswftest.so (deflated 65%)
+ 2:09.88 Packaging specialpowers@mozilla.org.xpi...
+ 2:10.07 Packaging quitter@mozilla.org.xpi...
+ 2:10.29 Packaging mozscreenshots@mozilla.org.xpi...
+ 2:10.49 547 compiler warnings present.
+ 2:10.59 Overall system resources - Wall time: 130s; CPU: 55%; Read bytes: 27996160; Write bytes: 2937962496; Read time: 1215; Write time: 857334
+ 2:10.59 Swap in/out (MB): 0/0
+ 2:10.62 warning: js/src/wasm/AsmJS.cpp:2261:43 [-Wmaybe-uninitialized] 'sigIndex' may be used uninitialized in this function
+ 2:10.62 warning: js/src/wasm/WasmBaselineCompile.cpp:5644:34 [-Wmaybe-uninitialized] 'type' may be used uninitialized in this function
+ 2:10.62 warning: js/src/wasm/WasmBaselineCompile.cpp:6077:22 [-Wmaybe-uninitialized] 'c' may be used uninitialized in this function
+ 2:10.62 warning: js/src/wasm/WasmBaselineCompile.cpp:6145:22 [-Wmaybe-uninitialized] 'c' may be used uninitialized in this function
+ 2:10.62 warning: js/src/wasm/WasmBaselineCompile.cpp:7454:33 [-Wmaybe-uninitialized] 'thenType' may be used uninitialized in this function
+ 2:10.62 warning: js/src/wasm/WasmBaselineCompile.cpp:7527:5 [-Wmaybe-uninitialized] 'kind' may be used uninitialized in this function
+ 2:10.62 warning: js/src/wasm/WasmBaselineCompile.cpp:7528:38 [-Wmaybe-uninitialized] 'type' may be used uninitialized in this function
+ 2:10.62 warning: js/src/wasm/WasmBaselineCompile.cpp:7557:48 [-Wmaybe-uninitialized] 'type' may be used uninitialized in this function
+ 2:10.62 warning: js/src/wasm/WasmBaselineCompile.cpp:8635:5 [-Wmaybe-uninitialized] 'type' may be used uninitialized in this function
+ 2:10.63 Your build was successful!
+To view resource usage of the build, run |mach resource-usage|.
+To take your build for a test drive, run: |mach run|
+For more information on what to do now, see https://developer.mozilla.org/docs/Developer_Guide/So_You_Just_Built_Firefox
+
+real	2m10.780s
+user	3m47.432s
+sys	0m25.393s

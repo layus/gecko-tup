@@ -1,0 +1,113 @@
++ mach build
++ ./mach build
+ 0:00.71 Clobber not needed.
+ 0:00.71 Adding make options from /home/gmaudoux/projets/gecko-tup/static_make_tests/.mozconfig.nix-shell
+    AUTOCONF=/nix/store/6m16jx9snhl5k1y078az476g9vfqvk4k-autoconf-2.13/bin/autoconf
+    MOZ_OBJDIR=/home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu
+    OBJDIR=/home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu
+    FOUND_MOZCONFIG=/home/gmaudoux/projets/gecko-tup/static_make_tests/.mozconfig.nix-shell
+    export FOUND_MOZCONFIG
+ 0:00.72 /nix/store/lhp5rw0dagi5mgqwr9i3x41240ba4ypz-gnumake-4.2.1/bin/make -f client.mk -s
+ 0:01.21 Elapsed: 0.00s; From dist/public: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.25 Elapsed: 0.00s; From dist/private: Kept 0 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.40 Elapsed: 0.13s; From dist/idl: Kept 867 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.52 Elapsed: 0.00s; From dist/xpi-stage: Kept 9 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.79 Elapsed: 0.21s; From _tests: Kept 993 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.84 Elapsed: 0.62s; From dist/include: Kept 5341 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:01.93 Elapsed: 0.25s; From dist/bin: Kept 2095 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:02.48 Elapsed: 0.06s; From ../../dist/idl: Kept 867 existing; Added/updated 0; Removed 0 files and 0 directories.
+ 0:03.20 force-cargo-library-build
+ 0:03.66 netwerk/base
+ 0:03.85 netwerk/ipc
+ 0:04.26 ipc/glue
+ 0:05.07     Finished release [optimized] target(s) in 0.1 secs
+ 0:27.18 image
+ 0:27.74 dom/abort
+ 0:28.23 dom/base
+ 0:35.78 dom/bindings
+ 0:49.27 dom/cache
+ 0:59.13 dom/clients/api
+ 1:11.45 dom/clients/manager
+ 1:13.99 dom/crypto
+ 1:31.69 dom/events
+ 2:10.64 dom/fetch
+ 2:33.98 dom/file
+ 2:39.82 dom/filesystem
+ 2:43.69 dom/notification
+ 2:55.93 dom/push
+ 3:00.82 dom/quota
+ 3:08.00 dom/network
+ 3:14.22 dom/indexedDB
+ 3:15.17 dom/workers
+ 3:36.46 dom/broadcastchannel
+ 3:51.69 dom/promise
+ 3:59.60 dom/url
+ 4:07.31 dom/console
+ 4:09.25 dom/performance
+ 4:11.81 dom/xhr
+ 4:16.51 dom/script
+ 4:21.88 dom/websocket
+ 4:25.69 dom/serviceworkers
+ 4:35.66 docshell/base
+ 4:35.67 layout/build
+ 4:52.81 gfx/thebes
+ 5:03.20 dom/ipc
+ 5:06.58 dom/canvas
+ 5:25.04 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/gfx/thebes/Unified_cpp_gfx_thebes1.cpp:2:0:
+ 5:25.04 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/thebes/gfxGraphiteShaper.cpp: In member function 'nsresult gfxGraphiteShaper::SetGlyphsFromSegment(gfxShapedText*, uint32_t, uint32_t, const char16_t*, gr_segment*, gfxFontShaper::RoundingFlags)':
+ 5:25.04 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/gfx/thebes/gfxGraphiteShaper.cpp:349:36: warning: 'clusterLoc' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:25.04                      float dx = rtl ? (xLocs[j] - clusterLoc) :
+ 5:25.04                                 ~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 5:25.04                                       (xLocs[j] - clusterLoc - adv);
+ 5:25.04                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 5:51.00 In file included from /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/obj-x86_64-pc-linux-gnu/dom/ipc/Unified_cpp_dom_ipc0.cpp:56:0:
+ 5:51.00 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/ipc/ContentProcess.cpp: In member function 'virtual bool mozilla::dom::ContentProcess::Init(int, char**)':
+ 5:51.00 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/ipc/ContentProcess.cpp:217:22: warning: 'schedulerPrefs' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:51.00    Scheduler::SetPrefs(*schedulerPrefs);
+ 5:51.00    ~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~
+ 5:51.00 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/ipc/ContentProcess.cpp:210:15: warning: 'prefsLen' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:51.00    if (!shm.Map(*prefsLen)) {
+ 5:51.01         ~~~~~~~^~~~~~~~~~~
+ 5:51.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/ipc/ContentProcess.cpp:222:17: warning: 'isForBrowser' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:51.01                  *isForBrowser);
+ 5:51.01                  ^~~~~~~~~~~~~
+ 5:51.01 /home/gmaudoux/projets/gecko-tup/static_make_tests/gecko-dev/dom/ipc/ContentProcess.cpp:218:16: warning: 'childID' may be used uninitialized in this function [-Wmaybe-uninitialized]
+ 5:51.01    mContent.Init(IOThreadChild::message_loop(),
+ 5:51.01    ~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ 5:51.01                  ParentPid(),
+ 5:51.01                  ~~~~~~~~~~~~
+ 5:51.01                  IOThreadChild::channel(),
+ 5:51.01                  ~~~~~~~~~~~~~~~~~~~~~~~~~
+ 5:51.01                  *childID,
+ 5:51.01                  ~~~~~~~~~
+ 5:51.01                  *isForBrowser);
+ 5:51.01                  ~~~~~~~~~~~~~~
+ 5:58.40 libxul.so
+ 6:46.47 dependentlibs.list
+ 6:49.18 PASS
+ 6:49.18 PASS
+ 6:51.58   adding: install.rdf (deflated 53%)
+ 6:51.62   adding: plugins/libnptest.so (deflated 65%)
+ 6:51.65   adding: plugins/libnpsecondtest.so (deflated 65%)
+ 6:51.68   adding: plugins/libnpthirdtest.so (deflated 65%)
+ 6:51.71   adding: plugins/libnpswftest.so (deflated 65%)
+ 7:08.18 Packaging specialpowers@mozilla.org.xpi...
+ 7:08.38 Packaging quitter@mozilla.org.xpi...
+ 7:08.61 Packaging mozscreenshots@mozilla.org.xpi...
+ 7:08.80 375 compiler warnings present.
+ 7:08.97 Overall system resources - Wall time: 428s; CPU: 87%; Read bytes: 118460416; Write bytes: 2290483200; Read time: 4703; Write time: 652603
+ 7:08.97 Swap in/out (MB): 4/47
+ 7:09.07 warning: dom/ipc/ContentProcess.cpp:210:15 [-Wmaybe-uninitialized] 'prefsLen' may be used uninitialized in this function
+ 7:09.07 warning: dom/ipc/ContentProcess.cpp:217:22 [-Wmaybe-uninitialized] 'schedulerPrefs' may be used uninitialized in this function
+ 7:09.07 warning: dom/ipc/ContentProcess.cpp:218:16 [-Wmaybe-uninitialized] 'childID' may be used uninitialized in this function
+ 7:09.07 warning: dom/ipc/ContentProcess.cpp:222:17 [-Wmaybe-uninitialized] 'isForBrowser' may be used uninitialized in this function
+ 7:09.07 warning: gfx/thebes/gfxGraphiteShaper.cpp:349:36 [-Wmaybe-uninitialized] 'clusterLoc' may be used uninitialized in this function
+ 7:09.08 /nix/store/vbvlba36jl5dfqnma2xqdl1ci294rnbr-libnotify-0.7.7/bin/notify-send --app-name=Mozilla Build System Mozilla Build System Build complete
+ 7:09.14 Your build was successful!
+To view resource usage of the build, run |mach resource-usage|.
+To take your build for a test drive, run: |mach run|
+For more information on what to do now, see https://developer.mozilla.org/docs/Developer_Guide/So_You_Just_Built_Firefox
+
+real	7m9.408s
+user	20m35.253s
+sys	1m6.385s
